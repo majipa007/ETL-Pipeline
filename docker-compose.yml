@@ -7,6 +7,27 @@ services:
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: db
     volumes:
+      - ./seed_data:/docker-entrypoint-initdb.d
       - ./postgres_data:/var/lib/postgresql/data
     ports:
       - "5000:5432"
+
+
+df = pd.DataFrame(data, columns=columns)
+
+  etl-airflow:
+    container_name: etl_airflow
+    image: apache/airflow:latest
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8080:8080"
+    user: "${UID}:${GID}"
+    environment:
+      - AIRFLOW_UID=${UID}
+    command: >
+      bash -c "
+      mkdir -p /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins &&
+      chmod -R 777 /opt/airflow &&
+      airflow standalone
+      "
