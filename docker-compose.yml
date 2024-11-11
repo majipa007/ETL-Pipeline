@@ -12,9 +12,6 @@ services:
     ports:
       - "5000:5432"
 
-
-df = pd.DataFrame(data, columns=columns)
-
   etl-airflow:
     container_name: etl_airflow
     image: apache/airflow:latest
