@@ -1,5 +1,6 @@
 {{ config(materialized='table') }}
 
+
 with staging_data as (
     select
         visit_id,

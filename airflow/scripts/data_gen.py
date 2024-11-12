@@ -9,21 +9,36 @@ fake = Faker()
 # Function to generate 1000 rows of dummy data
 def generate_hospital_data(num_records=1000):
     data = []
-    for i in range(1, num_records + 1):
-        visit_id = i
-        patient_id = random.randint(100, 999)
+    start_visit_id = 1000
+
+    # Generate unique IDs for patients and doctors
+    unique_patient_ids = random.sample(range(1000, 3000), num_records)  # Generate unique patient IDs
+    unique_doctor_ids = random.sample(range(200, 300), 10)  # Generate a smaller unique set of doctor IDs
+
+    # Generate unique doctor names based on their IDs
+    doctor_info = {doc_id: fake.name() for doc_id in unique_doctor_ids}
+
+    for i in range(num_records):
+        visit_id = start_visit_id + i
+        patient_id = unique_patient_ids[i]
         patient_name = fake.name()
-        doctor_id = random.randint(200, 299)
-        doctor_name = fake.name()
+
+        # Select a random doctor and retrieve consistent doctor info
+        doctor_id = random.choice(unique_doctor_ids)
+        doctor_name = doctor_info[doctor_id]
+
         specialization = random.choice(
-            ['Cardiology', 'Neurology', 'Orthopedics', 'General Surgery', 'Endocrinology', 'Pediatrics', 'Dermatology'])
+            ['Cardiology', 'Neurology', 'Orthopedics', 'General Surgery', 'Endocrinology', 'Pediatrics', 'Dermatology']
+        )
         visit_date = fake.date_this_year()
         diagnosis = random.choice(
             ['Heart Attack', 'Migraine', 'Broken Leg', 'Appendicitis', 'Diabetes', 'Asthma', 'Knee Pain', 'Skin Rash',
-             'Chest Pain', 'Seizures'])
+             'Chest Pain', 'Seizures']
+        )
         treatment = random.choice(
             ['Angioplasty', 'Medication', 'Casting', 'Appendectomy', 'Insulin Therapy', 'Inhalers', 'Physical Therapy',
-             'Topical Cream', 'ECG and Angiogram'])
+             'Topical Cream', 'ECG and Angiogram']
+        )
         cost = round(random.uniform(100, 5000), 2)
 
         data.append([
@@ -41,7 +56,7 @@ def generate_hospital_data(num_records=1000):
     # Save to CSV file
     df.to_csv('../rawdata/staging_data.csv', index=False)
 
-    print("Generated 1000 rows of dummy data and saved to 'hospital_visits.csv'.")
+    print(f"Generated {num_records} rows of dummy data and saved to 'staging_data.csv'.")
 
 
 # Generate and save the data

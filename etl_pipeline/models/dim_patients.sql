@@ -1,4 +1,5 @@
-{{ config(materialized='table') }}
+{{ config(materialized='incremental',
+unique_key='patient_id') }}
 
 WITH staging_data AS (
     SELECT
