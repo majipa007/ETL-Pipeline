@@ -32,9 +32,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   etl_pipeline:
     # Config indicated by + and applies to all files under models/example/
-    staging:
-      +schema: staging
-    marts:
-      +schema: marts
-    models:
-      +schema: tables
+    transformation:
+      +schema: analytics_schema  # Schema for transformation models
+    production:
+      +schema: production_schema  # Schema for production models

@@ -2,7 +2,7 @@ version: 2
 
 # defining the sources
 sources:
-  - name: stating_data #logical name for the source
+  - name: staging_data #logical name for the source
     schema: public # name of the schema
     tables:
       - name: staging_patient_visits

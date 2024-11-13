@@ -2,4 +2,6 @@
 {{config (materialized = 'table')}}
 
 -- loading the data extracted from the csv file
-select * from public.staging_patient_visits;
+
+SELECT *
+FROM {{ source('staging_data', 'staging_patient_visits') }}

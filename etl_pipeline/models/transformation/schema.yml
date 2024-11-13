@@ -1,0 +1,27 @@
+version: 2
+
+# defining the sources
+sources:
+  - name: trans #logical name for the source
+    schema: public # name of the schema
+    tables:
+      - name: staging_patient_visits
+        description: "raw data tha is loaded from teh csv"
+        columns:
+          - name: patient_id
+            description: "Unique identifier for each patient."
+            tests:
+              - not_null
+models:
+  - name: dim_patients
+    description: "Dimension table containing patient information"
+    columns:
+      - name: patient_id
+        description: "Unique identifier for each patient."
+        tests:
+          - not_null
+          - unique
+      - name: patient_name
+        description: "Full name of the patient."
+        tests:
+          - not_null
