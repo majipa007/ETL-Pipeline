@@ -1,1001 +1,1001 @@
 Visit_ID,Patient_ID,Patient_Name,Doctor_ID,Doctor_Name,Specialization,Visit_Date,Diagnosis,Treatment,Cost
-1000,2305,William Gallagher,281,Stephen Martin,General Surgery,2024-10-22,Knee Pain,Topical Cream,1518.62
-1001,1774,James Parker,210,Linda Friedman,Neurology,2024-02-09,Skin Rash,Topical Cream,2020.85
-1002,2413,Deanna Miller,271,Michael Trevino,Orthopedics,2024-06-19,Knee Pain,Insulin Therapy,3132.19
-1003,2191,Denise Rodriguez,223,Gloria Cooper,Orthopedics,2024-01-18,Seizures,Physical Therapy,2495.46
-1004,2247,Dylan Daugherty,203,Christopher Grimes,Neurology,2024-07-27,Diabetes,Physical Therapy,1102.36
-1005,2059,Joshua Little,287,Sara Huynh,Dermatology,2024-02-14,Seizures,Inhalers,567.43
-1006,2196,Michael Perez,282,Gregg Warren,Dermatology,2024-11-08,Diabetes,Insulin Therapy,246.5
-1007,1956,Karen Mckee MD,210,Linda Friedman,Endocrinology,2024-01-01,Broken Leg,Inhalers,218.55
-1008,2449,Pamela Figueroa,271,Michael Trevino,Cardiology,2024-07-11,Heart Attack,ECG and Angiogram,2423.14
-1009,2906,Michael Shaffer,233,Steven Hernandez,Orthopedics,2024-01-15,Broken Leg,ECG and Angiogram,1666.35
-1010,1877,Tom Lambert,282,Gregg Warren,Dermatology,2024-07-31,Seizures,Insulin Therapy,4035.23
-1011,1525,Andrew Thomas,281,Stephen Martin,Orthopedics,2024-07-13,Seizures,Topical Cream,3035.3
-1012,1293,Kelli Fields,285,James Harper,Dermatology,2024-06-28,Migraine,Physical Therapy,649.3
-1013,2910,Jamie Garcia,233,Steven Hernandez,Dermatology,2024-10-11,Seizures,Inhalers,1834.55
-1014,1278,Deborah Frost,210,Linda Friedman,Endocrinology,2024-07-02,Diabetes,Medication,1868.69
-1015,1077,Samuel Powers,285,James Harper,Pediatrics,2024-08-03,Appendicitis,Inhalers,2422.23
-1016,1446,Tammie Ford,223,Gloria Cooper,Orthopedics,2024-03-09,Asthma,Insulin Therapy,3534.42
-1017,1985,Kristin Roman,203,Christopher Grimes,Cardiology,2024-09-05,Skin Rash,Topical Cream,3887.95
-1018,1024,Zachary Powers,210,Linda Friedman,Endocrinology,2024-08-04,Migraine,Insulin Therapy,4984.87
-1019,2665,Brittney Alexander,233,Steven Hernandez,Neurology,2024-03-08,Knee Pain,Angioplasty,3150.09
-1020,2694,Stephanie Ruiz,271,Michael Trevino,Pediatrics,2024-07-27,Broken Leg,ECG and Angiogram,573.27
-1021,1549,Christopher Oconnor,287,Sara Huynh,General Surgery,2024-09-04,Appendicitis,Physical Therapy,4291.24
-1022,1589,Natalie Chase,285,James Harper,Orthopedics,2024-02-03,Appendicitis,Appendectomy,3444.45
-1023,1014,Stacey Higgins,264,Brooke Harris,Cardiology,2024-07-11,Skin Rash,Topical Cream,1874.31
-1024,1597,Fernando Hernandez,271,Michael Trevino,Endocrinology,2024-07-22,Seizures,Topical Cream,153.95
-1025,2467,Sherry Chen,203,Christopher Grimes,Pediatrics,2024-11-05,Migraine,Medication,1655.11
-1026,1312,Daniel Clayton,281,Stephen Martin,General Surgery,2024-02-04,Asthma,Angioplasty,1175.86
-1027,2470,Kyle Ibarra,233,Steven Hernandez,Pediatrics,2024-05-10,Heart Attack,Topical Cream,3492.0
-1028,1927,Bryan Smith,233,Steven Hernandez,Neurology,2024-03-03,Seizures,Angioplasty,4827.91
-1029,2726,Shannon Jackson,264,Brooke Harris,Endocrinology,2024-07-07,Migraine,Physical Therapy,3322.62
-1030,2194,Tyrone Foster,287,Sara Huynh,Neurology,2024-05-27,Heart Attack,ECG and Angiogram,2207.0
-1031,1654,Linda Stout,264,Brooke Harris,General Surgery,2024-08-13,Diabetes,Casting,2514.68
-1032,2242,Paul Ramirez,287,Sara Huynh,Pediatrics,2024-05-05,Heart Attack,ECG and Angiogram,3390.27
-1033,1957,Cindy Harrison,210,Linda Friedman,Dermatology,2024-02-23,Knee Pain,Topical Cream,2597.67
-1034,1078,Katie Ramirez,264,Brooke Harris,Neurology,2024-02-11,Knee Pain,Appendectomy,3209.31
-1035,2496,Robert Morales,210,Linda Friedman,Pediatrics,2024-09-01,Appendicitis,Physical Therapy,2756.45
-1036,1403,Heather Martin,281,Stephen Martin,Pediatrics,2024-04-26,Broken Leg,Medication,3636.05
-1037,1868,Mrs. Jessica Lane DVM,203,Christopher Grimes,General Surgery,2024-10-11,Chest Pain,Casting,824.09
-1038,2699,Angela Stevenson DVM,287,Sara Huynh,Pediatrics,2024-04-25,Knee Pain,Insulin Therapy,3504.98
-1039,1231,Cindy Nichols,203,Christopher Grimes,Pediatrics,2024-02-21,Chest Pain,Medication,3405.37
-1040,2444,Kelly Riggs,271,Michael Trevino,Endocrinology,2024-03-30,Broken Leg,Appendectomy,1572.11
-1041,2475,Jamie Williamson,264,Brooke Harris,Neurology,2024-05-13,Migraine,Appendectomy,4916.8
-1042,1336,Dennis Day,271,Michael Trevino,Dermatology,2024-06-23,Appendicitis,Medication,3282.86
-1043,1328,Brianna Thomas,233,Steven Hernandez,General Surgery,2024-04-22,Migraine,Insulin Therapy,2190.08
-1044,2451,Douglas Moore,271,Michael Trevino,Cardiology,2024-07-07,Heart Attack,Appendectomy,1495.47
-1045,2788,Brittany Howard MD,281,Stephen Martin,Neurology,2024-01-17,Diabetes,Topical Cream,769.29
-1046,1326,Denise Beck,264,Brooke Harris,Endocrinology,2024-04-16,Asthma,Inhalers,813.53
-1047,2168,Lynn Simpson,285,James Harper,Neurology,2024-06-13,Diabetes,Insulin Therapy,517.61
-1048,2787,Brandon Morgan,264,Brooke Harris,Neurology,2024-05-12,Asthma,Appendectomy,866.67
-1049,2010,Judith Johnson,285,James Harper,General Surgery,2024-07-01,Asthma,Casting,270.88
-1050,2127,Kimberly Wang,271,Michael Trevino,Cardiology,2024-08-28,Heart Attack,Topical Cream,4168.06
-1051,2785,Miranda Bartlett,271,Michael Trevino,Orthopedics,2024-06-15,Skin Rash,Casting,4511.2
-1052,1685,Edwin Clark,210,Linda Friedman,Dermatology,2024-01-05,Appendicitis,Medication,2165.7
-1053,1108,Patricia Rodriguez,282,Gregg Warren,General Surgery,2024-02-12,Chest Pain,Topical Cream,2983.75
-1054,1775,Gregory Newton,233,Steven Hernandez,Neurology,2024-05-11,Chest Pain,Angioplasty,3178.32
-1055,2733,Christina Brown,282,Gregg Warren,Neurology,2024-02-10,Asthma,Topical Cream,4627.65
-1056,1696,Amanda Martinez,210,Linda Friedman,General Surgery,2024-09-10,Diabetes,Inhalers,4228.12
-1057,1118,Dr. Logan Porter II,285,James Harper,Dermatology,2024-01-09,Skin Rash,Medication,3997.9
-1058,1067,Mark Guzman,285,James Harper,Cardiology,2024-08-18,Appendicitis,Angioplasty,2277.79
-1059,2491,Krystal Rodgers,285,James Harper,General Surgery,2024-08-19,Skin Rash,Topical Cream,1780.03
-1060,1003,Brittany Walker,281,Stephen Martin,Orthopedics,2024-07-02,Knee Pain,Insulin Therapy,3587.15
-1061,2802,Kathleen Myers,285,James Harper,Dermatology,2024-10-03,Asthma,Appendectomy,539.1
-1062,1837,Philip Gonzalez,264,Brooke Harris,Dermatology,2024-02-28,Broken Leg,Medication,2093.2
-1063,1582,James Richardson,233,Steven Hernandez,Neurology,2024-08-06,Appendicitis,Medication,2864.84
-1064,1481,Terry Jefferson,233,Steven Hernandez,Orthopedics,2024-02-17,Appendicitis,Appendectomy,376.27
-1065,2030,Emma Thomas,264,Brooke Harris,Endocrinology,2024-01-07,Chest Pain,Casting,302.11
-1066,2248,Brittany Gibbs,285,James Harper,Endocrinology,2024-05-28,Diabetes,Inhalers,2580.09
-1067,2835,Rhonda Lane,271,Michael Trevino,Orthopedics,2024-07-26,Asthma,Inhalers,3274.22
-1068,1364,Cathy Rodriguez,223,Gloria Cooper,Pediatrics,2024-07-05,Migraine,ECG and Angiogram,1041.26
-1069,1156,Elizabeth Long,281,Stephen Martin,Endocrinology,2024-02-09,Asthma,Medication,4438.93
-1070,1309,Kurt Olson,285,James Harper,Neurology,2024-04-20,Broken Leg,Insulin Therapy,3749.18
-1071,1410,Heather Martin,210,Linda Friedman,Neurology,2024-03-14,Appendicitis,Medication,1781.65
-1072,2507,Scott Lee,233,Steven Hernandez,Neurology,2024-01-05,Broken Leg,Insulin Therapy,1156.96
-1073,2894,Jennifer Knight,223,Gloria Cooper,Neurology,2024-10-13,Asthma,ECG and Angiogram,2116.28
-1074,2626,Jared Powers,264,Brooke Harris,Orthopedics,2024-02-02,Seizures,Appendectomy,1936.37
-1075,1098,Joseph Rodriguez,223,Gloria Cooper,Dermatology,2024-10-07,Skin Rash,Topical Cream,1319.3
-1076,1215,Christina Hamilton,271,Michael Trevino,Dermatology,2024-07-15,Heart Attack,Angioplasty,1451.65
-1077,2485,Angela Russo,282,Gregg Warren,Endocrinology,2024-09-02,Heart Attack,Physical Therapy,855.64
-1078,2728,Debra Le,203,Christopher Grimes,Endocrinology,2024-06-01,Skin Rash,Appendectomy,1517.63
-1079,2775,Chase Hooper,223,Gloria Cooper,Neurology,2024-06-25,Chest Pain,ECG and Angiogram,1121.9
-1080,1873,Jacqueline Davis,223,Gloria Cooper,General Surgery,2024-01-04,Broken Leg,Insulin Therapy,1786.7
-1081,1486,Katherine Hale,264,Brooke Harris,Neurology,2024-07-08,Chest Pain,Inhalers,813.84
-1082,2737,Cynthia Simon,210,Linda Friedman,Pediatrics,2024-07-13,Skin Rash,Topical Cream,2081.68
-1083,2397,Michelle Orr,287,Sara Huynh,Pediatrics,2024-03-26,Broken Leg,ECG and Angiogram,3814.27
-1084,2848,Laura Dodson,233,Steven Hernandez,Neurology,2024-07-24,Appendicitis,Topical Cream,4390.76
-1085,2179,Rhonda Reed,287,Sara Huynh,Endocrinology,2024-06-18,Diabetes,ECG and Angiogram,3861.11
-1086,2797,Daniel Olson,203,Christopher Grimes,Endocrinology,2024-08-14,Broken Leg,Angioplasty,4059.52
-1087,1019,Brooke Payne,210,Linda Friedman,General Surgery,2024-03-04,Seizures,Topical Cream,3830.98
-1088,2530,Angela Carson,285,James Harper,Dermatology,2024-07-28,Broken Leg,Medication,1160.38
-1089,2073,Vickie Davis,210,Linda Friedman,Neurology,2024-08-25,Diabetes,Appendectomy,3152.08
-1090,2344,Meredith Myers,223,Gloria Cooper,Dermatology,2024-05-27,Migraine,Insulin Therapy,686.34
-1091,2036,Michael Vargas,203,Christopher Grimes,Endocrinology,2024-05-03,Knee Pain,Medication,281.48
-1092,1075,Paul Davis,287,Sara Huynh,Dermatology,2024-10-30,Knee Pain,Casting,1991.97
-1093,2827,Rose Winters,203,Christopher Grimes,Pediatrics,2024-11-03,Heart Attack,ECG and Angiogram,4535.55
-1094,2257,Sharon Jones,223,Gloria Cooper,Cardiology,2024-01-10,Skin Rash,ECG and Angiogram,3031.16
-1095,1391,David Graham,287,Sara Huynh,Pediatrics,2024-01-17,Broken Leg,Casting,3086.6
-1096,2365,Donald Schwartz DVM,271,Michael Trevino,Neurology,2024-07-05,Appendicitis,Topical Cream,3519.47
-1097,2962,Travis Salazar,271,Michael Trevino,Pediatrics,2024-07-30,Broken Leg,Casting,3297.24
-1098,1222,Ronald Manning,210,Linda Friedman,Orthopedics,2024-07-22,Heart Attack,Medication,495.41
-1099,1388,Darryl Booth,210,Linda Friedman,Dermatology,2024-06-24,Diabetes,Topical Cream,4339.68
-1100,1242,Heather Johnson,282,Gregg Warren,Dermatology,2024-05-23,Broken Leg,Inhalers,2052.01
-1101,2767,Mary Robinson,210,Linda Friedman,General Surgery,2024-07-13,Seizures,Medication,4470.19
-1102,1693,Beverly Zamora,281,Stephen Martin,Neurology,2024-04-21,Skin Rash,Topical Cream,798.5
-1103,2566,Melinda Mahoney,223,Gloria Cooper,Neurology,2024-04-12,Appendicitis,Physical Therapy,4814.98
-1104,2111,Manuel Leblanc,223,Gloria Cooper,Dermatology,2024-08-21,Seizures,Angioplasty,2406.81
-1105,2034,Pamela Gomez,285,James Harper,Neurology,2024-08-22,Chest Pain,ECG and Angiogram,2203.11
-1106,2106,Terri Carter,264,Brooke Harris,Orthopedics,2024-08-08,Diabetes,Medication,1765.82
-1107,1169,Ms. Kendra Morris,282,Gregg Warren,General Surgery,2024-01-30,Skin Rash,Angioplasty,2361.52
-1108,1756,Sean Rodriguez,223,Gloria Cooper,Orthopedics,2024-08-16,Knee Pain,Angioplasty,4944.95
-1109,1280,Jeffrey Nunez,281,Stephen Martin,Endocrinology,2024-06-10,Knee Pain,Appendectomy,2060.35
-1110,2022,Evan Marquez,282,Gregg Warren,Endocrinology,2024-09-23,Heart Attack,Inhalers,3720.55
-1111,2952,Belinda Nguyen PhD,285,James Harper,General Surgery,2024-01-12,Chest Pain,Topical Cream,3729.83
-1112,2938,Justin Koch,287,Sara Huynh,Endocrinology,2024-02-22,Heart Attack,Inhalers,1072.82
-1113,2653,Brian Bowman,285,James Harper,Orthopedics,2024-06-02,Seizures,Angioplasty,3824.53
-1114,1575,Matthew Lopez DDS,264,Brooke Harris,Endocrinology,2024-09-26,Migraine,Insulin Therapy,1390.66
-1115,2226,Stephanie Mcconnell PhD,233,Steven Hernandez,Cardiology,2024-05-08,Diabetes,ECG and Angiogram,2024.83
-1116,1282,Zachary Hudson,281,Stephen Martin,Neurology,2024-03-19,Broken Leg,Casting,4058.49
-1117,2011,John Watson,233,Steven Hernandez,Orthopedics,2024-09-16,Knee Pain,Appendectomy,3812.36
-1118,2227,Carla Hayes,287,Sara Huynh,Orthopedics,2024-08-01,Knee Pain,Medication,3801.37
-1119,2503,Breanna Delacruz MD,281,Stephen Martin,Orthopedics,2024-06-30,Appendicitis,Appendectomy,581.44
-1120,2620,Michael Harris,287,Sara Huynh,Pediatrics,2024-08-28,Heart Attack,Appendectomy,463.39
-1121,1714,Dorothy White,287,Sara Huynh,Orthopedics,2024-03-06,Diabetes,ECG and Angiogram,1013.73
-1122,1634,Alexandra Fisher,287,Sara Huynh,Pediatrics,2024-09-18,Appendicitis,Physical Therapy,1474.37
-1123,1626,James Lin,271,Michael Trevino,Cardiology,2024-08-26,Appendicitis,Appendectomy,3273.95
-1124,1640,Kimberly Taylor,264,Brooke Harris,Endocrinology,2024-07-25,Skin Rash,Insulin Therapy,3030.35
-1125,1040,Caleb Cardenas,285,James Harper,Pediatrics,2024-10-04,Skin Rash,Medication,1491.53
-1126,1438,Cheryl Griffin,281,Stephen Martin,Pediatrics,2024-01-14,Diabetes,ECG and Angiogram,2678.25
-1127,1760,Rachel Cook,264,Brooke Harris,Cardiology,2024-08-20,Asthma,Inhalers,3793.9
-1128,2781,Thomas Klein,271,Michael Trevino,Endocrinology,2024-09-05,Diabetes,ECG and Angiogram,3027.2
-1129,2579,Daniel Hernandez,282,Gregg Warren,Orthopedics,2024-05-19,Skin Rash,Physical Therapy,3568.78
-1130,1542,Heather Simmons,233,Steven Hernandez,Dermatology,2024-04-15,Asthma,Physical Therapy,3660.75
-1131,1407,Brandon Kelly,203,Christopher Grimes,Dermatology,2024-07-03,Diabetes,Appendectomy,1772.71
-1132,1563,Alexis Ferrell,203,Christopher Grimes,General Surgery,2024-01-29,Migraine,Appendectomy,4468.71
-1133,1387,Teresa Valencia,223,Gloria Cooper,General Surgery,2024-07-25,Diabetes,Medication,2295.2
-1134,2663,Kari Silva,282,Gregg Warren,General Surgery,2024-08-29,Heart Attack,Angioplasty,2892.11
-1135,2821,Logan Allen,287,Sara Huynh,Neurology,2024-02-28,Broken Leg,Insulin Therapy,3790.48
-1136,1867,Amy Stewart,210,Linda Friedman,Neurology,2024-08-27,Migraine,Casting,1480.32
-1137,1872,Calvin Frost,281,Stephen Martin,Neurology,2024-07-04,Chest Pain,Appendectomy,614.06
-1138,1484,Justin Greene,281,Stephen Martin,Neurology,2024-07-26,Skin Rash,Topical Cream,2147.45
-1139,1552,Pamela Rivera,233,Steven Hernandez,Orthopedics,2024-05-22,Knee Pain,Inhalers,4103.32
-1140,1625,Bailey Little,264,Brooke Harris,Pediatrics,2024-06-23,Knee Pain,Medication,829.83
-1141,1081,Amanda Mills,233,Steven Hernandez,Cardiology,2024-05-03,Seizures,ECG and Angiogram,3975.73
-1142,2014,Crystal Hernandez,285,James Harper,Pediatrics,2024-09-21,Seizures,Appendectomy,3469.55
-1143,2607,Jared Powers,281,Stephen Martin,Dermatology,2024-02-26,Skin Rash,Insulin Therapy,2468.34
-1144,1521,Daniel Roy,285,James Harper,Dermatology,2024-04-09,Chest Pain,Medication,1852.81
-1145,2763,Kimberly Trevino,281,Stephen Martin,Cardiology,2024-01-14,Asthma,Casting,1147.04
-1146,2371,Joseph Manning,287,Sara Huynh,Orthopedics,2024-06-26,Seizures,Casting,2056.76
-1147,1288,Andrew Mccarty,210,Linda Friedman,General Surgery,2024-06-25,Knee Pain,Medication,1410.87
-1148,1658,John Morgan,210,Linda Friedman,Neurology,2024-06-07,Diabetes,Inhalers,4612.73
-1149,2546,Shawn Hahn,203,Christopher Grimes,Orthopedics,2024-02-05,Broken Leg,Medication,2993.07
-1150,1574,Melissa Stevens,287,Sara Huynh,Endocrinology,2024-01-02,Seizures,Casting,3518.84
-1151,1158,Mr. Corey Newman,233,Steven Hernandez,Neurology,2024-04-01,Knee Pain,Angioplasty,1503.64
-1152,1143,Erica Jones,233,Steven Hernandez,Cardiology,2024-04-02,Seizures,Insulin Therapy,3116.81
-1153,2881,Charlene Peterson,210,Linda Friedman,Neurology,2024-03-03,Seizures,ECG and Angiogram,2582.39
-1154,2286,Karen Casey,285,James Harper,Orthopedics,2024-07-24,Knee Pain,Appendectomy,1501.95
-1155,2026,Diana Mclaughlin,282,Gregg Warren,General Surgery,2024-08-03,Diabetes,ECG and Angiogram,2653.59
-1156,1725,Timothy Brown,287,Sara Huynh,Cardiology,2024-01-10,Migraine,Medication,1626.24
-1157,1579,Phillip Washington,282,Gregg Warren,Orthopedics,2024-03-26,Skin Rash,Insulin Therapy,3663.41
-1158,1779,Tammy Rodriguez,285,James Harper,Orthopedics,2024-06-03,Appendicitis,Medication,1662.73
-1159,2945,Brian Villanueva,203,Christopher Grimes,Dermatology,2024-09-16,Asthma,Inhalers,2487.17
-1160,1941,Lisa Barrett,271,Michael Trevino,General Surgery,2024-05-26,Knee Pain,Casting,2210.41
-1161,2310,Corey Archer,271,Michael Trevino,Dermatology,2024-09-24,Migraine,Appendectomy,2699.4
-1162,1229,Sarah Davidson,282,Gregg Warren,Orthopedics,2024-08-08,Knee Pain,Angioplasty,4917.7
-1163,1732,Jessica Carson,203,Christopher Grimes,Pediatrics,2024-06-10,Knee Pain,Medication,428.43
-1164,2355,Adam Snyder,223,Gloria Cooper,Neurology,2024-07-06,Migraine,Medication,4632.94
-1165,2303,Vanessa Williams,287,Sara Huynh,Dermatology,2024-02-19,Chest Pain,Physical Therapy,3608.19
-1166,1843,Melissa Ortiz,223,Gloria Cooper,General Surgery,2024-09-11,Asthma,Casting,2111.34
-1167,2199,Kevin Gaines,223,Gloria Cooper,Dermatology,2024-01-15,Knee Pain,Inhalers,4515.77
-1168,2889,Colin House,271,Michael Trevino,Neurology,2024-04-20,Skin Rash,Physical Therapy,329.05
-1169,1466,Scott Combs,233,Steven Hernandez,Pediatrics,2024-02-09,Diabetes,Inhalers,4347.55
-1170,2508,Frank Hamilton,287,Sara Huynh,Orthopedics,2024-10-11,Appendicitis,Insulin Therapy,3653.4
-1171,1409,Edward Gonzalez,282,Gregg Warren,Endocrinology,2024-08-08,Heart Attack,Insulin Therapy,4041.69
-1172,2221,Andrew Shepard,223,Gloria Cooper,Orthopedics,2024-10-28,Seizures,Angioplasty,4377.74
-1173,1781,Eric Freeman,264,Brooke Harris,Pediatrics,2024-03-31,Seizures,ECG and Angiogram,3500.65
-1174,1965,James Calderon,287,Sara Huynh,Orthopedics,2024-01-23,Seizures,Appendectomy,3051.46
-1175,2137,Barbara Terry,210,Linda Friedman,Pediatrics,2024-05-30,Seizures,Angioplasty,208.94
-1176,2683,Sarah Henderson,271,Michael Trevino,Orthopedics,2024-01-28,Migraine,Inhalers,4978.96
-1177,2037,Evan Smith,210,Linda Friedman,General Surgery,2024-08-24,Broken Leg,Physical Therapy,996.49
-1178,1998,Ashley Rodriguez,287,Sara Huynh,Orthopedics,2024-08-31,Seizures,Topical Cream,2436.92
-1179,1936,Kristin Nelson,287,Sara Huynh,Orthopedics,2024-09-10,Appendicitis,Medication,409.7
-1180,1018,Rachel Allen,233,Steven Hernandez,Orthopedics,2024-06-28,Diabetes,Topical Cream,4147.16
-1181,1345,Tiffany Escobar,287,Sara Huynh,General Surgery,2024-09-30,Skin Rash,Appendectomy,2235.18
-1182,2245,Justin Salas,233,Steven Hernandez,Orthopedics,2024-10-13,Skin Rash,Inhalers,928.72
-1183,2040,Dylan Henderson,223,Gloria Cooper,Endocrinology,2024-03-17,Asthma,ECG and Angiogram,961.3
-1184,1538,Randy White,264,Brooke Harris,Endocrinology,2024-06-18,Chest Pain,Topical Cream,4791.68
-1185,1903,Sean Abbott,282,Gregg Warren,Endocrinology,2024-03-31,Skin Rash,Casting,2318.01
-1186,1198,Lindsey Jones,285,James Harper,General Surgery,2024-04-10,Chest Pain,Angioplasty,2728.31
-1187,1776,Jordan Church,223,Gloria Cooper,General Surgery,2024-08-16,Skin Rash,Appendectomy,2595.9
-1188,2944,Paul Johnson,281,Stephen Martin,Dermatology,2024-01-26,Chest Pain,Angioplasty,1749.04
-1189,2108,Ann Hill,285,James Harper,Pediatrics,2024-05-24,Knee Pain,Medication,848.04
-1190,2715,James Weeks,210,Linda Friedman,Pediatrics,2024-06-05,Knee Pain,Topical Cream,1762.0
-1191,2974,Juan Henry,264,Brooke Harris,Endocrinology,2024-08-02,Knee Pain,Physical Therapy,1215.55
-1192,2341,Andrew Hines,210,Linda Friedman,Orthopedics,2024-06-01,Broken Leg,Medication,3613.22
-1193,1435,Kevin Turner,223,Gloria Cooper,Cardiology,2024-03-23,Heart Attack,Insulin Therapy,1964.42
-1194,2078,Julian Johnson,282,Gregg Warren,Dermatology,2024-10-24,Seizures,Angioplasty,110.2
-1195,1708,Tracy Fleming,210,Linda Friedman,Neurology,2024-10-11,Appendicitis,Angioplasty,931.25
-1196,2951,Anne Love,282,Gregg Warren,Cardiology,2024-03-16,Chest Pain,ECG and Angiogram,3391.55
-1197,2537,Heather Burton MD,287,Sara Huynh,Orthopedics,2024-01-08,Chest Pain,Medication,4529.79
-1198,2560,Donald Horn,203,Christopher Grimes,Cardiology,2024-07-08,Skin Rash,Inhalers,2794.62
-1199,2107,Emily Clayton,282,Gregg Warren,Neurology,2024-08-26,Diabetes,Medication,4790.01
-1200,2744,Taylor Parker,282,Gregg Warren,Cardiology,2024-07-03,Chest Pain,Angioplasty,585.56
-1201,2735,Diamond Ross,285,James Harper,Pediatrics,2024-05-27,Broken Leg,Insulin Therapy,2256.9
-1202,2746,James West,271,Michael Trevino,Endocrinology,2024-05-09,Diabetes,Inhalers,1281.21
-1203,1114,Melvin Mcgee,223,Gloria Cooper,Pediatrics,2024-02-29,Chest Pain,ECG and Angiogram,4608.89
-1204,1343,Derek Goodwin,281,Stephen Martin,Dermatology,2024-03-07,Broken Leg,ECG and Angiogram,4981.41
-1205,2166,Justin Rogers,223,Gloria Cooper,Pediatrics,2024-06-21,Chest Pain,ECG and Angiogram,2966.94
-1206,1479,Dr. Roy Rodriguez,287,Sara Huynh,Cardiology,2024-05-23,Chest Pain,Insulin Therapy,2432.05
-1207,1916,Amber Todd,285,James Harper,Dermatology,2024-04-23,Migraine,Inhalers,1641.34
-1208,2773,Jean Castro,282,Gregg Warren,Orthopedics,2024-08-23,Seizures,Inhalers,4319.17
-1209,2511,Dr. Karen Evans,287,Sara Huynh,Cardiology,2024-01-14,Broken Leg,Casting,2704.0
-1210,2686,Alan Newman III,287,Sara Huynh,Pediatrics,2024-05-13,Diabetes,Topical Cream,1995.11
-1211,1397,Ralph Stewart,264,Brooke Harris,Pediatrics,2024-08-14,Broken Leg,Angioplasty,636.62
-1212,1279,Danielle Baker,233,Steven Hernandez,Cardiology,2024-01-04,Appendicitis,Insulin Therapy,2065.56
-1213,2769,Amy Garcia,285,James Harper,Dermatology,2024-09-09,Diabetes,ECG and Angiogram,2207.61
-1214,1522,Matthew Daniels,223,Gloria Cooper,Dermatology,2024-09-23,Chest Pain,Insulin Therapy,3036.28
-1215,1653,Julie Lawrence,282,Gregg Warren,Endocrinology,2024-11-03,Chest Pain,Topical Cream,4418.39
-1216,2438,Sheri Alvarado,223,Gloria Cooper,Dermatology,2024-04-06,Skin Rash,Physical Therapy,2502.26
-1217,1710,Jeffrey Cole,287,Sara Huynh,General Surgery,2024-02-18,Skin Rash,Insulin Therapy,3280.86
-1218,2823,Kimberly Jackson,282,Gregg Warren,Endocrinology,2024-09-19,Knee Pain,Appendectomy,4569.77
-1219,2164,Tyler Hale,264,Brooke Harris,General Surgery,2024-01-03,Asthma,Insulin Therapy,4456.43
-1220,2720,David Church,223,Gloria Cooper,Orthopedics,2024-03-19,Broken Leg,Topical Cream,2711.95
-1221,1434,Christopher Allison,223,Gloria Cooper,Pediatrics,2024-01-31,Heart Attack,Physical Therapy,4889.65
-1222,1510,James Skinner,203,Christopher Grimes,Dermatology,2024-05-10,Asthma,ECG and Angiogram,4293.96
-1223,1277,Dr. James Cisneros,281,Stephen Martin,Pediatrics,2024-11-04,Knee Pain,Physical Therapy,2754.25
-1224,2831,Timothy Howard,210,Linda Friedman,Cardiology,2024-01-13,Appendicitis,Insulin Therapy,2669.31
-1225,1740,Todd Gates,233,Steven Hernandez,Endocrinology,2024-09-26,Skin Rash,Physical Therapy,716.9
-1226,1196,Kaitlyn Ramirez,264,Brooke Harris,Orthopedics,2024-02-08,Knee Pain,Casting,1191.71
-1227,2236,Zachary Roman,223,Gloria Cooper,Dermatology,2024-03-10,Broken Leg,ECG and Angiogram,1664.78
-1228,2825,Summer Brown,271,Michael Trevino,Neurology,2024-05-14,Heart Attack,Angioplasty,2921.03
-1229,1045,Melissa Wilcox,233,Steven Hernandez,Orthopedics,2024-03-22,Heart Attack,Insulin Therapy,947.44
-1230,2614,Sandra Smith,285,James Harper,Cardiology,2024-08-18,Appendicitis,Insulin Therapy,1781.1
-1231,2677,Glenda Williams,264,Brooke Harris,Endocrinology,2024-02-17,Knee Pain,Angioplasty,674.41
-1232,1488,Daniel Taylor,264,Brooke Harris,General Surgery,2024-02-16,Asthma,Topical Cream,768.17
-1233,2446,Mariah Graves,264,Brooke Harris,Pediatrics,2024-01-21,Broken Leg,Physical Therapy,3916.85
-1234,1131,Kelly Ho,282,Gregg Warren,Dermatology,2024-06-20,Broken Leg,Physical Therapy,3787.81
-1235,1335,Patricia Weiss,285,James Harper,Endocrinology,2024-07-23,Seizures,Physical Therapy,2219.34
-1236,1373,John Young,223,Gloria Cooper,Pediatrics,2024-01-30,Knee Pain,Insulin Therapy,4696.39
-1237,2902,Alan Stephens,282,Gregg Warren,General Surgery,2024-05-27,Migraine,Insulin Therapy,3940.53
-1238,2466,Robert Velasquez,287,Sara Huynh,Orthopedics,2024-09-21,Migraine,Inhalers,1975.43
-1239,1953,Michelle Clark,210,Linda Friedman,General Surgery,2024-08-11,Broken Leg,Physical Therapy,1587.49
-1240,2327,Taylor Rojas,281,Stephen Martin,Neurology,2024-02-16,Appendicitis,Insulin Therapy,793.14
-1241,2049,Ann Acevedo,281,Stephen Martin,Orthopedics,2024-10-17,Broken Leg,Inhalers,1962.12
-1242,1928,Ana Santiago,281,Stephen Martin,General Surgery,2024-04-05,Skin Rash,ECG and Angiogram,107.25
-1243,2136,Samuel Flores,282,Gregg Warren,Orthopedics,2024-05-27,Appendicitis,Topical Cream,600.49
-1244,2687,Kylie Schroeder,285,James Harper,Pediatrics,2024-10-07,Diabetes,Appendectomy,692.04
-1245,2053,Brittany Patel,264,Brooke Harris,Endocrinology,2024-03-28,Seizures,Appendectomy,1899.22
-1246,2289,Brittany Ortiz,281,Stephen Martin,Pediatrics,2024-05-21,Diabetes,ECG and Angiogram,2968.37
-1247,1804,Danielle Page,210,Linda Friedman,Neurology,2024-01-17,Broken Leg,Insulin Therapy,2968.16
-1248,1272,Tammy Price,271,Michael Trevino,Orthopedics,2024-08-31,Migraine,Angioplasty,4648.15
-1249,2639,Eric Cochran,223,Gloria Cooper,Dermatology,2024-03-17,Migraine,Medication,4550.98
-1250,1369,Matthew Perez,223,Gloria Cooper,General Surgery,2024-10-30,Knee Pain,Casting,1346.54
-1251,1462,Kristin Romero,281,Stephen Martin,General Surgery,2024-08-28,Skin Rash,Casting,3299.09
-1252,2377,Deborah Murray,223,Gloria Cooper,Orthopedics,2024-01-18,Asthma,Angioplasty,2529.53
-1253,1053,Jeremy Stevens,282,Gregg Warren,Neurology,2024-05-16,Broken Leg,Medication,323.79
-1254,1817,Edgar Brown,264,Brooke Harris,General Surgery,2024-11-03,Heart Attack,ECG and Angiogram,1035.64
-1255,1652,Sara Mckinney,285,James Harper,Orthopedics,2024-10-01,Diabetes,Inhalers,3365.99
-1256,2105,Emma Bartlett,282,Gregg Warren,Neurology,2024-05-12,Seizures,Topical Cream,1466.3
-1257,1167,Angela Richardson,287,Sara Huynh,General Surgery,2024-07-05,Broken Leg,Medication,4706.47
-1258,1783,Marie Miller,233,Steven Hernandez,Pediatrics,2024-10-25,Knee Pain,Topical Cream,3238.26
-1259,1001,Wayne Padilla,271,Michael Trevino,Neurology,2024-05-27,Heart Attack,Angioplasty,635.67
-1260,2755,Madeline Rodriguez,203,Christopher Grimes,Orthopedics,2024-06-19,Diabetes,Angioplasty,4137.01
-1261,1599,Cory Matthews,285,James Harper,Pediatrics,2024-11-01,Skin Rash,ECG and Angiogram,4476.99
-1262,1148,Mrs. Sandra Riddle,285,James Harper,Endocrinology,2024-02-02,Chest Pain,Medication,2917.36
-1263,2705,Jasmine Beck,281,Stephen Martin,Orthopedics,2024-02-05,Heart Attack,ECG and Angiogram,3301.84
-1264,1061,Jennifer Townsend,271,Michael Trevino,General Surgery,2024-09-25,Skin Rash,Casting,2925.22
-1265,1317,Erin Campbell,210,Linda Friedman,Pediatrics,2024-03-06,Appendicitis,Casting,2788.03
-1266,2045,Courtney Jones,271,Michael Trevino,Pediatrics,2024-06-27,Chest Pain,Insulin Therapy,2297.05
-1267,1501,Stacey Knight,223,Gloria Cooper,General Surgery,2024-03-06,Skin Rash,Topical Cream,4331.27
-1268,1099,Patrick Snyder,223,Gloria Cooper,Pediatrics,2024-07-01,Migraine,Appendectomy,2947.53
-1269,2846,Abigail White,210,Linda Friedman,Dermatology,2024-08-08,Appendicitis,Appendectomy,198.99
-1270,2627,Jeffery Saunders,285,James Harper,Orthopedics,2024-07-27,Diabetes,Topical Cream,4490.3
-1271,2361,Sara Lopez,282,Gregg Warren,Dermatology,2024-08-24,Chest Pain,Insulin Therapy,147.27
-1272,2901,Carlos Riley,287,Sara Huynh,Dermatology,2024-03-03,Broken Leg,ECG and Angiogram,1940.54
-1273,1895,Tina Scott,233,Steven Hernandez,General Surgery,2024-03-12,Heart Attack,ECG and Angiogram,467.5
-1274,2202,Garrett Hinton,287,Sara Huynh,Cardiology,2024-08-20,Seizures,Inhalers,315.03
-1275,1694,Cindy Mcdonald,233,Steven Hernandez,Pediatrics,2024-03-19,Appendicitis,Appendectomy,1528.75
-1276,2098,Julia Miller,281,Stephen Martin,Neurology,2024-09-11,Broken Leg,Angioplasty,4228.86
-1277,1327,Kyle Kent,203,Christopher Grimes,Endocrinology,2024-08-19,Migraine,Inhalers,3127.75
-1278,2020,Brittany Williams,287,Sara Huynh,Dermatology,2024-04-01,Diabetes,Angioplasty,1766.67
-1279,1970,Curtis Barnes,287,Sara Huynh,Cardiology,2024-07-11,Knee Pain,Inhalers,4960.08
-1280,1036,Stephen Williamson DDS,281,Stephen Martin,Neurology,2024-09-04,Broken Leg,Insulin Therapy,1497.68
-1281,2068,Rachel Fisher,281,Stephen Martin,Dermatology,2024-10-17,Diabetes,Insulin Therapy,578.39
-1282,1567,Jessica Hansen,203,Christopher Grimes,General Surgery,2024-08-14,Broken Leg,ECG and Angiogram,4322.47
-1283,1263,Tracy Moore,223,Gloria Cooper,Neurology,2024-09-09,Skin Rash,Medication,450.48
-1284,1869,Derek Harper,210,Linda Friedman,Orthopedics,2024-01-04,Chest Pain,Casting,945.28
-1285,2373,Sean Smith,264,Brooke Harris,Neurology,2024-04-14,Appendicitis,ECG and Angiogram,3949.78
-1286,2061,Nathaniel Kim,203,Christopher Grimes,Endocrinology,2024-01-21,Appendicitis,Insulin Therapy,4247.6
-1287,2294,Jeffrey Lawrence,264,Brooke Harris,Orthopedics,2024-06-28,Migraine,Physical Therapy,1895.81
-1288,1137,Alicia Mata,233,Steven Hernandez,Pediatrics,2024-11-03,Asthma,Angioplasty,3789.73
-1289,2540,Bryan Ali,203,Christopher Grimes,Neurology,2024-01-04,Migraine,Medication,1144.84
-1290,1064,Justin Thomas,282,Gregg Warren,Pediatrics,2024-08-16,Heart Attack,Inhalers,2761.23
-1291,1256,Jeremy Marshall,233,Steven Hernandez,Cardiology,2024-09-23,Knee Pain,Physical Therapy,1685.58
-1292,2911,Elizabeth Fisher,285,James Harper,General Surgery,2024-02-12,Diabetes,Casting,1589.88
-1293,2402,Cheryl Phillips,271,Michael Trevino,Cardiology,2024-02-07,Skin Rash,ECG and Angiogram,2023.71
-1294,1380,Melissa Simon,210,Linda Friedman,Neurology,2024-11-03,Diabetes,Medication,2086.5
-1295,1976,Brian Rosario,210,Linda Friedman,General Surgery,2024-03-08,Heart Attack,Physical Therapy,4040.27
-1296,1692,David Taylor,281,Stephen Martin,Dermatology,2024-10-26,Diabetes,Appendectomy,2544.53
-1297,1591,Patrick Sullivan,264,Brooke Harris,Neurology,2024-10-30,Asthma,Topical Cream,189.96
-1298,2790,Mark Chavez,271,Michael Trevino,Endocrinology,2024-08-24,Chest Pain,Medication,3474.68
-1299,2870,Anthony West,210,Linda Friedman,Pediatrics,2024-07-10,Broken Leg,Medication,2770.3
-1300,1419,Kelsey Barnes,264,Brooke Harris,Dermatology,2024-01-24,Heart Attack,Appendectomy,2459.34
-1301,1402,Lori Underwood,223,Gloria Cooper,Cardiology,2024-03-02,Heart Attack,ECG and Angiogram,4814.72
-1302,1537,Dustin Moore,281,Stephen Martin,Dermatology,2024-10-31,Appendicitis,ECG and Angiogram,4186.14
-1303,1636,Amanda Cunningham,203,Christopher Grimes,Cardiology,2024-10-14,Asthma,Inhalers,219.68
-1304,2207,Sue Collins,223,Gloria Cooper,General Surgery,2024-05-08,Heart Attack,ECG and Angiogram,3992.72
-1305,1899,Alicia Reed DVM,233,Steven Hernandez,Cardiology,2024-03-09,Asthma,Inhalers,4676.63
-1306,2907,Daniel Sanders,233,Steven Hernandez,Cardiology,2024-04-07,Chest Pain,Casting,134.89
-1307,2793,Stacey Johnson,233,Steven Hernandez,Orthopedics,2024-01-20,Migraine,Physical Therapy,1952.92
-1308,2702,Jeffrey Williams,233,Steven Hernandez,Endocrinology,2024-11-08,Skin Rash,Appendectomy,2509.18
-1309,2124,Brittany Novak,281,Stephen Martin,Cardiology,2024-10-09,Asthma,Angioplasty,3623.97
-1310,1771,Samuel Williams,281,Stephen Martin,Cardiology,2024-10-30,Migraine,Inhalers,654.02
-1311,2291,Lori Byrd,287,Sara Huynh,Dermatology,2024-08-29,Migraine,Physical Therapy,422.21
-1312,1745,Sandra Castro,210,Linda Friedman,Orthopedics,2024-02-29,Diabetes,Medication,3506.45
-1313,1102,Laura Hill,264,Brooke Harris,Cardiology,2024-01-07,Chest Pain,Topical Cream,615.52
-1314,1930,Timothy Brown,203,Christopher Grimes,General Surgery,2024-07-10,Skin Rash,Physical Therapy,1503.02
-1315,2273,Susan Hunt,233,Steven Hernandez,Pediatrics,2024-10-09,Migraine,Angioplasty,4337.18
-1316,2850,Carrie Powell,282,Gregg Warren,Cardiology,2024-06-17,Broken Leg,Insulin Therapy,646.24
-1317,2276,Ross Khan,281,Stephen Martin,Cardiology,2024-09-23,Asthma,Angioplasty,2550.82
-1318,1735,Julia Salazar,281,Stephen Martin,General Surgery,2024-04-24,Asthma,Appendectomy,4018.27
-1319,2252,Patricia Kim,287,Sara Huynh,Pediatrics,2024-01-24,Migraine,ECG and Angiogram,4262.09
-1320,1578,Nicholas White,223,Gloria Cooper,Pediatrics,2024-03-17,Asthma,Angioplasty,3805.19
-1321,1739,Michael Stevens,287,Sara Huynh,Neurology,2024-08-04,Broken Leg,Casting,654.63
-1322,2570,Mrs. Jessica Williams,264,Brooke Harris,Cardiology,2024-04-03,Diabetes,Angioplasty,1865.72
-1323,1223,Shannon Anderson,233,Steven Hernandez,General Surgery,2024-11-06,Diabetes,Medication,1727.12
-1324,1350,Carol Thompson,223,Gloria Cooper,General Surgery,2024-02-18,Knee Pain,Insulin Therapy,3603.01
-1325,2103,Scott Wells,271,Michael Trevino,Endocrinology,2024-10-22,Knee Pain,Angioplasty,4671.32
-1326,1733,Sarah Johnson,281,Stephen Martin,General Surgery,2024-01-22,Migraine,Casting,1322.51
-1327,2832,Lisa Perez,271,Michael Trevino,Neurology,2024-08-26,Migraine,Casting,2857.42
-1328,1631,Brooke Larsen,210,Linda Friedman,General Surgery,2024-10-23,Heart Attack,Appendectomy,4920.82
-1329,2679,Kimberly Carpenter,233,Steven Hernandez,Dermatology,2024-07-28,Broken Leg,Inhalers,1942.82
-1330,1849,Angel Lee,223,Gloria Cooper,Pediatrics,2024-07-08,Heart Attack,ECG and Angiogram,750.52
-1331,1845,Jeffery Dixon,223,Gloria Cooper,General Surgery,2024-04-19,Knee Pain,Casting,200.74
-1332,1906,David Grant,287,Sara Huynh,Cardiology,2024-01-21,Seizures,Insulin Therapy,1723.04
-1333,2955,Fred Gutierrez,285,James Harper,Endocrinology,2024-10-12,Heart Attack,Physical Therapy,4347.16
-1334,2366,Sophia Garcia,285,James Harper,Neurology,2024-04-14,Asthma,Physical Therapy,460.23
-1335,2510,Samantha Roberson,281,Stephen Martin,Neurology,2024-06-26,Asthma,Topical Cream,2267.01
-1336,1847,Jacqueline Rogers,264,Brooke Harris,Orthopedics,2024-05-16,Chest Pain,Physical Therapy,2305.34
-1337,2558,Diana Brown,285,James Harper,Neurology,2024-02-27,Chest Pain,Inhalers,4688.68
-1338,1508,Guy Aguilar MD,223,Gloria Cooper,Dermatology,2024-03-18,Broken Leg,ECG and Angiogram,1504.62
-1339,1357,Lauren Santos,281,Stephen Martin,Endocrinology,2024-01-03,Knee Pain,Appendectomy,2785.81
-1340,1743,Barry Mejia,203,Christopher Grimes,Pediatrics,2024-07-01,Chest Pain,Angioplasty,2574.11
-1341,2806,Kristin Lopez,287,Sara Huynh,General Surgery,2024-01-12,Diabetes,Inhalers,4277.72
-1342,1339,Jacob Garrett,264,Brooke Harris,Orthopedics,2024-05-15,Heart Attack,Appendectomy,2490.61
-1343,1736,Lawrence Randolph,285,James Harper,Endocrinology,2024-11-06,Heart Attack,Topical Cream,4902.45
-1344,2028,Michael Parker,281,Stephen Martin,Cardiology,2024-01-28,Asthma,Appendectomy,3448.19
-1345,2641,Francisco Grant,285,James Harper,Orthopedics,2024-07-14,Asthma,Medication,4003.21
-1346,2315,Jackie Jones,203,Christopher Grimes,Dermatology,2024-06-30,Heart Attack,Appendectomy,1139.31
-1347,2963,Erica Koch,285,James Harper,Cardiology,2024-08-09,Heart Attack,Angioplasty,1166.76
-1348,1793,Jared Smith,210,Linda Friedman,Dermatology,2024-04-11,Broken Leg,Appendectomy,1264.34
-1349,2250,Karen Atkinson,271,Michael Trevino,Pediatrics,2024-03-20,Knee Pain,Medication,1638.25
-1350,2163,Douglas Nguyen,287,Sara Huynh,Cardiology,2024-03-24,Diabetes,Appendectomy,4835.09
-1351,1667,Nicole Merritt,287,Sara Huynh,General Surgery,2024-07-07,Seizures,Topical Cream,3879.68
-1352,2469,Pamela Mcintosh,271,Michael Trevino,Pediatrics,2024-09-01,Asthma,Appendectomy,2454.09
-1353,2309,Jeffrey Morales,285,James Harper,Orthopedics,2024-05-13,Migraine,ECG and Angiogram,3893.85
-1354,1650,Kimberly Reese,203,Christopher Grimes,General Surgery,2024-03-10,Skin Rash,Medication,4571.13
-1355,1763,Michele Hale,223,Gloria Cooper,General Surgery,2024-06-20,Migraine,Appendectomy,1127.65
-1356,2005,Amanda Schneider,285,James Harper,Dermatology,2024-09-26,Broken Leg,Insulin Therapy,4024.61
-1357,2521,Stephanie Lee,264,Brooke Harris,Neurology,2024-08-25,Migraine,Appendectomy,4520.24
-1358,2871,Jason Duncan,285,James Harper,Cardiology,2024-03-07,Heart Attack,ECG and Angiogram,2383.66
-1359,1420,Amy Cummings,282,Gregg Warren,Orthopedics,2024-02-15,Diabetes,Casting,4216.65
-1360,2452,Brian Mooney,271,Michael Trevino,Orthopedics,2024-01-31,Broken Leg,Angioplasty,4317.91
-1361,1259,Jimmy Baker,203,Christopher Grimes,Orthopedics,2024-04-09,Chest Pain,Topical Cream,4809.44
-1362,1386,Nicholas Thomas,264,Brooke Harris,Orthopedics,2024-01-06,Knee Pain,Casting,2606.81
-1363,1176,Jason Thomas,271,Michael Trevino,Endocrinology,2024-03-02,Appendicitis,Medication,173.54
-1364,2931,Michael Lambert,233,Steven Hernandez,Orthopedics,2024-06-06,Migraine,Physical Therapy,2789.46
-1365,2015,Douglas Barrera,233,Steven Hernandez,Endocrinology,2024-07-03,Seizures,Casting,2129.01
-1366,1453,Dana Johnson,285,James Harper,Pediatrics,2024-01-11,Heart Attack,Casting,904.66
-1367,1888,Mrs. Lori Mcclain,271,Michael Trevino,Endocrinology,2024-07-30,Asthma,Appendectomy,1556.83
-1368,2743,Bradley Watkins,210,Linda Friedman,Cardiology,2024-07-15,Chest Pain,Angioplasty,1983.53
-1369,2161,Roy Patterson,203,Christopher Grimes,Neurology,2024-05-01,Appendicitis,Topical Cream,2527.18
-1370,2654,Beverly Fletcher,233,Steven Hernandez,Cardiology,2024-06-05,Heart Attack,Angioplasty,1000.09
-1371,1719,Marissa Mccoy,210,Linda Friedman,Pediatrics,2024-03-22,Asthma,Appendectomy,3932.55
-1372,1929,Christopher Cox,264,Brooke Harris,Endocrinology,2024-05-19,Migraine,ECG and Angiogram,1210.95
-1373,2868,Leslie Ramirez,233,Steven Hernandez,Orthopedics,2024-10-17,Chest Pain,Insulin Therapy,279.25
-1374,1632,Dennis Moran,223,Gloria Cooper,Dermatology,2024-09-18,Skin Rash,Topical Cream,1247.53
-1375,2340,Sarah Davis,285,James Harper,Endocrinology,2024-03-15,Skin Rash,Topical Cream,3314.78
-1376,2863,Manuel Delgado,282,Gregg Warren,Neurology,2024-04-23,Migraine,Appendectomy,769.18
-1377,2588,Richard Acosta,233,Steven Hernandez,Cardiology,2024-09-23,Migraine,Medication,2895.56
-1378,2571,Tammy Zamora,281,Stephen Martin,Orthopedics,2024-07-16,Diabetes,ECG and Angiogram,2866.43
-1379,2854,Devin Schultz,281,Stephen Martin,Cardiology,2024-03-08,Skin Rash,Physical Therapy,3247.79
-1380,2319,Kelsey Ponce,203,Christopher Grimes,Cardiology,2024-09-23,Migraine,Angioplasty,2208.25
-1381,2065,Christopher Larsen,223,Gloria Cooper,Orthopedics,2024-04-11,Knee Pain,Physical Therapy,3796.97
-1382,2603,Tamara Barrett,282,Gregg Warren,Dermatology,2024-08-14,Broken Leg,Topical Cream,3296.36
-1383,2077,Andrew Gomez,282,Gregg Warren,Dermatology,2024-04-21,Heart Attack,Topical Cream,3559.06
-1384,1090,Miss Andrea Orozco DVM,203,Christopher Grimes,Endocrinology,2024-04-14,Appendicitis,ECG and Angiogram,978.98
-1385,1180,Sherry Mendoza,271,Michael Trevino,Neurology,2024-05-31,Asthma,Topical Cream,3850.39
-1386,2427,David Estrada,233,Steven Hernandez,Neurology,2024-07-01,Seizures,Physical Therapy,4400.29
-1387,2534,Gabrielle Mcdonald,210,Linda Friedman,Orthopedics,2024-10-13,Heart Attack,Physical Therapy,3050.74
-1388,2004,David Patel,203,Christopher Grimes,Pediatrics,2024-07-11,Asthma,Medication,1729.35
-1389,1413,Aaron Smith,287,Sara Huynh,Pediatrics,2024-03-26,Skin Rash,Topical Cream,637.65
-1390,1352,Jose Snyder,203,Christopher Grimes,Endocrinology,2024-09-20,Appendicitis,Medication,3781.78
-1391,2395,Cynthia Bell,203,Christopher Grimes,Pediatrics,2024-04-22,Heart Attack,Physical Therapy,4574.28
-1392,2134,Heather Stevens,271,Michael Trevino,Pediatrics,2024-09-10,Asthma,ECG and Angiogram,1888.58
-1393,2055,Sierra Brown,271,Michael Trevino,Dermatology,2024-09-13,Seizures,Angioplasty,1438.28
-1394,2159,David Hall,223,Gloria Cooper,Pediatrics,2024-09-27,Migraine,Insulin Therapy,3217.92
-1395,2986,Pamela Miller,282,Gregg Warren,Cardiology,2024-08-17,Knee Pain,Insulin Therapy,1146.41
-1396,1226,Gregory Lowe,281,Stephen Martin,Neurology,2024-06-05,Skin Rash,Appendectomy,3103.46
-1397,1787,Mary Martin,203,Christopher Grimes,Pediatrics,2024-10-25,Seizures,Appendectomy,3773.31
-1398,2287,Adrian Harvey,271,Michael Trevino,Pediatrics,2024-02-08,Heart Attack,Appendectomy,1431.2
-1399,2885,Betty Nunez,210,Linda Friedman,Pediatrics,2024-04-22,Appendicitis,Physical Therapy,2506.52
-1400,2890,Judith French,210,Linda Friedman,Neurology,2024-01-23,Chest Pain,Appendectomy,1023.8
-1401,2859,Tabitha Garrett,264,Brooke Harris,Dermatology,2024-07-31,Knee Pain,Angioplasty,3021.03
-1402,1253,Mark Richard,282,Gregg Warren,Orthopedics,2024-03-19,Knee Pain,Topical Cream,458.26
-1403,1261,Michelle Allen,285,James Harper,Neurology,2024-03-22,Skin Rash,Topical Cream,2670.45
-1404,2762,Jessica Jensen,210,Linda Friedman,Neurology,2024-07-24,Knee Pain,Appendectomy,4866.8
-1405,1230,Tanya Rosales,282,Gregg Warren,Cardiology,2024-07-29,Seizures,Medication,1686.45
-1406,2993,Michael Russell MD,203,Christopher Grimes,Endocrinology,2024-02-26,Skin Rash,Physical Therapy,4247.84
-1407,2549,Brandi Crawford,271,Michael Trevino,Neurology,2024-09-27,Appendicitis,Medication,297.52
-1408,2522,Michael Mccarthy,281,Stephen Martin,Dermatology,2024-06-10,Heart Attack,ECG and Angiogram,1726.59
-1409,2110,Carlos Morton DVM,281,Stephen Martin,General Surgery,2024-06-09,Skin Rash,Casting,1471.25
-1410,2375,Anthony Farmer,271,Michael Trevino,Pediatrics,2024-03-23,Chest Pain,Inhalers,3037.9
-1411,1480,Daniel Hunt,210,Linda Friedman,Dermatology,2024-09-08,Asthma,Insulin Therapy,2395.28
-1412,2923,Larry Sanchez,223,Gloria Cooper,Dermatology,2024-03-06,Heart Attack,Physical Therapy,921.46
-1413,1622,Joshua Miller,281,Stephen Martin,Cardiology,2024-11-02,Knee Pain,Angioplasty,1660.54
-1414,1322,Gary Odonnell DDS,282,Gregg Warren,Neurology,2024-05-07,Broken Leg,Medication,1605.99
-1415,1516,Dr. Shelley Martinez,281,Stephen Martin,Dermatology,2024-01-08,Heart Attack,Casting,2542.38
-1416,1203,Justin Hammond,271,Michael Trevino,Dermatology,2024-10-27,Asthma,Angioplasty,3526.52
-1417,2809,Kimberly Boyd,223,Gloria Cooper,General Surgery,2024-10-20,Asthma,Angioplasty,1964.91
-1418,1904,Christopher Cobb Jr.,287,Sara Huynh,Dermatology,2024-02-01,Skin Rash,Physical Therapy,822.06
-1419,2804,Anna White,223,Gloria Cooper,Pediatrics,2024-09-07,Skin Rash,Inhalers,2966.62
-1420,2390,Robin Holt,285,James Harper,Neurology,2024-07-29,Heart Attack,Angioplasty,342.24
-1421,1046,Taylor Singh,281,Stephen Martin,Neurology,2024-07-22,Chest Pain,ECG and Angiogram,4966.97
-1422,1069,Katherine Grant,287,Sara Huynh,Cardiology,2024-05-29,Chest Pain,Appendectomy,538.02
-1423,1738,Bruce Watts,287,Sara Huynh,Cardiology,2024-01-01,Migraine,Medication,4580.28
-1424,2776,Russell Stokes,285,James Harper,Pediatrics,2024-03-20,Knee Pain,Casting,2561.09
-1425,1614,Bradley Baker,203,Christopher Grimes,Orthopedics,2024-02-08,Chest Pain,Casting,4799.81
-1426,2086,Dawn Caldwell,233,Steven Hernandez,Neurology,2024-05-12,Heart Attack,Inhalers,4076.44
-1427,2290,Arthur Strong,210,Linda Friedman,Orthopedics,2024-07-24,Broken Leg,Casting,1436.7
-1428,2281,Kim West,233,Steven Hernandez,Neurology,2024-03-28,Heart Attack,Inhalers,2825.8
-1429,1401,Lisa Thompson,223,Gloria Cooper,Neurology,2024-04-20,Skin Rash,ECG and Angiogram,1294.32
-1430,1513,Jeremy Liu,233,Steven Hernandez,Neurology,2024-06-26,Knee Pain,Casting,119.39
-1431,2833,Debra Cook,285,James Harper,Cardiology,2024-08-03,Diabetes,Appendectomy,1829.62
-1432,1490,Christian Fowler,223,Gloria Cooper,Pediatrics,2024-03-09,Migraine,Inhalers,2691.74
-1433,2465,Cody Gardner,223,Gloria Cooper,Endocrinology,2024-03-14,Appendicitis,Physical Therapy,1960.06
-1434,1526,Stacy Vasquez,282,Gregg Warren,Pediatrics,2024-02-11,Migraine,Medication,3959.44
-1435,1301,Kathy Dorsey,233,Steven Hernandez,Endocrinology,2024-04-30,Asthma,Casting,262.61
-1436,2969,Leah Mcmahon,285,James Harper,Orthopedics,2024-05-17,Heart Attack,Medication,3474.49
-1437,1105,Linda Greene,281,Stephen Martin,Pediatrics,2024-01-31,Appendicitis,Appendectomy,3645.33
-1438,2186,Mrs. Robin Watkins,210,Linda Friedman,Pediatrics,2024-02-02,Appendicitis,Casting,3062.18
-1439,1382,Megan Parsons,233,Steven Hernandez,Cardiology,2024-02-29,Asthma,Medication,910.17
-1440,2690,Jermaine Smith,271,Michael Trevino,Dermatology,2024-01-25,Migraine,Topical Cream,3898.34
-1441,2374,Bethany Zamora,285,James Harper,Cardiology,2024-01-01,Asthma,Physical Therapy,4260.26
-1442,1799,Katrina Hale,264,Brooke Harris,Pediatrics,2024-01-05,Heart Attack,Casting,3451.69
-1443,2253,Donald Black,271,Michael Trevino,Endocrinology,2024-04-17,Asthma,ECG and Angiogram,3694.36
-1444,1777,Jordan Mosley,271,Michael Trevino,Neurology,2024-06-17,Broken Leg,Insulin Therapy,2509.96
-1445,2440,Frank Hill,282,Gregg Warren,Orthopedics,2024-01-19,Appendicitis,Medication,3562.04
-1446,1022,Jeffrey Martinez,223,Gloria Cooper,General Surgery,2024-07-10,Appendicitis,Inhalers,1835.67
-1447,1924,Cassie Burns,282,Gregg Warren,Cardiology,2024-05-27,Chest Pain,Appendectomy,1073.11
-1448,2039,Joseph Newman,223,Gloria Cooper,Endocrinology,2024-01-13,Diabetes,ECG and Angiogram,1356.25
-1449,1540,Robert Johnson,223,Gloria Cooper,Neurology,2024-07-02,Migraine,Medication,448.68
-1450,1979,Linda Williams,223,Gloria Cooper,Pediatrics,2024-10-30,Asthma,Insulin Therapy,3912.48
-1451,1769,Brian Alvarado,233,Steven Hernandez,Dermatology,2024-04-01,Broken Leg,Appendectomy,2356.35
-1452,1648,Brianna Elliott,287,Sara Huynh,Cardiology,2024-02-02,Diabetes,Appendectomy,3085.95
-1453,1351,Jacob Knight,233,Steven Hernandez,Orthopedics,2024-03-06,Broken Leg,Topical Cream,3087.97
-1454,2383,David Mills,281,Stephen Martin,Dermatology,2024-08-19,Heart Attack,Topical Cream,4925.26
-1455,1115,Stephen Hall,287,Sara Huynh,Cardiology,2024-05-19,Broken Leg,Appendectomy,3985.81
-1456,1558,Stephanie Becker,264,Brooke Harris,Cardiology,2024-10-23,Skin Rash,Inhalers,783.67
-1457,2184,Derek Jackson,264,Brooke Harris,Dermatology,2024-01-12,Migraine,Appendectomy,239.77
-1458,1909,Robert Smith,264,Brooke Harris,Dermatology,2024-01-27,Migraine,Physical Therapy,2650.32
-1459,1861,Tina Gomez,233,Steven Hernandez,Neurology,2024-07-05,Knee Pain,Insulin Therapy,3048.64
-1460,2092,Yvonne Thompson,203,Christopher Grimes,Endocrinology,2024-01-27,Appendicitis,Insulin Therapy,3868.33
-1461,1858,Matthew Willis,203,Christopher Grimes,General Surgery,2024-09-25,Appendicitis,Medication,3216.22
-1462,2181,Stephanie Lee,210,Linda Friedman,General Surgery,2024-06-07,Diabetes,Insulin Therapy,1051.54
-1463,1080,Leslie Perry,282,Gregg Warren,Cardiology,2024-11-06,Knee Pain,Appendectomy,2114.0
-1464,2839,Curtis Jackson,210,Linda Friedman,Pediatrics,2024-07-07,Knee Pain,Appendectomy,3471.6
-1465,2405,Ray Ward,281,Stephen Martin,Pediatrics,2024-06-29,Seizures,Inhalers,4857.77
-1466,1130,Kristy Atkinson,281,Stephen Martin,Dermatology,2024-02-27,Seizures,ECG and Angiogram,2354.62
-1467,2933,Briana Carter,264,Brooke Harris,General Surgery,2024-06-30,Heart Attack,Physical Therapy,4920.38
-1468,2992,Brianna Miller,271,Michael Trevino,Dermatology,2024-02-11,Appendicitis,Inhalers,921.74
-1469,1532,Sara May,203,Christopher Grimes,Orthopedics,2024-03-01,Seizures,Appendectomy,4719.61
-1470,2891,Rhonda Henry,271,Michael Trevino,Dermatology,2024-09-06,Appendicitis,ECG and Angiogram,2858.73
-1471,1969,Nathan Johnson,271,Michael Trevino,Neurology,2024-10-08,Skin Rash,Topical Cream,1201.27
-1472,1171,Alexandria Price,203,Christopher Grimes,Neurology,2024-07-27,Diabetes,Casting,3016.74
-1473,1926,Danielle Stafford,203,Christopher Grimes,Endocrinology,2024-01-02,Chest Pain,Casting,4505.62
-1474,1096,Jennifer Bauer,282,Gregg Warren,Endocrinology,2024-10-08,Migraine,Topical Cream,204.87
-1475,2505,David Wilson,223,Gloria Cooper,Orthopedics,2024-07-24,Asthma,Casting,4055.5
-1476,2479,Brandon Vaughn,264,Brooke Harris,Orthopedics,2024-01-01,Skin Rash,Physical Therapy,762.54
-1477,1144,Mia Silva,233,Steven Hernandez,Endocrinology,2024-09-17,Seizures,Insulin Therapy,4975.04
-1478,2703,Alex Robles,282,Gregg Warren,Cardiology,2024-09-11,Migraine,Inhalers,3710.23
-1479,2606,Ashley Brown,264,Brooke Harris,Pediatrics,2024-08-14,Broken Leg,Topical Cream,4237.62
-1480,1620,Mr. Daniel Anderson,210,Linda Friedman,General Surgery,2024-06-21,Knee Pain,Angioplasty,153.48
-1481,1025,Bonnie Smith,203,Christopher Grimes,Dermatology,2024-07-27,Heart Attack,Physical Therapy,1130.11
-1482,1688,Kristen Thompson,210,Linda Friedman,General Surgery,2024-06-04,Diabetes,Medication,1377.2
-1483,2532,Jordan Lynch,233,Steven Hernandez,Neurology,2024-05-31,Broken Leg,Appendectomy,250.09
-1484,1630,Ashley Rivas,264,Brooke Harris,Cardiology,2024-06-08,Asthma,Angioplasty,3300.74
-1485,1302,Kathryn Porter,281,Stephen Martin,Orthopedics,2024-01-07,Knee Pain,Topical Cream,2149.74
-1486,2057,Mary Ellis,223,Gloria Cooper,Dermatology,2024-11-09,Chest Pain,Inhalers,623.46
-1487,2304,Kellie Morse,203,Christopher Grimes,Dermatology,2024-04-03,Skin Rash,Inhalers,2237.67
-1488,1932,Sandra Nichols,282,Gregg Warren,General Surgery,2024-10-27,Migraine,Topical Cream,4663.87
-1489,1666,Lindsay Hernandez,264,Brooke Harris,Pediatrics,2024-09-16,Diabetes,Inhalers,890.75
-1490,2536,Andrea Ramos,203,Christopher Grimes,General Surgery,2024-10-30,Knee Pain,Topical Cream,1810.38
-1491,1959,Troy Hayes,285,James Harper,Orthopedics,2024-02-19,Seizures,ECG and Angiogram,3815.87
-1492,1991,Jennifer Miller,223,Gloria Cooper,Neurology,2024-01-07,Seizures,Inhalers,3873.16
-1493,2417,Michael Willis,223,Gloria Cooper,Dermatology,2024-02-21,Appendicitis,Insulin Therapy,1411.85
-1494,1441,Heather Mcintyre,281,Stephen Martin,Endocrinology,2024-06-10,Asthma,Medication,1421.85
-1495,1127,Gary Baird,282,Gregg Warren,Orthopedics,2024-03-08,Migraine,Physical Therapy,4044.2
-1496,2354,Ann Harris,287,Sara Huynh,Pediatrics,2024-03-27,Seizures,Appendectomy,4798.36
-1497,2528,Michael Owens,281,Stephen Martin,Orthopedics,2024-10-24,Diabetes,Topical Cream,1883.68
-1498,2903,Jake Parker,210,Linda Friedman,Neurology,2024-02-28,Appendicitis,Insulin Therapy,3382.87
-1499,1914,Angie Mcgee,223,Gloria Cooper,Orthopedics,2024-07-05,Diabetes,Angioplasty,3214.8
-1500,2363,Lisa Robinson,223,Gloria Cooper,Cardiology,2024-06-24,Seizures,Appendectomy,2804.73
-1501,1262,Tyler Maldonado,223,Gloria Cooper,Cardiology,2024-02-23,Appendicitis,Angioplasty,3801.77
-1502,1228,Danielle Morse,210,Linda Friedman,General Surgery,2024-03-19,Broken Leg,Insulin Therapy,4550.27
-1503,2364,Vincent Ross,281,Stephen Martin,Dermatology,2024-06-09,Heart Attack,Appendectomy,4201.04
-1504,2985,Malik Carroll,282,Gregg Warren,Orthopedics,2024-07-23,Appendicitis,Appendectomy,352.8
-1505,2237,Alyssa Hinton,233,Steven Hernandez,Orthopedics,2024-01-14,Knee Pain,Inhalers,3992.03
-1506,1166,Andrew Lutz,210,Linda Friedman,Dermatology,2024-01-22,Asthma,Insulin Therapy,733.82
-1507,1035,Andrew Pierce,203,Christopher Grimes,Neurology,2024-09-11,Chest Pain,Topical Cream,2573.38
-1508,2241,Eric Lee,210,Linda Friedman,Endocrinology,2024-10-15,Migraine,ECG and Angiogram,2135.02
-1509,1754,Michael Jones,223,Gloria Cooper,Neurology,2024-11-04,Appendicitis,Insulin Therapy,2773.1
-1510,2125,Ariel Smith,287,Sara Huynh,Pediatrics,2024-05-02,Skin Rash,Insulin Therapy,1825.09
-1511,2458,Jacob Watson,271,Michael Trevino,Orthopedics,2024-07-30,Diabetes,Physical Therapy,1343.07
-1512,1534,Tommy Jones,223,Gloria Cooper,Orthopedics,2024-08-11,Chest Pain,Medication,115.41
-1513,2481,Rebecca Peterson,223,Gloria Cooper,General Surgery,2024-03-04,Asthma,Appendectomy,3663.78
-1514,2443,Eugene Morgan,233,Steven Hernandez,Pediatrics,2024-01-04,Seizures,Angioplasty,4336.34
-1515,2006,April Perez,281,Stephen Martin,Pediatrics,2024-03-27,Diabetes,Topical Cream,3435.19
-1516,1952,Ryan Hernandez,223,Gloria Cooper,Endocrinology,2024-08-08,Chest Pain,Casting,3871.04
-1517,1780,Corey Chen,281,Stephen Martin,Neurology,2024-07-22,Knee Pain,Topical Cream,2402.52
-1518,1749,Amber Harmon,271,Michael Trevino,Orthopedics,2024-04-18,Appendicitis,ECG and Angiogram,1982.72
-1519,2180,John Flores,203,Christopher Grimes,Orthopedics,2024-11-03,Knee Pain,Appendectomy,3684.42
-1520,2829,John Johnson,223,Gloria Cooper,Dermatology,2024-02-11,Skin Rash,Appendectomy,4181.14
-1521,2655,Penny Jacobs,287,Sara Huynh,General Surgery,2024-04-05,Chest Pain,ECG and Angiogram,1791.5
-1522,1084,Lorraine Ortiz,233,Steven Hernandez,Neurology,2024-05-01,Diabetes,Physical Therapy,3272.77
-1523,1329,Tony Mann,233,Steven Hernandez,Neurology,2024-01-23,Seizures,Inhalers,4902.59
-1524,2205,Gerald Combs,287,Sara Huynh,Endocrinology,2024-07-11,Migraine,Casting,2492.86
-1525,2913,Mr. Jonathan Williams,282,Gregg Warren,Orthopedics,2024-02-16,Skin Rash,Casting,1953.59
-1526,2586,Matthew Lewis,287,Sara Huynh,Orthopedics,2024-04-04,Broken Leg,Insulin Therapy,1354.95
-1527,1220,Shelby Whitehead,271,Michael Trevino,Pediatrics,2024-04-23,Heart Attack,Casting,624.36
-1528,1851,James Carey,264,Brooke Harris,Neurology,2024-08-10,Chest Pain,Physical Therapy,1143.75
-1529,1543,Suzanne Little,271,Michael Trevino,Pediatrics,2024-06-23,Migraine,Physical Therapy,1457.04
-1530,1470,Carl Ramsey,285,James Harper,Endocrinology,2024-04-18,Knee Pain,ECG and Angiogram,342.04
-1531,2710,Barbara Cooper,223,Gloria Cooper,Cardiology,2024-05-04,Skin Rash,Appendectomy,948.86
-1532,2666,Jason Blackwell,285,James Harper,Cardiology,2024-05-26,Migraine,Appendectomy,1627.91
-1533,1086,Kyle Moore,233,Steven Hernandez,Neurology,2024-09-13,Chest Pain,Physical Therapy,3768.53
-1534,2023,Jeff Ward,233,Steven Hernandez,Dermatology,2024-08-22,Skin Rash,ECG and Angiogram,1400.53
-1535,1150,Paul Hunter,281,Stephen Martin,General Surgery,2024-09-04,Diabetes,Insulin Therapy,2685.33
-1536,2796,Sabrina Lane,281,Stephen Martin,Neurology,2024-07-16,Asthma,Medication,1991.8
-1537,1797,Juan Hernandez,264,Brooke Harris,Cardiology,2024-01-14,Knee Pain,Topical Cream,409.39
-1538,2283,Rachel Perkins,210,Linda Friedman,Dermatology,2024-03-21,Seizures,Topical Cream,3043.79
-1539,2307,Christina Lynch,210,Linda Friedman,Pediatrics,2024-09-21,Chest Pain,Physical Therapy,4117.46
-1540,2223,Jorge Carter,264,Brooke Harris,General Surgery,2024-04-11,Seizures,Medication,1633.71
-1541,2684,Anthony Daniels,287,Sara Huynh,General Surgery,2024-08-31,Knee Pain,Physical Therapy,2511.72
-1542,2895,Vincent Rodriguez,271,Michael Trevino,Orthopedics,2024-09-22,Asthma,Angioplasty,2474.15
-1543,1918,Jeffrey Rollins,281,Stephen Martin,Neurology,2024-05-04,Seizures,Physical Therapy,4176.32
-1544,2856,Miss Brandi Kramer,282,Gregg Warren,Neurology,2024-09-25,Migraine,Topical Cream,3156.27
-1545,2582,Megan Brooks,285,James Harper,Neurology,2024-01-29,Knee Pain,ECG and Angiogram,2601.76
-1546,2461,Shannon Stein,210,Linda Friedman,Neurology,2024-10-03,Broken Leg,Casting,2008.82
-1547,1615,Gregory Francis,233,Steven Hernandez,Neurology,2024-07-21,Broken Leg,Physical Therapy,3755.06
-1548,1452,Robert Andrews,233,Steven Hernandez,Dermatology,2024-05-30,Asthma,Angioplasty,318.84
-1549,1944,Gary Adams,203,Christopher Grimes,Pediatrics,2024-02-08,Skin Rash,Angioplasty,181.96
-1550,2243,Rebecca Stewart,233,Steven Hernandez,Neurology,2024-04-19,Seizures,Inhalers,1993.34
-1551,1244,Aaron Simmons,210,Linda Friedman,Neurology,2024-08-05,Asthma,Inhalers,3494.73
-1552,1670,Victoria Johnson,210,Linda Friedman,Endocrinology,2024-09-23,Appendicitis,Inhalers,908.39
-1553,1406,Joshua Barker,287,Sara Huynh,Dermatology,2024-03-31,Broken Leg,Topical Cream,2638.76
-1554,1704,Ashley Velazquez,282,Gregg Warren,General Surgery,2024-07-10,Knee Pain,Topical Cream,4211.56
-1555,1041,James Baker,271,Michael Trevino,Cardiology,2024-10-01,Migraine,Physical Therapy,4673.18
-1556,1940,Alexander Jackson,281,Stephen Martin,Pediatrics,2024-05-01,Broken Leg,Inhalers,2218.41
-1557,2007,Jacob Morgan,203,Christopher Grimes,Dermatology,2024-06-10,Skin Rash,Inhalers,4485.86
-1558,1706,James Anderson,271,Michael Trevino,Neurology,2024-09-23,Seizures,Casting,3797.51
-1559,1789,Mark Jenkins,271,Michael Trevino,Neurology,2024-07-18,Asthma,Physical Therapy,2868.63
-1560,2828,Miguel Jackson,223,Gloria Cooper,Neurology,2024-08-18,Diabetes,ECG and Angiogram,3363.29
-1561,1449,Shawn Hall,233,Steven Hernandez,Dermatology,2024-08-09,Diabetes,ECG and Angiogram,3527.34
-1562,2067,Crystal Murphy,287,Sara Huynh,Neurology,2024-09-15,Diabetes,Inhalers,2051.23
-1563,2669,William Kelly,281,Stephen Martin,Orthopedics,2024-05-18,Knee Pain,Casting,2758.81
-1564,1066,Monica Moss,203,Christopher Grimes,Endocrinology,2024-08-24,Asthma,Appendectomy,3700.36
-1565,1881,Dr. Daniel Peterson Jr.,223,Gloria Cooper,General Surgery,2024-02-24,Knee Pain,Casting,459.17
-1566,2950,Nicholas Jordan,287,Sara Huynh,Orthopedics,2024-07-28,Asthma,Topical Cream,1621.01
-1567,2900,Patricia Leblanc,282,Gregg Warren,Orthopedics,2024-08-29,Diabetes,Medication,1324.78
-1568,1788,Kenneth Booker,233,Steven Hernandez,Orthopedics,2024-09-25,Chest Pain,Medication,3012.25
-1569,1414,Ronald Matthews,271,Michael Trevino,Pediatrics,2024-04-24,Seizures,Physical Therapy,4223.24
-1570,2149,Jessica Morales,223,Gloria Cooper,General Surgery,2024-08-07,Heart Attack,Casting,3737.48
-1571,2893,Jennifer Gordon,271,Michael Trevino,Neurology,2024-01-04,Appendicitis,Physical Therapy,4670.18
-1572,2394,Terrence Floyd,285,James Harper,Endocrinology,2024-07-09,Diabetes,Casting,3085.92
-1573,1023,Olivia Weaver,264,Brooke Harris,Orthopedics,2024-04-14,Heart Attack,Angioplasty,2303.1
-1574,2420,Sheri Hurst,223,Gloria Cooper,Dermatology,2024-04-29,Chest Pain,Appendectomy,4017.8
-1575,1157,Jessica Solis,203,Christopher Grimes,Cardiology,2024-05-29,Skin Rash,Topical Cream,568.14
-1576,1265,Rodney Zimmerman,282,Gregg Warren,Cardiology,2024-04-07,Migraine,Inhalers,2508.19
-1577,1348,Jordan Craig,203,Christopher Grimes,General Surgery,2024-01-29,Seizures,Inhalers,3548.88
-1578,1454,Thomas Williams,271,Michael Trevino,Neurology,2024-04-09,Skin Rash,Physical Therapy,2019.9
-1579,1353,Dwayne Davis,210,Linda Friedman,Pediatrics,2024-01-17,Seizures,Inhalers,2230.15
-1580,1057,Andrew Marshall,264,Brooke Harris,Cardiology,2024-08-10,Seizures,Angioplasty,4803.1
-1581,2424,Shannon Alvarez,264,Brooke Harris,Neurology,2024-10-26,Appendicitis,Angioplasty,182.22
-1582,2239,Richard Harris,203,Christopher Grimes,General Surgery,2024-06-11,Seizures,Inhalers,183.26
-1583,2268,Victoria Howell,282,Gregg Warren,General Surgery,2024-08-01,Broken Leg,Physical Therapy,3424.73
-1584,1515,Martha Castillo,223,Gloria Cooper,Pediatrics,2024-08-22,Asthma,Topical Cream,1305.07
-1585,2628,Kenneth Haynes,223,Gloria Cooper,Endocrinology,2024-07-06,Diabetes,Casting,3214.11
-1586,1418,Terry Willis,271,Michael Trevino,Dermatology,2024-08-15,Seizures,Physical Therapy,654.11
-1587,1785,Ronald Rivas,271,Michael Trevino,Dermatology,2024-01-07,Skin Rash,Inhalers,1828.63
-1588,1639,Sean Harper,210,Linda Friedman,General Surgery,2024-06-25,Skin Rash,Casting,2482.05
-1589,1048,Kayla Mcintosh,264,Brooke Harris,Orthopedics,2024-02-21,Seizures,Physical Therapy,2994.92
-1590,2632,Kelly White,271,Michael Trevino,Endocrinology,2024-11-02,Chest Pain,ECG and Angiogram,2116.04
-1591,1800,Charles Armstrong,203,Christopher Grimes,Endocrinology,2024-09-04,Chest Pain,Inhalers,3107.65
-1592,2621,Amber Gonzalez,203,Christopher Grimes,Neurology,2024-06-01,Skin Rash,Medication,2924.07
-1593,2234,Regina Beasley,210,Linda Friedman,General Surgery,2024-06-11,Heart Attack,Appendectomy,1057.31
-1594,2486,Joshua Bowers,271,Michael Trevino,Orthopedics,2024-03-17,Heart Attack,ECG and Angiogram,3944.35
-1595,1294,Alan Hawkins,285,James Harper,Cardiology,2024-05-21,Broken Leg,Casting,107.77
-1596,1356,Kenneth Nguyen,203,Christopher Grimes,Dermatology,2024-06-01,Knee Pain,Insulin Therapy,1680.85
-1597,1731,Katherine Haynes,264,Brooke Harris,Endocrinology,2024-09-08,Broken Leg,Appendectomy,581.93
-1598,1206,Joel Boyd,285,James Harper,Pediatrics,2024-08-25,Knee Pain,Angioplasty,2515.0
-1599,1376,Adam Johnson,287,Sara Huynh,Endocrinology,2024-03-17,Broken Leg,Appendectomy,134.7
-1600,2387,Donna Parker,282,Gregg Warren,Endocrinology,2024-09-12,Migraine,Insulin Therapy,2338.11
-1601,2561,Nicole Ferrell,271,Michael Trevino,Cardiology,2024-04-21,Knee Pain,Medication,1684.29
-1602,2407,Victoria Forbes,287,Sara Huynh,Neurology,2024-05-07,Knee Pain,Topical Cream,3777.52
-1603,1896,Glenda Smith,285,James Harper,Orthopedics,2024-01-22,Knee Pain,Medication,3590.06
-1604,2473,Brandi Steele,287,Sara Huynh,Cardiology,2024-04-12,Broken Leg,Medication,2142.82
-1605,1267,Austin Carey,233,Steven Hernandez,General Surgery,2024-05-27,Diabetes,ECG and Angiogram,201.64
-1606,1087,Kristine Wallace,285,James Harper,Dermatology,2024-09-29,Skin Rash,Appendectomy,3613.21
-1607,1992,Steven Mills,282,Gregg Warren,General Surgery,2024-02-29,Migraine,Angioplasty,1124.03
-1608,2044,Michael Dixon,285,James Harper,Dermatology,2024-05-02,Migraine,Physical Therapy,2618.65
-1609,1700,Sheryl Wilson,264,Brooke Harris,Dermatology,2024-04-23,Migraine,Physical Therapy,1115.69
-1610,2197,Steven Murphy,203,Christopher Grimes,Cardiology,2024-07-28,Chest Pain,Angioplasty,3400.81
-1611,1548,Eric Adams,264,Brooke Harris,Neurology,2024-05-28,Seizures,Medication,2319.39
-1612,1303,Rebecca Duran,287,Sara Huynh,Cardiology,2024-11-08,Diabetes,Insulin Therapy,439.92
-1613,2280,Vicki Porter,282,Gregg Warren,Endocrinology,2024-03-06,Diabetes,Insulin Therapy,2297.82
-1614,1417,Luke Santiago,287,Sara Huynh,Endocrinology,2024-01-13,Diabetes,ECG and Angiogram,4092.15
-1615,2088,Christine Garcia,233,Steven Hernandez,Neurology,2024-04-18,Migraine,Physical Therapy,2391.19
-1616,1613,Julie Kaiser,281,Stephen Martin,Orthopedics,2024-01-05,Appendicitis,Angioplasty,864.87
-1617,2308,Lori Lee,285,James Harper,Endocrinology,2024-10-28,Heart Attack,Inhalers,1698.37
-1618,2644,Megan Hernandez,210,Linda Friedman,Endocrinology,2024-07-06,Knee Pain,Angioplasty,4110.85
-1619,2460,Mark Watson,203,Christopher Grimes,Dermatology,2024-05-16,Asthma,Physical Therapy,1265.42
-1620,1891,Samantha Sullivan,210,Linda Friedman,Cardiology,2024-05-27,Chest Pain,Medication,1221.74
-1621,1635,Trevor Walker,203,Christopher Grimes,Dermatology,2024-06-23,Heart Attack,Appendectomy,2102.64
-1622,2392,Paula Logan,271,Michael Trevino,Endocrinology,2024-08-20,Knee Pain,Medication,2355.82
-1623,1838,Karen Lopez,210,Linda Friedman,Pediatrics,2024-07-04,Seizures,Physical Therapy,1557.49
-1624,2335,George Oconnell,285,James Harper,Endocrinology,2024-01-22,Heart Attack,Medication,1551.76
-1625,1251,Alexa Grimes,233,Steven Hernandez,Orthopedics,2024-04-04,Knee Pain,Topical Cream,2335.93
-1626,2667,Lisa Jensen,285,James Harper,Dermatology,2024-02-11,Heart Attack,Insulin Therapy,3592.89
-1627,1062,Shaun Cole,271,Michael Trevino,Endocrinology,2024-01-08,Heart Attack,Physical Therapy,284.55
-1628,2979,Melissa Mcclure,285,James Harper,Cardiology,2024-01-29,Asthma,Inhalers,4261.91
-1629,1961,Kelly Phillips,282,Gregg Warren,Dermatology,2024-04-12,Diabetes,Inhalers,4249.7
-1630,1257,James Cabrera,287,Sara Huynh,Cardiology,2024-07-25,Asthma,Appendectomy,2341.14
-1631,2884,William Chavez,233,Steven Hernandez,Endocrinology,2024-10-31,Chest Pain,Medication,641.93
-1632,2382,Kimberly Durham,210,Linda Friedman,Orthopedics,2024-08-13,Asthma,Inhalers,775.66
-1633,2151,Brittany White,210,Linda Friedman,Dermatology,2024-03-05,Knee Pain,Casting,2509.82
-1634,1494,Christina Oliver,233,Steven Hernandez,General Surgery,2024-03-25,Skin Rash,Insulin Therapy,1547.36
-1635,1673,Joshua Cain,203,Christopher Grimes,Orthopedics,2024-09-25,Asthma,ECG and Angiogram,463.03
-1636,1107,Austin Duffy,281,Stephen Martin,Endocrinology,2024-09-16,Heart Attack,Inhalers,3635.32
-1637,2551,Laura Garcia,285,James Harper,General Surgery,2024-07-29,Knee Pain,Physical Therapy,272.27
-1638,2658,Nathan Green,203,Christopher Grimes,Cardiology,2024-09-03,Asthma,Angioplasty,4269.57
-1639,2081,Sharon French,223,Gloria Cooper,Orthopedics,2024-03-01,Skin Rash,Angioplasty,317.8
-1640,1012,Elizabeth Mendoza,281,Stephen Martin,General Surgery,2024-04-18,Skin Rash,Inhalers,2109.79
-1641,2021,Logan Camacho,223,Gloria Cooper,Neurology,2024-11-01,Appendicitis,Appendectomy,3125.88
-1642,2206,Sharon Martinez,285,James Harper,Pediatrics,2024-02-06,Asthma,Casting,1352.8
-1643,2791,Erik Martinez,233,Steven Hernandez,Pediatrics,2024-09-06,Heart Attack,Appendectomy,4490.69
-1644,1089,Amanda Hart,203,Christopher Grimes,Cardiology,2024-03-08,Skin Rash,Insulin Therapy,1698.43
-1645,1489,Jennifer Powell,287,Sara Huynh,Neurology,2024-01-19,Broken Leg,Insulin Therapy,795.78
-1646,2378,Patricia Chambers,281,Stephen Martin,Pediatrics,2024-05-12,Asthma,Inhalers,3501.98
-1647,2454,Dennis Monroe,285,James Harper,Orthopedics,2024-08-30,Diabetes,Appendectomy,1172.56
-1648,1702,Christian Cervantes,264,Brooke Harris,Pediatrics,2024-01-15,Diabetes,Appendectomy,1470.08
-1649,1154,Bryan Peterson,233,Steven Hernandez,Dermatology,2024-09-29,Diabetes,Topical Cream,652.79
-1650,1100,Sherry Martinez,281,Stephen Martin,Neurology,2024-07-26,Migraine,Topical Cream,853.91
-1651,1347,Michael Wright,233,Steven Hernandez,General Surgery,2024-09-30,Skin Rash,Appendectomy,757.11
-1652,2899,David Coleman,264,Brooke Harris,Orthopedics,2024-07-13,Appendicitis,Physical Therapy,3924.2
-1653,1511,Lauren Stuart,271,Michael Trevino,Dermatology,2024-04-04,Seizures,ECG and Angiogram,1808.45
-1654,2691,Francisco Schultz,264,Brooke Harris,Pediatrics,2024-01-02,Migraine,Physical Therapy,1795.36
-1655,1129,Logan Bentley,233,Steven Hernandez,Orthopedics,2024-03-08,Seizures,Angioplasty,457.48
-1656,1283,Tracy Johnson,285,James Harper,General Surgery,2024-07-23,Appendicitis,Angioplasty,1408.84
-1657,2972,Jessica Griffin,281,Stephen Martin,Pediatrics,2024-08-27,Broken Leg,Appendectomy,3493.9
-1658,1274,Courtney Christensen,285,James Harper,Orthopedics,2024-06-02,Migraine,Medication,2302.37
-1659,2531,Tanya Jones,285,James Harper,Endocrinology,2024-09-12,Diabetes,Appendectomy,1016.4
-1660,2947,John Powers,203,Christopher Grimes,Endocrinology,2024-06-10,Asthma,Angioplasty,3967.61
-1661,2269,Eric Hicks,282,Gregg Warren,Endocrinology,2024-01-01,Migraine,ECG and Angiogram,3070.12
-1662,2494,Robert Hays,203,Christopher Grimes,Cardiology,2024-03-17,Skin Rash,Appendectomy,4837.64
-1663,2662,Kenneth Patterson,271,Michael Trevino,Pediatrics,2024-07-27,Appendicitis,Inhalers,308.17
-1664,2492,Roberto Thomas DVM,281,Stephen Martin,General Surgery,2024-10-09,Chest Pain,Appendectomy,4113.71
-1665,2701,Dr. Jordan Gutierrez,271,Michael Trevino,Pediatrics,2024-01-25,Skin Rash,Inhalers,4303.53
-1666,1305,Jeremy Harrison II,203,Christopher Grimes,Cardiology,2024-07-04,Asthma,Insulin Therapy,3074.12
-1667,1709,Brian Bentley,282,Gregg Warren,Endocrinology,2024-08-09,Knee Pain,Inhalers,1220.49
-1668,1523,Tamara Bates,271,Michael Trevino,Neurology,2024-10-22,Diabetes,Appendectomy,2721.11
-1669,1284,David Warren,203,Christopher Grimes,Neurology,2024-01-10,Broken Leg,Topical Cream,1326.21
-1670,2128,Tanya Leonard,281,Stephen Martin,Cardiology,2024-03-01,Skin Rash,Casting,2860.03
-1671,1355,Katherine Sandoval,210,Linda Friedman,Endocrinology,2024-08-22,Diabetes,Appendectomy,4726.55
-1672,2489,Jason White,287,Sara Huynh,Neurology,2024-08-12,Broken Leg,ECG and Angiogram,1806.06
-1673,2671,Jeffrey Brown,287,Sara Huynh,Dermatology,2024-04-30,Seizures,Angioplasty,211.02
-1674,1233,Robin Jones,282,Gregg Warren,Orthopedics,2024-04-11,Heart Attack,ECG and Angiogram,3612.25
-1675,2104,Sarah Osborn,287,Sara Huynh,Cardiology,2024-04-30,Asthma,Insulin Therapy,2243.61
-1676,1290,Grace Miller,282,Gregg Warren,Neurology,2024-02-03,Broken Leg,Inhalers,2714.32
-1677,2442,Gary Phillips,233,Steven Hernandez,Dermatology,2024-05-10,Heart Attack,Physical Therapy,175.47
-1678,2847,Melissa Fields,285,James Harper,Pediatrics,2024-03-27,Asthma,Casting,526.17
-1679,1227,Andrew Brown,271,Michael Trevino,Neurology,2024-05-02,Chest Pain,Insulin Therapy,3014.36
-1680,1056,Austin Ballard,271,Michael Trevino,General Surgery,2024-05-23,Asthma,Medication,4220.25
-1681,2598,Amy Williams,281,Stephen Martin,General Surgery,2024-04-07,Asthma,ECG and Angiogram,4939.08
-1682,2472,Justin Ortiz,271,Michael Trevino,Neurology,2024-08-11,Appendicitis,Casting,321.31
-1683,2599,Robert Sanchez,281,Stephen Martin,Neurology,2024-08-23,Broken Leg,Angioplasty,2282.72
-1684,1608,Luke Todd,271,Michael Trevino,Orthopedics,2024-02-01,Seizures,Appendectomy,2737.46
-1685,2369,Carlos Jones,281,Stephen Martin,Neurology,2024-04-12,Heart Attack,Angioplasty,4467.67
-1686,1617,Benjamin Williams,210,Linda Friedman,Cardiology,2024-05-28,Asthma,Casting,1030.92
-1687,2946,John Adams,233,Steven Hernandez,Neurology,2024-05-09,Appendicitis,Appendectomy,635.74
-1688,1249,Natasha Kelley,233,Steven Hernandez,General Surgery,2024-10-01,Knee Pain,Angioplasty,3558.65
-1689,2834,John Castro,285,James Harper,General Surgery,2024-02-11,Seizures,ECG and Angiogram,4542.73
-1690,2264,Megan Thornton,282,Gregg Warren,Neurology,2024-01-19,Asthma,ECG and Angiogram,2823.34
-1691,2001,Steven Kennedy,210,Linda Friedman,Orthopedics,2024-05-01,Appendicitis,Physical Therapy,2429.79
-1692,2736,Ashlee Cook,203,Christopher Grimes,Endocrinology,2024-10-06,Migraine,Medication,4657.34
-1693,1950,Jill Henry,281,Stephen Martin,Cardiology,2024-01-20,Knee Pain,Appendectomy,2469.15
-1694,1354,Mary Silva,282,Gregg Warren,Cardiology,2024-02-18,Diabetes,Insulin Therapy,772.9
-1695,1142,Jennifer Flores,223,Gloria Cooper,Orthopedics,2024-10-11,Skin Rash,Topical Cream,878.45
-1696,1746,Colleen Marquez,223,Gloria Cooper,Neurology,2024-06-27,Heart Attack,ECG and Angiogram,2015.49
-1697,1822,Laura Alexander,264,Brooke Harris,Dermatology,2024-07-31,Migraine,ECG and Angiogram,3661.15
-1698,2908,Mrs. Julia Shelton,203,Christopher Grimes,General Surgery,2024-03-22,Knee Pain,Angioplasty,1212.06
-1699,2995,Harry Young,281,Stephen Martin,Orthopedics,2024-01-10,Seizures,Inhalers,1715.5
-1700,1623,Brandon Burch,264,Brooke Harris,General Surgery,2024-01-03,Diabetes,Topical Cream,1287.88
-1701,1723,Aimee Barnes,264,Brooke Harris,Dermatology,2024-06-08,Appendicitis,Appendectomy,3648.3
-1702,1192,Jennifer Yoder,203,Christopher Grimes,Endocrinology,2024-07-24,Asthma,Angioplasty,4033.02
-1703,2193,Jon Chavez,223,Gloria Cooper,Cardiology,2024-04-22,Migraine,Inhalers,4822.72
-1704,1349,Timothy Barnes Jr.,264,Brooke Harris,Cardiology,2024-03-06,Skin Rash,Appendectomy,4349.77
-1705,1892,Anna Holmes,264,Brooke Harris,General Surgery,2024-04-01,Heart Attack,Inhalers,2732.31
-1706,1254,Steven Reyes,282,Gregg Warren,Pediatrics,2024-07-31,Skin Rash,Medication,2050.09
-1707,1246,Jason Curtis,203,Christopher Grimes,Dermatology,2024-02-23,Migraine,Medication,4868.74
-1708,2229,Katherine Stanley,287,Sara Huynh,Pediatrics,2024-07-25,Migraine,Casting,4011.61
-1709,1310,Nathan Hinton,203,Christopher Grimes,Cardiology,2024-07-05,Knee Pain,Topical Cream,3039.59
-1710,1981,David Davis,264,Brooke Harris,Cardiology,2024-05-27,Appendicitis,ECG and Angiogram,2917.42
-1711,2046,Miguel Tanner,281,Stephen Martin,Endocrinology,2024-10-08,Appendicitis,Casting,1025.47
-1712,1432,Susan Davis,285,James Harper,General Surgery,2024-05-20,Knee Pain,Casting,2383.69
-1713,1245,Troy Sanchez,282,Gregg Warren,Neurology,2024-05-27,Skin Rash,Physical Therapy,1924.33
-1714,1478,Jeffrey Frye,203,Christopher Grimes,Cardiology,2024-05-24,Heart Attack,ECG and Angiogram,749.79
-1715,2334,Kevin Hart,223,Gloria Cooper,Neurology,2024-09-05,Skin Rash,Topical Cream,1687.44
-1716,2779,Crystal Cruz,223,Gloria Cooper,General Surgery,2024-05-10,Diabetes,Casting,3826.12
-1717,2645,April Garza,210,Linda Friedman,Neurology,2024-01-08,Knee Pain,Appendectomy,1342.6
-1718,2741,Jacob Dawson,203,Christopher Grimes,Neurology,2024-03-13,Chest Pain,Angioplasty,2483.15
-1719,2783,Antonio Williams,287,Sara Huynh,Pediatrics,2024-03-20,Heart Attack,Physical Therapy,3544.37
-1720,1124,Carol Raymond,233,Steven Hernandez,Orthopedics,2024-08-22,Migraine,Appendectomy,4442.84
-1721,1381,Joseph Henry,210,Linda Friedman,General Surgery,2024-07-23,Seizures,Topical Cream,4289.33
-1722,2019,Louis Jacobs,203,Christopher Grimes,Endocrinology,2024-09-06,Seizures,Topical Cream,2274.99
-1723,1805,Harold Lawson,287,Sara Huynh,Orthopedics,2024-08-03,Heart Attack,Insulin Therapy,4183.96
-1724,1297,Michael Sanders,282,Gregg Warren,Orthopedics,2024-07-23,Skin Rash,Angioplasty,3581.47
-1725,1561,Jordan Forbes,223,Gloria Cooper,Dermatology,2024-02-05,Broken Leg,Topical Cream,4552.98
-1726,1218,Jared Wilkerson,287,Sara Huynh,Endocrinology,2024-03-19,Chest Pain,Angioplasty,4279.35
-1727,1133,Shannon Wilkinson,271,Michael Trevino,General Surgery,2024-04-07,Skin Rash,ECG and Angiogram,2428.27
-1728,2211,Ryan Johnson,223,Gloria Cooper,Dermatology,2024-01-06,Chest Pain,Medication,2693.55
-1729,1400,Megan Rivera,203,Christopher Grimes,General Surgery,2024-08-26,Appendicitis,Inhalers,4635.33
-1730,1367,Robert Martinez,223,Gloria Cooper,Cardiology,2024-01-20,Appendicitis,Medication,203.25
-1731,1766,Jared Anderson,233,Steven Hernandez,Pediatrics,2024-02-17,Knee Pain,Casting,3846.33
-1732,2093,Brian Baker,203,Christopher Grimes,Orthopedics,2024-01-18,Asthma,Medication,1094.27
-1733,2548,Amanda Ford,287,Sara Huynh,Pediatrics,2024-10-11,Migraine,Medication,3432.98
-1734,1318,Alice Bishop,203,Christopher Grimes,Dermatology,2024-03-25,Broken Leg,Casting,1433.75
-1735,1243,Anthony Smith DDS,287,Sara Huynh,Cardiology,2024-01-28,Seizures,Angioplasty,1875.79
-1736,1935,Cory Avery,223,Gloria Cooper,Pediatrics,2024-02-06,Appendicitis,Inhalers,447.73
-1737,2853,Kathleen Kelly,210,Linda Friedman,Orthopedics,2024-04-02,Seizures,ECG and Angiogram,515.09
-1738,1371,Mr. Michael Garcia DDS,287,Sara Huynh,General Surgery,2024-01-20,Diabetes,Physical Therapy,2454.09
-1739,2437,Victoria Patel,285,James Harper,Pediatrics,2024-07-04,Skin Rash,Medication,1782.04
-1740,2749,Thomas Stout,285,James Harper,General Surgery,2024-06-28,Knee Pain,Inhalers,3246.11
-1741,1134,Monique Jones,285,James Harper,Cardiology,2024-06-09,Seizures,ECG and Angiogram,2209.09
-1742,2652,Vincent Anderson,264,Brooke Harris,Cardiology,2024-05-26,Knee Pain,Casting,2766.26
-1743,2553,William Soto,282,Gregg Warren,Neurology,2024-03-17,Seizures,Inhalers,610.52
-1744,2840,Chad King,223,Gloria Cooper,Orthopedics,2024-10-03,Asthma,Topical Cream,3741.66
-1745,1026,Maria Rose,223,Gloria Cooper,Endocrinology,2024-10-23,Migraine,Inhalers,427.75
-1746,2747,Marcus Lee,264,Brooke Harris,Endocrinology,2024-02-25,Knee Pain,Casting,139.03
-1747,2988,Allison Mcbride,203,Christopher Grimes,Orthopedics,2024-05-29,Seizures,Angioplasty,2092.12
-1748,2051,Erika Evans,285,James Harper,General Surgery,2024-09-02,Migraine,Medication,1688.82
-1749,1396,Daniel Gonzales,281,Stephen Martin,Cardiology,2024-04-15,Seizures,Topical Cream,4293.2
-1750,1946,Amanda Richards,281,Stephen Martin,General Surgery,2024-02-18,Broken Leg,Topical Cream,1745.32
-1751,2372,Tammy Diaz,264,Brooke Harris,Orthopedics,2024-03-17,Asthma,ECG and Angiogram,4566.73
-1752,1600,Kenneth Gates,285,James Harper,Dermatology,2024-06-21,Skin Rash,Angioplasty,1169.71
-1753,2587,Jimmy Benton,203,Christopher Grimes,Neurology,2024-02-07,Knee Pain,Appendectomy,999.36
-1754,1439,Patrick Smith,223,Gloria Cooper,Dermatology,2024-10-22,Knee Pain,Appendectomy,4300.82
-1755,2673,Heather Powell,223,Gloria Cooper,Neurology,2024-08-02,Appendicitis,Casting,2573.48
-1756,2647,Mrs. Pamela Turner,271,Michael Trevino,General Surgery,2024-03-05,Migraine,Angioplasty,4589.38
-1757,1934,Anthony Simmons,203,Christopher Grimes,Endocrinology,2024-04-21,Skin Rash,Topical Cream,1261.89
-1758,2782,Amy Brooks,264,Brooke Harris,Orthopedics,2024-06-23,Migraine,ECG and Angiogram,730.07
-1759,2224,Barbara Jenkins,285,James Harper,Endocrinology,2024-09-30,Chest Pain,Angioplasty,1795.06
-1760,2117,Matthew Miller,285,James Harper,Endocrinology,2024-09-02,Knee Pain,Appendectomy,3859.32
-1761,1504,Ashley Bishop,282,Gregg Warren,Orthopedics,2024-06-06,Migraine,Physical Therapy,3545.44
-1762,2362,Ronald Hill,223,Gloria Cooper,Cardiology,2024-09-25,Broken Leg,Insulin Therapy,844.92
-1763,2116,Alexis Poole,223,Gloria Cooper,Pediatrics,2024-10-06,Skin Rash,Inhalers,3832.73
-1764,2131,Christopher Flowers,223,Gloria Cooper,Neurology,2024-03-30,Skin Rash,Physical Therapy,4497.52
-1765,1034,Chad Zimmerman,223,Gloria Cooper,Orthopedics,2024-05-04,Skin Rash,Appendectomy,4169.28
-1766,2488,Alison Smith,203,Christopher Grimes,Pediatrics,2024-07-14,Appendicitis,Topical Cream,3026.2
-1767,1753,Terry Smith,281,Stephen Martin,General Surgery,2024-07-18,Appendicitis,Topical Cream,1666.9
-1768,2692,Nicholas Donaldson,285,James Harper,General Surgery,2024-07-26,Broken Leg,Insulin Therapy,2705.48
-1769,2675,Andrew Taylor,281,Stephen Martin,Cardiology,2024-09-20,Appendicitis,Topical Cream,2808.44
-1770,1958,Scott Galvan,203,Christopher Grimes,Orthopedics,2024-06-29,Knee Pain,Medication,3239.93
-1771,1755,Shane Trujillo,281,Stephen Martin,Endocrinology,2024-06-12,Diabetes,Inhalers,4890.42
-1772,1820,Tommy King,285,James Harper,Dermatology,2024-09-29,Chest Pain,Appendectomy,2128.55
-1773,2844,Brandon Mcdonald,264,Brooke Harris,Orthopedics,2024-07-20,Knee Pain,Angioplasty,4700.87
-1774,1767,Dawn Webb,203,Christopher Grimes,Endocrinology,2024-07-15,Asthma,Topical Cream,731.89
-1775,2367,Donna Rangel,287,Sara Huynh,Endocrinology,2024-10-26,Knee Pain,Physical Therapy,647.15
-1776,1276,Larry Smith,287,Sara Huynh,Neurology,2024-03-06,Broken Leg,Physical Therapy,2384.42
-1777,2552,Karen Greer,203,Christopher Grimes,Endocrinology,2024-03-30,Heart Attack,Casting,4673.28
-1778,2463,Linda Franco,264,Brooke Harris,Cardiology,2024-08-15,Appendicitis,Angioplasty,3340.11
-1779,1810,Jessica Lucas,223,Gloria Cooper,Endocrinology,2024-05-07,Broken Leg,Insulin Therapy,4740.84
-1780,2428,Matthew Pham,285,James Harper,Dermatology,2024-07-31,Diabetes,Appendectomy,1369.76
-1781,2266,Clifford Hester,233,Steven Hernandez,Neurology,2024-03-12,Appendicitis,Insulin Therapy,2418.68
-1782,2625,Gregory Walters,210,Linda Friedman,Orthopedics,2024-03-06,Heart Attack,Medication,3237.86
-1783,2869,Stephen Castro,233,Steven Hernandez,Cardiology,2024-01-25,Diabetes,Angioplasty,1400.53
-1784,2700,Carrie Murray,281,Stephen Martin,Neurology,2024-05-04,Appendicitis,ECG and Angiogram,2686.55
-1785,2069,Jessica Schmidt,282,Gregg Warren,Orthopedics,2024-05-27,Appendicitis,Insulin Therapy,376.84
-1786,2016,Heather Dawson,282,Gregg Warren,Neurology,2024-02-16,Diabetes,Angioplasty,3074.99
-1787,2698,Katherine Rose DDS,264,Brooke Harris,Endocrinology,2024-06-07,Migraine,Insulin Therapy,404.69
-1788,2009,David Green,264,Brooke Harris,Pediatrics,2024-05-18,Diabetes,Medication,4567.99
-1789,1595,Raymond Miranda,271,Michael Trevino,Neurology,2024-06-23,Appendicitis,Topical Cream,205.68
-1790,1818,Jose Harrison,282,Gregg Warren,Cardiology,2024-08-01,Seizures,Medication,1634.2
-1791,1724,Lisa Jensen,223,Gloria Cooper,Orthopedics,2024-07-24,Broken Leg,ECG and Angiogram,3045.09
-1792,1058,Rebecca Carroll,203,Christopher Grimes,General Surgery,2024-03-04,Chest Pain,Appendectomy,3435.8
-1793,1517,Shirley Wagner,281,Stephen Martin,Pediatrics,2024-02-27,Skin Rash,Appendectomy,3654.12
-1794,1984,Tammie Bailey,203,Christopher Grimes,Cardiology,2024-09-22,Migraine,Casting,2431.39
-1795,2235,Michael Hall,281,Stephen Martin,Pediatrics,2024-07-30,Appendicitis,Casting,763.14
-1796,2997,James Escobar,281,Stephen Martin,Neurology,2024-09-03,Broken Leg,Casting,941.49
-1797,1049,Robert Johnson,281,Stephen Martin,Cardiology,2024-09-14,Broken Leg,Topical Cream,4569.9
-1798,2029,Mary Johnson,210,Linda Friedman,Neurology,2024-01-11,Skin Rash,Casting,4958.63
-1799,1762,Diana Smith,271,Michael Trevino,Cardiology,2024-07-08,Chest Pain,Topical Cream,3665.62
-1800,1507,Susan Parker,287,Sara Huynh,General Surgery,2024-01-13,Chest Pain,Appendectomy,4145.36
-1801,2262,Jeremy Lee,287,Sara Huynh,Pediatrics,2024-09-09,Migraine,Casting,1656.31
-1802,2084,Amy Gates,210,Linda Friedman,General Surgery,2024-10-05,Migraine,Physical Therapy,3479.57
-1803,2622,Jaime Jensen,210,Linda Friedman,Neurology,2024-02-26,Asthma,Topical Cream,3195.83
-1804,2912,Amanda Baker,210,Linda Friedman,Neurology,2024-02-22,Diabetes,Topical Cream,878.4
-1805,1162,Allison Lopez,233,Steven Hernandez,Dermatology,2024-01-13,Heart Attack,Topical Cream,3227.16
-1806,2032,Joanna Vasquez,271,Michael Trevino,Neurology,2024-09-09,Heart Attack,Medication,1776.45
-1807,1195,David Contreras,285,James Harper,Orthopedics,2024-04-28,Knee Pain,ECG and Angiogram,3906.64
-1808,1882,Dr. Christy Harrington,203,Christopher Grimes,Orthopedics,2024-10-17,Heart Attack,Medication,1273.99
-1809,1657,Tracy James,223,Gloria Cooper,Cardiology,2024-05-30,Heart Attack,ECG and Angiogram,113.09
-1810,2512,Ann Wiley,282,Gregg Warren,Orthopedics,2024-05-25,Knee Pain,Physical Therapy,4021.28
-1811,1469,James Gould,203,Christopher Grimes,Dermatology,2024-10-11,Heart Attack,Appendectomy,1272.98
-1812,1193,Nicholas Dickerson,264,Brooke Harris,Endocrinology,2024-06-27,Broken Leg,ECG and Angiogram,4927.19
-1813,2919,William Luna,203,Christopher Grimes,Cardiology,2024-10-24,Skin Rash,Angioplasty,1616.87
-1814,2123,Cindy Thornton,281,Stephen Martin,Cardiology,2024-10-05,Asthma,Topical Cream,2814.52
-1815,2596,Michelle Smith,287,Sara Huynh,Orthopedics,2024-01-16,Diabetes,ECG and Angiogram,2029.3
-1816,2332,Matthew Le,203,Christopher Grimes,Endocrinology,2024-11-05,Diabetes,Appendectomy,4910.34
-1817,1365,Henry Harrison,210,Linda Friedman,Pediatrics,2024-07-08,Heart Attack,Angioplasty,3236.09
-1818,1241,Karen Moody,203,Christopher Grimes,General Surgery,2024-10-31,Skin Rash,Physical Therapy,1174.14
-1819,1730,Brandon Nelson,281,Stephen Martin,Endocrinology,2024-08-10,Asthma,Topical Cream,2974.1
-1820,1177,Shawna Chang,203,Christopher Grimes,Pediatrics,2024-08-08,Migraine,Topical Cream,4578.09
-1821,2934,William Hernandez,210,Linda Friedman,Dermatology,2024-09-14,Heart Attack,Insulin Therapy,3524.01
-1822,1840,William Chung,264,Brooke Harris,General Surgery,2024-10-04,Seizures,Physical Therapy,2353.87
-1823,2711,Denise Lopez,271,Michael Trevino,General Surgery,2024-08-29,Asthma,Casting,1610.89
-1824,2075,Robert Wood,287,Sara Huynh,Dermatology,2024-06-25,Heart Attack,Physical Therapy,1935.21
-1825,1252,Jacqueline Chambers,210,Linda Friedman,General Surgery,2024-04-11,Knee Pain,Insulin Therapy,3515.48
-1826,1665,Matthew Smith,285,James Harper,Cardiology,2024-05-22,Chest Pain,Appendectomy,2354.17
-1827,1037,Sharon Hicks,264,Brooke Harris,Cardiology,2024-07-15,Migraine,ECG and Angiogram,1915.62
-1828,1593,Tammy White,264,Brooke Harris,Orthopedics,2024-01-07,Heart Attack,Topical Cream,1048.34
-1829,2178,Jordan Moore,287,Sara Huynh,Dermatology,2024-11-09,Skin Rash,Inhalers,3169.26
-1830,2892,Jacqueline Campbell,233,Steven Hernandez,Endocrinology,2024-11-06,Diabetes,Casting,4215.03
-1831,2849,Carrie Wallace,271,Michael Trevino,Cardiology,2024-05-22,Heart Attack,Angioplasty,3173.65
-1832,1271,Timothy Glover,264,Brooke Harris,Pediatrics,2024-07-12,Chest Pain,Appendectomy,1163.87
-1833,1592,Scott Dalton,203,Christopher Grimes,Endocrinology,2024-05-17,Skin Rash,ECG and Angiogram,4500.61
-1834,2765,Jessica Simmons,264,Brooke Harris,Cardiology,2024-04-24,Heart Attack,Angioplasty,2969.33
-1835,2708,Barry Cruz,282,Gregg Warren,Orthopedics,2024-09-18,Seizures,Medication,3916.23
-1836,1390,Cynthia Smith,271,Michael Trevino,Endocrinology,2024-04-16,Appendicitis,Physical Therapy,1033.06
-1837,1748,Philip Farley,203,Christopher Grimes,Neurology,2024-10-30,Seizures,Inhalers,1024.61
-1838,2751,Angelica Duncan,223,Gloria Cooper,General Surgery,2024-08-16,Asthma,Angioplasty,2390.09
-1839,2346,Brian Bird,264,Brooke Harris,General Surgery,2024-02-23,Migraine,Casting,2909.92
-1840,2922,Christopher Cruz,282,Gregg Warren,Dermatology,2024-05-06,Chest Pain,Appendectomy,517.44
-1841,1113,Roy Sparks,223,Gloria Cooper,General Surgery,2024-08-11,Appendicitis,Medication,956.77
-1842,1836,Hunter Lee,264,Brooke Harris,Pediatrics,2024-06-16,Skin Rash,Insulin Therapy,4113.23
-1843,1071,Alison Bowman,210,Linda Friedman,Dermatology,2024-06-01,Seizures,Topical Cream,2426.16
-1844,1695,Misty White,281,Stephen Martin,Neurology,2024-03-04,Broken Leg,Physical Therapy,305.66
-1845,1188,Norma Miller,287,Sara Huynh,Neurology,2024-10-16,Chest Pain,Insulin Therapy,4991.96
-1846,2297,Stacey Schroeder,282,Gregg Warren,Cardiology,2024-10-26,Seizures,Topical Cream,4456.0
-1847,2150,Kevin Potter,233,Steven Hernandez,Pediatrics,2024-08-18,Asthma,Medication,163.31
-1848,1136,Nicholas Crawford,281,Stephen Martin,Orthopedics,2024-10-06,Broken Leg,Appendectomy,4265.92
-1849,2646,Amanda Robertson,203,Christopher Grimes,Pediatrics,2024-05-12,Knee Pain,Casting,3945.6
-1850,1880,Cassidy Nelson,233,Steven Hernandez,Pediatrics,2024-03-17,Seizures,Topical Cream,1868.72
-1851,1824,Hayden Cross,210,Linda Friedman,Orthopedics,2024-07-25,Asthma,Inhalers,3150.36
-1852,1583,Sean Pierce,271,Michael Trevino,Neurology,2024-07-30,Appendicitis,Physical Therapy,3158.27
-1853,2351,Kara Roberts,271,Michael Trevino,Cardiology,2024-08-13,Appendicitis,Insulin Therapy,4662.56
-1854,2480,Alex Morales,223,Gloria Cooper,Orthopedics,2024-04-09,Appendicitis,Appendectomy,4336.13
-1855,2170,Stacey Barnett,210,Linda Friedman,Neurology,2024-07-04,Knee Pain,Topical Cream,4549.22
-1856,2147,Megan Parrish,233,Steven Hernandez,Pediatrics,2024-03-11,Asthma,Physical Therapy,110.41
-1857,1728,Mary Edwards,285,James Harper,Orthopedics,2024-03-25,Heart Attack,Casting,1176.6
-1858,1342,Michael Haynes,210,Linda Friedman,Neurology,2024-05-31,Heart Attack,Inhalers,852.54
-1859,1011,Michael Mills,223,Gloria Cooper,Cardiology,2024-05-16,Skin Rash,ECG and Angiogram,3576.53
-1860,1346,Tina Hansen,210,Linda Friedman,Neurology,2024-11-01,Asthma,Inhalers,1593.26
-1861,1032,Kiara Lindsey,281,Stephen Martin,Cardiology,2024-01-09,Migraine,Topical Cream,4624.64
-1862,2279,Alexander Strickland,233,Steven Hernandez,General Surgery,2024-04-20,Diabetes,Casting,4589.58
-1863,2758,Kristina Williams,271,Michael Trevino,Orthopedics,2024-10-04,Skin Rash,Appendectomy,935.84
-1864,1404,Gregory Miller,271,Michael Trevino,Neurology,2024-01-29,Broken Leg,Topical Cream,4853.07
-1865,1042,Yvonne Schroeder,285,James Harper,Neurology,2024-03-28,Broken Leg,Appendectomy,3150.24
-1866,2538,Dawn Beard,223,Gloria Cooper,Dermatology,2024-01-08,Skin Rash,Inhalers,4685.37
-1867,1060,Gina Cross,285,James Harper,Neurology,2024-10-02,Heart Attack,ECG and Angiogram,3228.92
-1868,2738,Bridget Cooper,264,Brooke Harris,Endocrinology,2024-06-04,Asthma,Physical Therapy,2446.24
-1869,2056,Larry Watts,271,Michael Trevino,General Surgery,2024-02-28,Appendicitis,Medication,410.81
-1870,1426,Bryce Shaw,203,Christopher Grimes,Orthopedics,2024-06-07,Knee Pain,Physical Therapy,3534.13
-1871,1448,Laurie Williamson,223,Gloria Cooper,Pediatrics,2024-03-08,Knee Pain,Casting,2575.93
-1872,2602,Nathan Ingram,210,Linda Friedman,Pediatrics,2024-01-26,Chest Pain,Insulin Therapy,3485.66
-1873,1784,Ann Sherman,233,Steven Hernandez,Cardiology,2024-09-20,Skin Rash,Insulin Therapy,4661.29
-1874,2450,Barbara Flowers,282,Gregg Warren,General Surgery,2024-09-27,Heart Attack,Topical Cream,4446.19
-1875,1101,Marissa Brown,285,James Harper,Cardiology,2024-07-23,Broken Leg,Physical Therapy,704.0
-1876,1250,Robert Williams,203,Christopher Grimes,Endocrinology,2024-08-09,Heart Attack,Medication,4015.17
-1877,1842,Ebony Leonard,233,Steven Hernandez,General Surgery,2024-01-03,Skin Rash,Medication,2392.66
-1878,2076,Emily Baird,271,Michael Trevino,Pediatrics,2024-01-20,Knee Pain,Medication,2804.97
-1879,1553,Shelley Mitchell,287,Sara Huynh,General Surgery,2024-11-04,Diabetes,Casting,4985.16
-1880,2873,Katie Mullen,210,Linda Friedman,Endocrinology,2024-03-13,Asthma,Angioplasty,3114.0
-1881,1104,Cassandra Vega,282,Gregg Warren,Dermatology,2024-09-29,Asthma,ECG and Angiogram,3264.45
-1882,2888,Paul Little,210,Linda Friedman,Cardiology,2024-09-21,Skin Rash,Appendectomy,146.11
-1883,2225,Jennifer Suarez,282,Gregg Warren,Endocrinology,2024-10-03,Knee Pain,ECG and Angiogram,4731.99
-1884,2882,Bradley Michael,210,Linda Friedman,Orthopedics,2024-03-31,Seizures,Casting,4301.69
-1885,2054,Kristy Arellano,223,Gloria Cooper,General Surgery,2024-08-30,Diabetes,Medication,2825.12
-1886,1043,Jennifer Carlson,271,Michael Trevino,Dermatology,2024-07-09,Chest Pain,Insulin Therapy,2027.55
-1887,2154,Kathleen Fisher,287,Sara Huynh,Endocrinology,2024-07-01,Chest Pain,Appendectomy,2921.61
-1888,2630,Patrick Noble,203,Christopher Grimes,Cardiology,2024-05-29,Diabetes,Inhalers,3839.25
-1889,1621,Tiffany Rodriguez,233,Steven Hernandez,Orthopedics,2024-02-09,Broken Leg,Insulin Therapy,2814.92
-1890,2474,Dorothy Johnson DVM,282,Gregg Warren,Orthopedics,2024-04-02,Chest Pain,Insulin Therapy,4082.02
-1891,2685,Michele Wilson,233,Steven Hernandez,Neurology,2024-09-03,Diabetes,Physical Therapy,4755.01
-1892,2807,Teresa Berry,233,Steven Hernandez,Endocrinology,2024-07-01,Migraine,Angioplasty,1305.61
-1893,2524,Kaitlyn Allen,271,Michael Trevino,Neurology,2024-07-08,Asthma,Inhalers,249.53
-1894,1669,Michael Bender,281,Stephen Martin,Pediatrics,2024-09-17,Knee Pain,Inhalers,250.49
-1895,1939,George Smith,223,Gloria Cooper,General Surgery,2024-08-07,Seizures,Topical Cream,1434.01
-1896,2031,Corey Pineda,271,Michael Trevino,Orthopedics,2024-02-06,Knee Pain,Appendectomy,2922.39
-1897,2752,Mark Johnson,210,Linda Friedman,Endocrinology,2024-03-26,Asthma,Inhalers,2213.83
-1898,2336,Jared Bryan,271,Michael Trevino,Neurology,2024-05-11,Heart Attack,Physical Therapy,110.4
-1899,2920,John Young,271,Michael Trevino,Dermatology,2024-10-18,Knee Pain,Physical Therapy,4171.01
-1900,2317,Paul Gomez,233,Steven Hernandez,Dermatology,2024-10-28,Diabetes,Appendectomy,4058.25
-1901,1232,Kelly Phillips,223,Gloria Cooper,Endocrinology,2024-01-20,Appendicitis,Medication,1916.05
-1902,2535,Kathy Diaz,281,Stephen Martin,Dermatology,2024-03-13,Knee Pain,Insulin Therapy,1747.67
-1903,1675,Johnathan Carter,281,Stephen Martin,Pediatrics,2024-01-03,Knee Pain,Insulin Therapy,1905.46
-1904,2597,James Flores,210,Linda Friedman,Neurology,2024-05-24,Seizures,Insulin Therapy,513.45
-1905,1638,Tyler Morgan,281,Stephen Martin,Pediatrics,2024-02-23,Appendicitis,Appendectomy,3583.83
-1906,1155,James Newton,233,Steven Hernandez,Pediatrics,2024-08-23,Appendicitis,Topical Cream,600.83
-1907,1528,Steven Duke,264,Brooke Harris,Neurology,2024-01-12,Heart Attack,Medication,4899.01
-1908,2927,Mark Page,264,Brooke Harris,Endocrinology,2024-05-19,Heart Attack,Medication,3419.18
-1909,2254,Bryan Hayes,223,Gloria Cooper,Neurology,2024-08-02,Broken Leg,Physical Therapy,1831.46
-1910,1948,Logan Williams,210,Linda Friedman,Dermatology,2024-01-26,Knee Pain,Topical Cream,835.41
-1911,1430,Ashley Mendoza,223,Gloria Cooper,Dermatology,2024-05-20,Knee Pain,Medication,1075.14
-1912,2277,Julie Graves,264,Brooke Harris,General Surgery,2024-05-26,Heart Attack,Topical Cream,4142.79
-1913,1637,Christopher Hale,210,Linda Friedman,Pediatrics,2024-09-13,Skin Rash,Medication,4824.32
-1914,2591,Patrick Williams,281,Stephen Martin,Endocrinology,2024-09-19,Diabetes,Medication,914.87
-1915,1331,Nicole Powers,287,Sara Huynh,General Surgery,2024-11-02,Appendicitis,Topical Cream,3218.78
-1916,2099,Brian Fletcher,203,Christopher Grimes,Orthopedics,2024-11-09,Diabetes,Appendectomy,1075.94
-1917,1920,Thomas Alexander,271,Michael Trevino,Dermatology,2024-11-09,Diabetes,Medication,3041.0
-1918,2745,Gary Phillips,281,Stephen Martin,Endocrinology,2024-02-14,Skin Rash,Inhalers,4527.64
-1919,2126,Sheri Cortez,281,Stephen Martin,Endocrinology,2024-01-05,Chest Pain,Appendectomy,646.28
-1920,1255,Justin Martinez,264,Brooke Harris,Cardiology,2024-08-31,Diabetes,Casting,2400.73
-1921,1518,Andrew Russell,287,Sara Huynh,Dermatology,2024-08-25,Appendicitis,Casting,587.83
-1922,1562,Sierra Hernandez,223,Gloria Cooper,Cardiology,2024-10-09,Heart Attack,Inhalers,2462.64
-1923,2573,Tony Jackson,210,Linda Friedman,Pediatrics,2024-08-07,Diabetes,ECG and Angiogram,765.16
-1924,2792,Natalie Reed,264,Brooke Harris,Cardiology,2024-05-07,Appendicitis,Appendectomy,1155.83
-1925,2593,Lisa Jennings,281,Stephen Martin,General Surgery,2024-08-20,Broken Leg,Inhalers,2310.12
-1926,1758,Andrew Reynolds,264,Brooke Harris,General Surgery,2024-03-27,Appendicitis,Appendectomy,1218.76
-1927,2877,Melanie George,281,Stephen Martin,Orthopedics,2024-08-26,Chest Pain,Inhalers,2107.24
-1928,1645,Dr. Philip Cooper,281,Stephen Martin,General Surgery,2024-09-22,Appendicitis,Angioplasty,921.11
-1929,1204,Phyllis Romero,223,Gloria Cooper,Endocrinology,2024-10-06,Diabetes,Appendectomy,2719.77
-1930,1559,Jill Holmes,264,Brooke Harris,General Surgery,2024-05-10,Seizures,ECG and Angiogram,4426.61
-1931,1423,Traci Torres,264,Brooke Harris,Neurology,2024-08-04,Knee Pain,ECG and Angiogram,1808.33
-1932,2991,Joel Harris,210,Linda Friedman,Cardiology,2024-01-21,Heart Attack,Casting,911.49
-1933,2167,Karen Young,282,Gregg Warren,Cardiology,2024-01-06,Heart Attack,Inhalers,1427.53
-1934,2592,Angela Herrera,287,Sara Huynh,Neurology,2024-04-25,Chest Pain,Physical Therapy,2338.85
-1935,1248,Samantha Mitchell,203,Christopher Grimes,Neurology,2024-09-18,Asthma,Inhalers,1696.92
-1936,1576,Derek Dennis,271,Michael Trevino,Endocrinology,2024-08-31,Heart Attack,ECG and Angiogram,2078.33
-1937,2541,Megan Ramos,282,Gregg Warren,Orthopedics,2024-10-23,Asthma,Angioplasty,4480.05
-1938,2826,Michael Lee,271,Michael Trevino,General Surgery,2024-06-10,Asthma,Casting,1780.18
-1939,2517,Elizabeth Harris,203,Christopher Grimes,General Surgery,2024-05-02,Broken Leg,Angioplasty,4638.85
-1940,2994,Eric Moreno,233,Steven Hernandez,Dermatology,2024-09-16,Knee Pain,Medication,585.31
-1941,1682,David Rodriguez,281,Stephen Martin,Dermatology,2024-07-04,Skin Rash,Casting,1205.79
-1942,2153,Richard Tucker,271,Michael Trevino,Pediatrics,2024-07-17,Skin Rash,Topical Cream,1242.43
-1943,1711,Robert Ray,282,Gregg Warren,Orthopedics,2024-04-08,Chest Pain,Medication,3849.89
-1944,2468,James Ortega,210,Linda Friedman,General Surgery,2024-06-21,Appendicitis,Casting,438.61
-1945,2554,Julie Shaw,264,Brooke Harris,Pediatrics,2024-01-16,Skin Rash,ECG and Angiogram,994.81
-1946,1221,Ms. Melissa Reed,281,Stephen Martin,Neurology,2024-06-04,Knee Pain,ECG and Angiogram,2494.02
-1947,2228,Seth Henry,285,James Harper,Neurology,2024-11-08,Broken Leg,Angioplasty,4328.4
-1948,2830,Brett Rodriguez,203,Christopher Grimes,Pediatrics,2024-03-09,Chest Pain,Medication,2720.01
-1949,1584,Thomas Arnold,223,Gloria Cooper,Pediatrics,2024-08-07,Heart Attack,Angioplasty,695.28
-1950,1185,Lindsay Anderson,264,Brooke Harris,Neurology,2024-08-09,Asthma,Inhalers,1936.95
-1951,2298,Justin Singh,281,Stephen Martin,General Surgery,2024-06-08,Appendicitis,Angioplasty,2359.03
-1952,1363,Martha Alexander,203,Christopher Grimes,Orthopedics,2024-07-06,Asthma,Insulin Therapy,2437.42
-1953,1141,Justin Williams,287,Sara Huynh,Pediatrics,2024-04-02,Broken Leg,Insulin Therapy,659.21
-1954,2616,Kelly Richardson,264,Brooke Harris,Orthopedics,2024-04-25,Appendicitis,Topical Cream,306.53
-1955,2323,Nicole Russell,287,Sara Huynh,Neurology,2024-10-25,Skin Rash,ECG and Angiogram,1898.25
-1956,2338,Margaret Cain,233,Steven Hernandez,Dermatology,2024-05-27,Appendicitis,Angioplasty,2734.65
-1957,1260,Leah Mcmillan,271,Michael Trevino,General Surgery,2024-07-14,Appendicitis,Insulin Therapy,4641.69
-1958,1661,Justin Simpson,233,Steven Hernandez,Endocrinology,2024-01-18,Broken Leg,Medication,1096.37
-1959,1925,Allison Baird,223,Gloria Cooper,Orthopedics,2024-05-21,Broken Leg,Medication,3313.0
-1960,1191,William Mitchell,203,Christopher Grimes,Neurology,2024-02-15,Appendicitis,ECG and Angiogram,244.51
-1961,1960,Jack Mccarthy,223,Gloria Cooper,Pediatrics,2024-10-22,Migraine,Inhalers,4245.29
-1962,1588,Justin Anderson,264,Brooke Harris,Orthopedics,2024-06-30,Diabetes,Casting,670.18
-1963,2212,Margaret Webb,287,Sara Huynh,Orthopedics,2024-06-18,Appendicitis,Insulin Therapy,1732.7
-1964,2697,Derrick Allen,285,James Harper,Pediatrics,2024-07-11,Chest Pain,Appendectomy,4849.67
-1965,1286,Bruce Smith,203,Christopher Grimes,Cardiology,2024-05-18,Broken Leg,Topical Cream,2325.89
-1966,1712,Patrick Johnson,233,Steven Hernandez,Neurology,2024-08-03,Asthma,Casting,3423.05
-1967,1871,Jesse George Jr.,264,Brooke Harris,General Surgery,2024-06-30,Heart Attack,Insulin Therapy,2472.22
-1968,1541,Geoffrey Taylor,233,Steven Hernandez,Endocrinology,2024-11-09,Migraine,Medication,1660.48
-1969,1072,Caroline Johnson,282,Gregg Warren,Dermatology,2024-07-19,Appendicitis,Insulin Therapy,2195.69
-1970,1205,Christie Woodward,264,Brooke Harris,Orthopedics,2024-03-14,Broken Leg,Topical Cream,4534.29
-1971,1986,Eddie Davies,282,Gregg Warren,Endocrinology,2024-10-17,Broken Leg,ECG and Angiogram,4988.47
-1972,1679,Tonya Taylor,281,Stephen Martin,General Surgery,2024-08-08,Migraine,Angioplasty,4146.22
-1973,1680,Ms. Sandra Bennett,271,Michael Trevino,Pediatrics,2024-05-14,Appendicitis,Topical Cream,512.55
-1974,2208,James Mitchell,282,Gregg Warren,Orthopedics,2024-01-05,Diabetes,ECG and Angiogram,1881.9
-1975,1718,Shelly Joseph,282,Gregg Warren,Orthopedics,2024-08-14,Knee Pain,Angioplasty,1932.22
-1976,2865,Megan White,287,Sara Huynh,Orthopedics,2024-08-17,Broken Leg,Physical Therapy,1051.28
-1977,1831,Tonya Mueller,287,Sara Huynh,Endocrinology,2024-09-24,Chest Pain,ECG and Angiogram,2878.97
-1978,2143,Eric Brown,264,Brooke Harris,Pediatrics,2024-01-07,Diabetes,Angioplasty,4609.04
-1979,1033,Kristi Orr,281,Stephen Martin,Neurology,2024-04-14,Broken Leg,Appendectomy,2100.04
-1980,2819,Jo White,223,Gloria Cooper,Cardiology,2024-01-30,Migraine,Casting,236.31
-1981,2087,Kristine Watts,210,Linda Friedman,Pediatrics,2024-02-26,Broken Leg,Appendectomy,3487.47
-1982,2183,Jake Cox,282,Gregg Warren,Endocrinology,2024-04-14,Migraine,Casting,1954.64
-1983,2981,Jeffrey Mckenzie,210,Linda Friedman,Pediatrics,2024-07-26,Skin Rash,Medication,4529.31
-1984,1088,Raven Mccall,223,Gloria Cooper,Orthopedics,2024-11-07,Diabetes,ECG and Angiogram,1587.43
-1985,1323,Michaela Chang,264,Brooke Harris,Neurology,2024-04-22,Migraine,Inhalers,4931.59
-1986,1161,Beverly Gill,203,Christopher Grimes,Neurology,2024-04-12,Asthma,Insulin Therapy,1430.57
-1987,2976,Robert Dominguez,287,Sara Huynh,General Surgery,2024-07-25,Appendicitis,Physical Therapy,403.62
-1988,1431,Matthew Rodriguez,233,Steven Hernandez,Endocrinology,2024-02-21,Diabetes,Medication,1269.81
-1989,2529,Peter Smith,203,Christopher Grimes,Orthopedics,2024-08-18,Appendicitis,Angioplasty,1543.56
-1990,2764,Pamela Webb,282,Gregg Warren,Cardiology,2024-05-08,Heart Attack,Insulin Therapy,1836.3
-1991,1812,Amanda Ortiz,282,Gregg Warren,Cardiology,2024-10-12,Heart Attack,Topical Cream,772.46
-1992,2158,Anna Lopez,233,Steven Hernandez,Orthopedics,2024-08-28,Appendicitis,Angioplasty,1888.17
-1993,2883,Martin Walker,282,Gregg Warren,General Surgery,2024-01-02,Chest Pain,Physical Therapy,4359.75
-1994,1465,Nicole Thompson,282,Gregg Warren,General Surgery,2024-10-13,Skin Rash,Angioplasty,635.8
-1995,1705,Barbara Nelson,223,Gloria Cooper,Pediatrics,2024-10-18,Broken Leg,Angioplasty,369.77
-1996,1316,Jamie Hartman,223,Gloria Cooper,Endocrinology,2024-05-21,Broken Leg,Medication,1997.41
-1997,2490,Christopher Welch,203,Christopher Grimes,Cardiology,2024-01-21,Asthma,Inhalers,4060.31
-1998,1076,Dr. James Johnson,285,James Harper,Pediatrics,2024-01-15,Chest Pain,Casting,364.65
-1999,1247,Corey Miller,233,Steven Hernandez,Orthopedics,2024-03-07,Heart Attack,ECG and Angiogram,1336.52
+1000,1184,Greg Barton,218,Kristen Reilly,Pediatrics,2024-01-24,Knee Pain,Physical Therapy,4145.97
+1001,1784,Marcus Smith,221,Allen Weaver,Neurology,2024-11-10,Chest Pain,Casting,1264.34
+1002,1785,Laura Stewart,230,Jessica Hayes,General Surgery,2024-05-16,Skin Rash,Inhalers,2417.68
+1003,1263,Valerie Wells,259,Diana Lee,Endocrinology,2024-10-23,Heart Attack,Medication,3368.12
+1004,1336,Cody Pugh,263,Timothy King,Orthopedics,2024-04-19,Diabetes,Angioplasty,1179.29
+1005,1512,John Tucker,233,Caroline Moon,Orthopedics,2024-10-21,Seizures,Insulin Therapy,2568.71
+1006,1480,Samantha Beard,231,Maria Henry,Dermatology,2024-01-20,Seizures,Appendectomy,2931.05
+1007,1135,Rebecca Diaz,235,David Lewis,Cardiology,2024-06-20,Knee Pain,Physical Therapy,4875.84
+1008,1676,Kirsten Mann,200,Jason Brewer DVM,Orthopedics,2024-05-15,Seizures,Inhalers,4133.18
+1009,1595,Eric Sanchez,297,Paul Parker,Neurology,2024-08-12,Appendicitis,Appendectomy,4824.15
+1010,1343,Brian Harris,256,Kimberly Mendez,Orthopedics,2024-10-02,Migraine,Insulin Therapy,4941.68
+1011,1660,Samuel Hawkins,210,Jamie Johnson,Cardiology,2024-04-20,Asthma,Appendectomy,3716.5
+1012,1639,Natasha Robinson,213,Casey Thompson MD,General Surgery,2024-05-25,Broken Leg,Casting,1826.07
+1013,1259,Monica Preston,253,Christina Roth,Pediatrics,2024-10-18,Chest Pain,Medication,243.26
+1014,1770,Andrew Fowler,240,Susan Erickson,Neurology,2024-09-30,Seizures,Inhalers,2484.39
+1015,1180,Philip Santiago,260,Adam Rogers,Endocrinology,2024-04-01,Seizures,Inhalers,1171.87
+1016,1592,James Hicks,254,Lisa Holder,Neurology,2024-06-04,Seizures,Medication,2085.2
+1017,1087,Dawn Taylor,278,Rachel Bryant,Neurology,2024-08-05,Skin Rash,Angioplasty,2979.93
+1018,1837,Scott Wilkerson,269,Mary Mills,Endocrinology,2024-05-02,Knee Pain,Inhalers,981.15
+1019,1161,Christina Thompson,241,Christina Berg,Neurology,2024-10-09,Chest Pain,Topical Cream,1303.69
+1020,1615,Nathaniel Lambert,256,Kimberly Mendez,Dermatology,2024-01-14,Migraine,ECG and Angiogram,361.15
+1021,1383,Dr. Amy Weiss,252,Tamara Kim,Dermatology,2024-01-20,Broken Leg,Insulin Therapy,3776.86
+1022,1752,Arthur Cooke,287,Mary Grant,Dermatology,2024-08-12,Seizures,Medication,4604.64
+1023,1761,Brianna Martinez,214,David Reynolds,Dermatology,2024-03-25,Chest Pain,Inhalers,4538.9
+1024,1287,Patricia Shaw,244,Anthony Cook,Cardiology,2024-06-22,Skin Rash,ECG and Angiogram,1856.92
+1025,1039,William Williams,228,Sharon Lopez,Cardiology,2024-02-04,Chest Pain,Appendectomy,1995.18
+1026,1414,Donna Smith,270,Haley Francis,Orthopedics,2024-10-09,Broken Leg,ECG and Angiogram,2800.11
+1027,1904,Mr. Edward Juarez,247,James Sullivan,Endocrinology,2024-08-24,Appendicitis,Angioplasty,2776.26
+1028,1511,Diana Jefferson,250,Lindsey Jackson,General Surgery,2024-08-29,Diabetes,ECG and Angiogram,4649.74
+1029,1914,Pamela Gross,294,Hunter Johnson,General Surgery,2024-01-21,Knee Pain,Inhalers,1653.75
+1030,1458,Jay Evans,279,Shelley Cook,General Surgery,2024-05-12,Heart Attack,Inhalers,447.51
+1031,1682,Lorraine Nelson,220,Andrea Ruiz,Orthopedics,2024-11-03,Seizures,Topical Cream,659.61
+1032,1117,Brian Small,229,Mark Nguyen,Cardiology,2024-05-20,Appendicitis,Insulin Therapy,2693.65
+1033,1952,Angela Mills,283,Michael Miller,Neurology,2024-08-19,Migraine,Inhalers,4542.24
+1034,1704,Donna Villarreal,244,Anthony Cook,Dermatology,2024-06-17,Skin Rash,Appendectomy,1147.57
+1035,1513,Gary Pham,231,Maria Henry,Dermatology,2024-09-07,Appendicitis,Angioplasty,3937.44
+1036,1416,Valerie Harris,202,Gary Berry,Pediatrics,2024-03-07,Diabetes,Appendectomy,2832.99
+1037,1746,Bradley Smith,212,Lisa Jennings,Dermatology,2024-05-17,Heart Attack,Insulin Therapy,2964.02
+1038,1065,Kirk Palmer,254,Lisa Holder,General Surgery,2024-02-27,Skin Rash,Physical Therapy,2746.08
+1039,1771,James Moore,246,Mary Garcia,Endocrinology,2024-05-16,Seizures,Physical Therapy,3667.03
+1040,1675,Alicia Jenkins,225,April Li,Orthopedics,2024-08-26,Skin Rash,Physical Therapy,3405.61
+1041,1894,Joseph Dean II,251,Katherine King,Dermatology,2024-02-11,Skin Rash,Casting,3511.02
+1042,1392,Samantha Baker,267,Cathy May,Neurology,2024-01-07,Appendicitis,Medication,599.51
+1043,1569,Ronald Young,258,Jared Rodriguez,Neurology,2024-06-12,Asthma,Appendectomy,201.14
+1044,1690,Stacey Harris,237,Sheena Heath,Endocrinology,2024-08-08,Skin Rash,Physical Therapy,225.55
+1045,1966,Laurie Hayes,299,Judy Turner,Pediatrics,2024-02-11,Skin Rash,Casting,4941.74
+1046,1597,Joseph Bowman,296,Lindsey Gilmore,Cardiology,2024-06-13,Chest Pain,Insulin Therapy,1594.5
+1047,1671,Lisa Gordon,210,Jamie Johnson,Dermatology,2024-11-06,Diabetes,ECG and Angiogram,1742.36
+1048,1852,Amber Todd,270,Haley Francis,General Surgery,2024-09-09,Appendicitis,Appendectomy,729.62
+1049,1781,Anthony Frank,247,James Sullivan,Pediatrics,2024-01-02,Appendicitis,ECG and Angiogram,3531.9
+1050,1971,Lance Parker,296,Lindsey Gilmore,Endocrinology,2024-05-08,Broken Leg,Medication,810.3
+1051,1648,Joseph Meyers,207,Jerome Thompson,Pediatrics,2024-04-03,Diabetes,Casting,2608.51
+1052,1863,Hannah Floyd,279,Shelley Cook,Neurology,2024-08-31,Diabetes,ECG and Angiogram,1514.01
+1053,1464,Shawn Moran,223,Fred Jenkins,Neurology,2024-02-26,Broken Leg,Insulin Therapy,3544.89
+1054,1598,Richard Carter,210,Jamie Johnson,Cardiology,2024-08-24,Chest Pain,Physical Therapy,3572.98
+1055,1801,Beth Moore,239,Mark Jackson,General Surgery,2024-02-22,Appendicitis,Angioplasty,1529.73
+1056,1722,Reginald Garcia,260,Adam Rogers,Endocrinology,2024-08-12,Knee Pain,Topical Cream,2576.74
+1057,1574,Lisa Noble,211,Ms. Ashley Brown,Neurology,2024-10-19,Appendicitis,Inhalers,2754.83
+1058,1445,Victoria Evans,235,David Lewis,Orthopedics,2024-01-08,Heart Attack,Medication,628.46
+1059,1999,Brian Roberts,297,Paul Parker,Orthopedics,2024-01-09,Appendicitis,Topical Cream,1060.84
+1060,1689,Julia Deleon,298,Scott Hernandez,Endocrinology,2024-08-22,Diabetes,Angioplasty,3811.5
+1061,1050,Gregory Kaiser,239,Mark Jackson,General Surgery,2024-11-04,Heart Attack,Insulin Therapy,316.37
+1062,1047,John Caldwell PhD,283,Michael Miller,Dermatology,2024-04-19,Seizures,Physical Therapy,4170.88
+1063,1179,Maria Hess,251,Katherine King,Dermatology,2024-06-23,Appendicitis,Inhalers,4879.0
+1064,1114,Stephanie Thompson,274,Mark Henderson,Neurology,2024-09-18,Asthma,Topical Cream,587.61
+1065,1294,Christopher Walker,286,Chelsey Thomas,Cardiology,2024-10-28,Broken Leg,Casting,1416.05
+1066,1173,Briana Barber,214,David Reynolds,Neurology,2024-10-23,Migraine,Casting,1972.18
+1067,1016,Cassandra Rodgers,286,Chelsey Thomas,Pediatrics,2024-10-18,Appendicitis,Insulin Therapy,4845.45
+1068,1750,Deborah Lloyd,281,Jessica Simpson,Endocrinology,2024-02-03,Seizures,Topical Cream,564.14
+1069,1138,David Murray,284,Tommy Hernandez,Orthopedics,2024-10-03,Skin Rash,Angioplasty,1134.52
+1070,1789,Shannon Tyler,202,Gary Berry,Endocrinology,2024-01-11,Asthma,Inhalers,2698.27
+1071,1637,Reginald Cooper,249,Eric Butler,Orthopedics,2024-10-26,Heart Attack,Angioplasty,1426.78
+1072,1378,Anna Davis,261,Whitney Myers,General Surgery,2024-10-06,Chest Pain,Physical Therapy,1480.96
+1073,1410,Elizabeth Collins,289,William Cooper,Cardiology,2024-09-28,Appendicitis,Topical Cream,2887.18
+1074,1948,Donna Johnson,263,Timothy King,Cardiology,2024-02-08,Diabetes,ECG and Angiogram,3449.73
+1075,1582,Kevin Alvarez,270,Haley Francis,Cardiology,2024-05-03,Asthma,Angioplasty,1693.57
+1076,1778,Mrs. Kaitlin Williamson,224,Michael Young,General Surgery,2024-10-20,Broken Leg,ECG and Angiogram,3395.84
+1077,1763,Joshua Jones,254,Lisa Holder,Endocrinology,2024-08-04,Asthma,Medication,3797.45
+1078,1313,Alexander Rodriguez,255,Elijah Estes,Pediatrics,2024-08-16,Asthma,ECG and Angiogram,1563.84
+1079,1705,Lucas Oliver,250,Lindsey Jackson,Endocrinology,2024-06-08,Appendicitis,Medication,3174.08
+1080,1496,Brenda Carey,206,Timothy Peterson,Orthopedics,2024-10-14,Diabetes,Topical Cream,3349.06
+1081,1273,Christy Garcia,295,Karen Jones,Neurology,2024-07-07,Broken Leg,Angioplasty,2589.16
+1082,1450,Mason Liu,295,Karen Jones,General Surgery,2024-07-26,Seizures,Insulin Therapy,4613.7
+1083,1777,Janet Bruce,220,Andrea Ruiz,Neurology,2024-10-07,Knee Pain,Angioplasty,1137.89
+1084,1983,Mark Steele,208,Laura Austin,Pediatrics,2024-07-25,Appendicitis,Medication,2617.37
+1085,1686,Katie Harris,243,Rebecca Lester,Neurology,2024-03-03,Broken Leg,Appendectomy,4894.13
+1086,1076,Christina Moore,257,April Johnson,Pediatrics,2024-02-25,Knee Pain,Angioplasty,1036.8
+1087,1799,Michelle Liu,248,Andrew Adams,Pediatrics,2024-02-11,Migraine,Angioplasty,676.83
+1088,1288,Bobby Cooper,224,Michael Young,Pediatrics,2024-03-04,Migraine,Medication,1828.87
+1089,1169,Tammy Lane,200,Jason Brewer DVM,Neurology,2024-03-02,Migraine,Topical Cream,675.4
+1090,1368,William Rubio,236,John Miller,General Surgery,2024-07-13,Seizures,ECG and Angiogram,3303.53
+1091,1653,Elizabeth Savage,226,Miss Janice Romero,General Surgery,2024-05-01,Knee Pain,Medication,996.32
+1092,1486,John Beltran,286,Chelsey Thomas,Orthopedics,2024-01-29,Migraine,Medication,2050.8
+1093,1646,Brett Brown,229,Mark Nguyen,Neurology,2024-10-03,Seizures,Angioplasty,3804.68
+1094,1709,Daniel Aguilar,206,Timothy Peterson,Neurology,2024-03-28,Seizures,Casting,984.05
+1095,1408,Lydia Lester,201,Carl Ballard,Dermatology,2024-09-26,Seizures,Angioplasty,546.16
+1096,1326,Christopher Shepard,280,Karen Dyer,Endocrinology,2024-01-16,Chest Pain,Inhalers,4297.77
+1097,1035,William Martin,261,Whitney Myers,Neurology,2024-08-09,Migraine,Inhalers,3222.45
+1098,1499,Jane Hamilton,207,Jerome Thompson,Pediatrics,2024-08-27,Broken Leg,Topical Cream,4796.05
+1099,1849,Frank Bass,202,Gary Berry,Cardiology,2024-09-06,Asthma,Inhalers,4434.17
+1100,1327,Vanessa Garcia,214,David Reynolds,Endocrinology,2024-08-13,Knee Pain,Physical Therapy,1410.26
+1101,1441,Dr. Lisa Woods,277,Jennifer Snyder,Neurology,2024-07-29,Diabetes,Casting,1308.45
+1102,1713,Tara Williams,258,Jared Rodriguez,Orthopedics,2024-06-29,Appendicitis,Angioplasty,350.49
+1103,1124,Courtney Owens,260,Adam Rogers,Cardiology,2024-09-19,Chest Pain,ECG and Angiogram,3295.81
+1104,1277,Danny Weber,254,Lisa Holder,Cardiology,2024-07-27,Skin Rash,Insulin Therapy,417.78
+1105,1460,Jessica Wilson,270,Haley Francis,Endocrinology,2024-01-11,Diabetes,ECG and Angiogram,2587.84
+1106,1282,April Smith,284,Tommy Hernandez,Cardiology,2024-10-05,Asthma,Physical Therapy,3032.15
+1107,1066,Terry Williams,231,Maria Henry,General Surgery,2024-08-10,Seizures,ECG and Angiogram,4718.74
+1108,1149,Brenda Thompson,258,Jared Rodriguez,Cardiology,2024-06-29,Heart Attack,ECG and Angiogram,4699.38
+1109,1853,Corey Smith,284,Tommy Hernandez,Endocrinology,2024-10-08,Skin Rash,Physical Therapy,527.47
+1110,1320,Stephanie Frank,212,Lisa Jennings,Neurology,2024-03-29,Migraine,ECG and Angiogram,4138.58
+1111,1533,Vanessa Smith,209,Mathew Mayer,General Surgery,2024-08-28,Diabetes,Appendectomy,3512.89
+1112,1385,Russell Reynolds,271,Tammy Allen,Neurology,2024-11-11,Diabetes,Inhalers,3395.68
+1113,1497,Darrell Camacho,219,Barbara Richards,Cardiology,2024-03-10,Diabetes,Medication,4938.32
+1114,1506,Daniel Sanchez,256,Kimberly Mendez,General Surgery,2024-01-24,Knee Pain,Insulin Therapy,453.88
+1115,1474,Erin Pierce,274,Mark Henderson,Pediatrics,2024-07-16,Skin Rash,Angioplasty,4955.39
+1116,1396,Emily Blanchard,238,Samantha Jordan,Neurology,2024-05-26,Heart Attack,Inhalers,3946.45
+1117,1025,Jessica Morgan,236,John Miller,Pediatrics,2024-03-08,Knee Pain,Angioplasty,2432.64
+1118,1788,Stacey Jordan,290,James Erickson,Dermatology,2024-10-06,Appendicitis,Medication,3744.85
+1119,1265,Erica Arnold,215,James Martin,Orthopedics,2024-03-28,Migraine,Inhalers,2882.17
+1120,1405,Kelly Hopkins,285,David Powell,Endocrinology,2024-01-10,Heart Attack,Angioplasty,4292.92
+1121,1884,Matthew Cain,243,Rebecca Lester,Neurology,2024-06-02,Chest Pain,Casting,2603.65
+1122,1018,James Smith,231,Maria Henry,Endocrinology,2024-05-17,Diabetes,Insulin Therapy,475.11
+1123,1703,Shelby Castillo,262,Sandra Taylor,Endocrinology,2024-04-21,Knee Pain,Inhalers,2608.49
+1124,1565,Diane Cuevas,208,Laura Austin,Orthopedics,2024-07-21,Broken Leg,Topical Cream,822.6
+1125,1236,Evan Thompson,275,Adrian Wolf,Endocrinology,2024-04-25,Migraine,Angioplasty,4776.58
+1126,1289,Mark Hudson,260,Adam Rogers,Neurology,2024-04-01,Knee Pain,Appendectomy,4657.74
+1127,1883,Thomas Woods,283,Michael Miller,Endocrinology,2024-09-23,Diabetes,Appendectomy,2175.53
+1128,1443,James Green,226,Miss Janice Romero,Endocrinology,2024-10-17,Broken Leg,Appendectomy,3183.9
+1129,1773,Dennis Morgan,259,Diana Lee,Pediatrics,2024-08-28,Seizures,Appendectomy,2706.16
+1130,1870,Monica Sanchez,265,Jessica Odom,Endocrinology,2024-09-13,Skin Rash,Casting,4962.54
+1131,1291,William Hayes,229,Mark Nguyen,Neurology,2024-06-24,Broken Leg,ECG and Angiogram,1383.9
+1132,1246,Alec West,223,Fred Jenkins,Orthopedics,2024-03-01,Diabetes,Physical Therapy,3808.87
+1133,1150,Anna Frazier,292,Hector Thompson,Endocrinology,2024-10-08,Heart Attack,Casting,1973.07
+1134,1551,Pamela Williams,214,David Reynolds,General Surgery,2024-07-18,Appendicitis,ECG and Angiogram,1430.72
+1135,1359,Jennifer Ryan,223,Fred Jenkins,Neurology,2024-04-21,Broken Leg,ECG and Angiogram,2453.41
+1136,1620,Melissa Allen,251,Katherine King,Endocrinology,2024-09-23,Seizures,Insulin Therapy,4519.69
+1137,1651,Cynthia Richardson,209,Mathew Mayer,Pediatrics,2024-08-03,Migraine,Insulin Therapy,4187.03
+1138,1956,Molly Medina,293,Sarah Brown,Cardiology,2024-01-07,Knee Pain,Insulin Therapy,3983.15
+1139,1028,Christopher Hanson,284,Tommy Hernandez,Neurology,2024-08-20,Knee Pain,Inhalers,176.41
+1140,1696,Deborah Stanley,207,Jerome Thompson,General Surgery,2024-08-28,Seizures,Physical Therapy,2364.0
+1141,1298,Jason Miller,225,April Li,General Surgery,2024-07-15,Appendicitis,Topical Cream,1076.12
+1142,1970,Alyssa Burns,283,Michael Miller,Orthopedics,2024-04-12,Chest Pain,Angioplasty,1864.41
+1143,1795,Morgan Ellis,259,Diana Lee,Dermatology,2024-05-08,Seizures,Insulin Therapy,3821.97
+1144,1652,Matthew Taylor,201,Carl Ballard,Orthopedics,2024-09-15,Appendicitis,Appendectomy,4421.98
+1145,1749,Calvin Klein,264,Alison Jordan,Orthopedics,2024-10-06,Knee Pain,Insulin Therapy,2287.44
+1146,1372,Shelby Collins,266,Justin Greer,Endocrinology,2024-08-19,Asthma,Topical Cream,578.46
+1147,1783,Theresa Lynn,290,James Erickson,Cardiology,2024-05-06,Chest Pain,Casting,4221.76
+1148,1338,Katelyn Allen,286,Chelsey Thomas,Pediatrics,2024-04-17,Heart Attack,Appendectomy,588.32
+1149,1217,Valerie Dixon,284,Tommy Hernandez,Orthopedics,2024-09-24,Chest Pain,Insulin Therapy,2844.45
+1150,1134,Elizabeth Garrett,260,Adam Rogers,Neurology,2024-06-25,Knee Pain,Angioplasty,717.05
+1151,1606,Melanie Ponce,269,Mary Mills,Cardiology,2024-05-16,Chest Pain,Appendectomy,4017.97
+1152,1247,Kimberly Hernandez,224,Michael Young,Endocrinology,2024-06-12,Heart Attack,Insulin Therapy,2838.32
+1153,1717,Cynthia Murphy,290,James Erickson,Cardiology,2024-07-07,Broken Leg,Insulin Therapy,3370.99
+1154,1254,Adrian Gonzalez,202,Gary Berry,General Surgery,2024-01-20,Heart Attack,Topical Cream,259.17
+1155,1384,James Brown,292,Hector Thompson,Endocrinology,2024-04-10,Migraine,Physical Therapy,2783.97
+1156,1800,Allen Thompson,280,Karen Dyer,Pediatrics,2024-07-12,Broken Leg,Insulin Therapy,881.85
+1157,1350,Lindsay Christensen,289,William Cooper,Orthopedics,2024-10-05,Skin Rash,Physical Therapy,1811.48
+1158,1063,Samantha Richards,248,Andrew Adams,General Surgery,2024-04-26,Seizures,Insulin Therapy,1877.22
+1159,1587,Teresa Chen,275,Adrian Wolf,Neurology,2024-07-25,Knee Pain,Medication,2353.08
+1160,1230,Justin Harrison,235,David Lewis,Cardiology,2024-02-28,Knee Pain,Angioplasty,820.83
+1161,1873,Karen Robinson,237,Sheena Heath,Pediatrics,2024-08-02,Skin Rash,ECG and Angiogram,4737.9
+1162,1748,Sarah Thompson,216,Andrew Mendoza,Neurology,2024-02-19,Seizures,Insulin Therapy,1561.16
+1163,1424,Douglas May,239,Mark Jackson,Endocrinology,2024-02-13,Appendicitis,Appendectomy,4315.94
+1164,1972,Marissa Martinez,277,Jennifer Snyder,Orthopedics,2024-07-23,Seizures,Medication,1198.88
+1165,1440,Cheryl Patterson,243,Rebecca Lester,General Surgery,2024-09-11,Appendicitis,Inhalers,389.19
+1166,1829,Mr. Michael Mann Jr.,235,David Lewis,Dermatology,2024-09-12,Appendicitis,Topical Cream,3807.83
+1167,1871,David Arnold,221,Allen Weaver,Pediatrics,2024-07-24,Broken Leg,Medication,2335.13
+1168,1195,Charles Cook,238,Samantha Jordan,Pediatrics,2024-04-14,Skin Rash,Inhalers,3828.97
+1169,1181,Chad Frost,271,Tammy Allen,Dermatology,2024-03-31,Heart Attack,Inhalers,3968.13
+1170,1271,Robert Parker,297,Paul Parker,Endocrinology,2024-06-17,Appendicitis,Casting,2505.92
+1171,1953,Brandon Nelson,202,Gary Berry,General Surgery,2024-10-18,Diabetes,Casting,4185.37
+1172,1080,Jasmine Jordan,228,Sharon Lopez,Orthopedics,2024-11-08,Appendicitis,Insulin Therapy,4801.5
+1173,1266,Linda Parker,252,Tamara Kim,Orthopedics,2024-06-27,Heart Attack,Inhalers,2322.25
+1174,1975,Jeremy Green,211,Ms. Ashley Brown,Endocrinology,2024-08-22,Heart Attack,Topical Cream,4396.7
+1175,1602,Kristen Wright,262,Sandra Taylor,Pediatrics,2024-06-27,Diabetes,Inhalers,2016.16
+1176,1813,Christine Powers,262,Sandra Taylor,Cardiology,2024-10-19,Appendicitis,Casting,3767.24
+1177,1937,Lonnie Novak,212,Lisa Jennings,Cardiology,2024-03-11,Knee Pain,Topical Cream,740.46
+1178,1412,Jennifer Warren,266,Justin Greer,Neurology,2024-09-05,Asthma,Angioplasty,4644.41
+1179,1944,Gregory Lindsey,271,Tammy Allen,Neurology,2024-04-29,Broken Leg,Angioplasty,2747.19
+1180,1872,Diana Bean,227,Todd Kramer,Cardiology,2024-04-27,Seizures,Insulin Therapy,227.59
+1181,1685,Jorge Oconnor,237,Sheena Heath,General Surgery,2024-09-26,Skin Rash,Insulin Therapy,3519.75
+1182,1203,Justin Rivas,291,Justin Skinner,Neurology,2024-01-28,Knee Pain,Casting,1605.3
+1183,1900,Kimberly Jones,271,Tammy Allen,Neurology,2024-02-14,Skin Rash,Physical Therapy,2513.46
+1184,1934,Gary Herrera,293,Sarah Brown,Neurology,2024-04-15,Diabetes,Topical Cream,385.42
+1185,1632,Shari Carr,265,Jessica Odom,Pediatrics,2024-02-08,Asthma,Appendectomy,4606.38
+1186,1507,Jordan Johns,286,Chelsey Thomas,Orthopedics,2024-01-27,Broken Leg,Insulin Therapy,3627.38
+1187,1554,Nicole Perez,274,Mark Henderson,Orthopedics,2024-07-16,Skin Rash,Topical Cream,3634.28
+1188,1315,David Hayes,254,Lisa Holder,Cardiology,2024-05-10,Knee Pain,Medication,3773.04
+1189,1954,Karen Clark,204,Kimberly Moyer,Dermatology,2024-03-03,Chest Pain,Physical Therapy,230.68
+1190,1993,Aaron Jackson,213,Casey Thompson MD,Cardiology,2024-06-18,Knee Pain,Appendectomy,1333.24
+1191,1303,Cody Romero,258,Jared Rodriguez,Cardiology,2024-04-12,Knee Pain,Inhalers,1762.61
+1192,1929,Robert Padilla,231,Maria Henry,Dermatology,2024-06-01,Broken Leg,Casting,2985.08
+1193,1162,Nathan Hayes,207,Jerome Thompson,Pediatrics,2024-01-09,Heart Attack,Topical Cream,993.77
+1194,1393,Alexis Glover,284,Tommy Hernandez,Dermatology,2024-08-27,Knee Pain,Inhalers,2993.5
+1195,1395,Nathan Anderson,285,David Powell,Dermatology,2024-11-06,Asthma,Medication,3642.03
+1196,1093,Kevin Navarro,224,Michael Young,Cardiology,2024-04-25,Heart Attack,Inhalers,4468.77
+1197,1077,Courtney Arias,262,Sandra Taylor,Orthopedics,2024-08-25,Seizures,ECG and Angiogram,3805.64
+1198,1581,Shawn Obrien,240,Susan Erickson,General Surgery,2024-06-27,Migraine,Inhalers,4018.37
+1199,1814,Angela Sawyer,261,Whitney Myers,Neurology,2024-02-14,Broken Leg,Physical Therapy,4551.21
+1200,1917,Chris Ellis,296,Lindsey Gilmore,Dermatology,2024-03-04,Diabetes,Medication,565.22
+1201,1054,Amy Greer,222,Matthew Sparks,Orthopedics,2024-01-30,Broken Leg,Inhalers,4235.2
+1202,1085,Kimberly Torres,209,Mathew Mayer,Cardiology,2024-02-12,Appendicitis,Angioplasty,4924.45
+1203,1013,Dr. Taylor Burns,218,Kristen Reilly,Endocrinology,2024-08-24,Knee Pain,ECG and Angiogram,1695.09
+1204,1767,Charles White,247,James Sullivan,Pediatrics,2024-08-06,Heart Attack,ECG and Angiogram,4537.42
+1205,1519,Scott Jones,233,Caroline Moon,Neurology,2024-03-20,Appendicitis,Insulin Therapy,3586.94
+1206,1921,Craig Gates,261,Whitney Myers,General Surgery,2024-08-20,Appendicitis,Inhalers,1074.2
+1207,1356,Tracy Bennett,272,Bobby Hansen,Orthopedics,2024-06-24,Migraine,ECG and Angiogram,4000.46
+1208,1522,Tyler Martin,255,Elijah Estes,Cardiology,2024-04-02,Seizures,Appendectomy,3101.07
+1209,1600,Henry Blackburn,241,Christina Berg,General Surgery,2024-03-10,Broken Leg,Angioplasty,2916.44
+1210,1225,Michael Copeland,248,Andrew Adams,Orthopedics,2024-08-09,Chest Pain,Angioplasty,1313.81
+1211,1109,Rebecca Owens,290,James Erickson,Orthopedics,2024-02-03,Diabetes,Appendectomy,2580.76
+1212,1391,Carolyn Harrington,211,Ms. Ashley Brown,Neurology,2024-06-02,Skin Rash,ECG and Angiogram,4624.58
+1213,1278,Felicia Anderson,294,Hunter Johnson,Neurology,2024-06-09,Seizures,ECG and Angiogram,1643.76
+1214,1734,Janice Simpson,210,Jamie Johnson,Orthopedics,2024-03-24,Broken Leg,Angioplasty,1997.66
+1215,1224,Jeffrey Gates,225,April Li,General Surgery,2024-07-05,Broken Leg,ECG and Angiogram,2710.66
+1216,1931,Maria Webb,288,Aaron Cole,Dermatology,2024-08-16,Appendicitis,Medication,1959.05
+1217,1544,Philip Suarez,213,Casey Thompson MD,Endocrinology,2024-02-17,Appendicitis,Medication,1879.68
+1218,1390,Deanna Mcdonald,218,Kristen Reilly,Dermatology,2024-07-27,Migraine,Casting,3288.87
+1219,1765,Mr. William Shields,227,Todd Kramer,Cardiology,2024-08-11,Knee Pain,Casting,889.53
+1220,1211,Brian Ortiz,215,James Martin,Endocrinology,2024-01-01,Chest Pain,Insulin Therapy,4741.05
+1221,1064,Shawn Smith,225,April Li,Pediatrics,2024-10-15,Knee Pain,Insulin Therapy,2413.72
+1222,1357,Scott Newton,200,Jason Brewer DVM,Orthopedics,2024-08-28,Seizures,Physical Therapy,224.04
+1223,1502,Ian Ward,210,Jamie Johnson,Dermatology,2024-06-09,Asthma,Insulin Therapy,419.66
+1224,1940,Ronald Rojas,222,Matthew Sparks,Neurology,2024-05-11,Appendicitis,Angioplasty,1492.29
+1225,1855,Timothy Scott,266,Justin Greer,Pediatrics,2024-07-13,Asthma,Appendectomy,1584.53
+1226,1760,Timothy Walker,248,Andrew Adams,Neurology,2024-06-14,Knee Pain,Medication,1162.48
+1227,1890,Chad Beck,243,Rebecca Lester,Neurology,2024-06-22,Asthma,Physical Therapy,4277.0
+1228,1920,Jeffrey Wolfe,233,Caroline Moon,Neurology,2024-10-13,Diabetes,ECG and Angiogram,3135.42
+1229,1352,Maria Rose,244,Anthony Cook,Endocrinology,2024-06-03,Skin Rash,Casting,3319.72
+1230,1775,Leslie Thompson,207,Jerome Thompson,Neurology,2024-07-30,Knee Pain,Physical Therapy,871.58
+1231,1631,Matthew Norris,206,Timothy Peterson,Pediatrics,2024-04-18,Diabetes,ECG and Angiogram,1774.15
+1232,1731,Aimee Krueger,240,Susan Erickson,Neurology,2024-01-21,Broken Leg,Physical Therapy,2552.26
+1233,1253,Christine Francis,225,April Li,Dermatology,2024-10-22,Knee Pain,Topical Cream,2250.53
+1234,1081,Ricky Hill V,226,Miss Janice Romero,Cardiology,2024-06-16,Appendicitis,Angioplasty,937.35
+1235,1710,Thomas Torres,295,Karen Jones,Cardiology,2024-09-08,Asthma,Appendectomy,3550.46
+1236,1841,Thomas Dominguez,298,Scott Hernandez,Cardiology,2024-07-08,Knee Pain,Casting,1543.11
+1237,1694,Kiara Carr,203,Carrie Steele,Dermatology,2024-06-20,Skin Rash,Casting,193.92
+1238,1882,Scott Larson,200,Jason Brewer DVM,Neurology,2024-07-20,Broken Leg,Insulin Therapy,3002.5
+1239,1432,Kristine Schwartz,231,Maria Henry,Dermatology,2024-10-10,Seizures,Casting,615.84
+1240,1452,Angela Miller MD,278,Rachel Bryant,Pediatrics,2024-01-26,Seizures,Physical Therapy,2102.02
+1241,1504,Rachel Foster,290,James Erickson,Endocrinology,2024-09-01,Seizures,Appendectomy,3024.65
+1242,1635,Kristi Maynard,242,Sheryl Gibson,Endocrinology,2024-08-31,Skin Rash,Angioplasty,2708.23
+1243,1677,Raymond Stuart,217,Aaron Diaz,Orthopedics,2024-10-16,Knee Pain,Inhalers,2590.25
+1244,1444,Olivia Floyd,274,Mark Henderson,Cardiology,2024-06-05,Heart Attack,Appendectomy,3898.7
+1245,1146,Jessica Goodwin,242,Sheryl Gibson,General Surgery,2024-01-25,Knee Pain,Topical Cream,1952.88
+1246,1097,Laura Cline,231,Maria Henry,Orthopedics,2024-04-15,Migraine,Insulin Therapy,1843.78
+1247,1977,Amy Lambert,275,Adrian Wolf,Pediatrics,2024-03-30,Broken Leg,Angioplasty,1524.46
+1248,1924,Sandra Anderson,261,Whitney Myers,Orthopedics,2024-10-08,Seizures,Appendectomy,3233.41
+1249,1833,Lucas Scott,283,Michael Miller,Neurology,2024-08-25,Skin Rash,ECG and Angiogram,3379.91
+1250,1272,Jeff Lopez,243,Rebecca Lester,Pediatrics,2024-05-08,Seizures,Angioplasty,3598.19
+1251,1791,Brittney Schaefer,286,Chelsey Thomas,Endocrinology,2024-08-01,Knee Pain,Inhalers,266.02
+1252,1641,Bradley Gonzalez,208,Laura Austin,General Surgery,2024-02-06,Migraine,Medication,2926.06
+1253,1626,James Brown,241,Christina Berg,Neurology,2024-10-21,Heart Attack,ECG and Angiogram,4912.06
+1254,1662,Ian Randolph,214,David Reynolds,Pediatrics,2024-06-28,Broken Leg,ECG and Angiogram,1704.52
+1255,1737,Christopher Rocha,259,Diana Lee,Dermatology,2024-06-24,Broken Leg,Inhalers,1601.12
+1256,1042,Emily Johnson,202,Gary Berry,Dermatology,2024-11-01,Broken Leg,ECG and Angiogram,4386.57
+1257,1467,Ronald Bryant,298,Scott Hernandez,Endocrinology,2024-08-11,Migraine,Appendectomy,762.91
+1258,1555,Jeremy Brooks,280,Karen Dyer,Endocrinology,2024-08-21,Diabetes,Casting,1278.33
+1259,1049,Christina Padilla,260,Adam Rogers,Neurology,2024-07-13,Knee Pain,Casting,358.18
+1260,1503,Jonathan Hall,200,Jason Brewer DVM,Neurology,2024-08-13,Heart Attack,Physical Therapy,3040.96
+1261,1824,Robert Henderson,209,Mathew Mayer,Pediatrics,2024-09-22,Seizures,Inhalers,421.34
+1262,1559,Sherry Barker,275,Adrian Wolf,Orthopedics,2024-01-01,Skin Rash,ECG and Angiogram,4623.79
+1263,1353,Sharon Bauer,261,Whitney Myers,Pediatrics,2024-10-12,Heart Attack,Casting,3665.62
+1264,1307,Frank Sanders III,211,Ms. Ashley Brown,Pediatrics,2024-04-14,Broken Leg,Physical Therapy,2837.23
+1265,1009,Kathy Harrison,282,Sandra Farrell,Cardiology,2024-04-21,Migraine,Medication,1336.85
+1266,1198,Mary Parsons,200,Jason Brewer DVM,Cardiology,2024-07-28,Knee Pain,ECG and Angiogram,2199.97
+1267,1493,Ryan Brown,262,Sandra Taylor,Cardiology,2024-09-19,Chest Pain,Medication,3132.64
+1268,1567,James Mendez,227,Todd Kramer,Orthopedics,2024-07-03,Chest Pain,Inhalers,327.56
+1269,1103,John Graham,247,James Sullivan,Cardiology,2024-07-07,Broken Leg,ECG and Angiogram,626.76
+1270,1090,Michael Jones,293,Sarah Brown,Cardiology,2024-05-03,Diabetes,Physical Therapy,2981.08
+1271,1825,Michael Willis,284,Tommy Hernandez,Neurology,2024-01-25,Chest Pain,Insulin Therapy,1228.66
+1272,1358,Ronnie Townsend,237,Sheena Heath,Dermatology,2024-08-24,Heart Attack,ECG and Angiogram,385.56
+1273,1241,Linda Vargas,259,Diana Lee,General Surgery,2024-01-25,Migraine,Medication,3004.65
+1274,1369,Gary Miller,238,Samantha Jordan,Orthopedics,2024-11-04,Heart Attack,Medication,3425.92
+1275,1644,Jessica Brown,211,Ms. Ashley Brown,Orthopedics,2024-07-05,Asthma,Angioplasty,727.17
+1276,1811,Mr. Charles Howard,268,Alexis Doyle,General Surgery,2024-10-21,Migraine,Appendectomy,2055.56
+1277,1212,Megan Kelley,236,John Miller,Neurology,2024-07-06,Skin Rash,Medication,3961.06
+1278,1197,Amy Hodge,262,Sandra Taylor,Dermatology,2024-03-15,Diabetes,Appendectomy,507.59
+1279,1754,Danielle Carter,273,Sheena Wolf,Cardiology,2024-08-07,Skin Rash,Casting,4131.72
+1280,1096,Frank King,280,Karen Dyer,Pediatrics,2024-10-02,Chest Pain,Appendectomy,2953.72
+1281,1974,Jerry Jackson,242,Sheryl Gibson,Endocrinology,2024-01-31,Diabetes,Appendectomy,4110.97
+1282,1448,Michelle Stein,240,Susan Erickson,Cardiology,2024-05-09,Skin Rash,ECG and Angiogram,2862.55
+1283,1831,Hunter Clark,227,Todd Kramer,Pediatrics,2024-03-21,Skin Rash,Inhalers,4153.56
+1284,1284,Lindsey Davis,299,Judy Turner,Pediatrics,2024-08-07,Knee Pain,Casting,4213.37
+1285,1856,Beverly Rodriguez,262,Sandra Taylor,Neurology,2024-08-15,Appendicitis,Appendectomy,1603.08
+1286,1045,Joseph Jordan,292,Hector Thompson,Endocrinology,2024-11-03,Heart Attack,Inhalers,2597.09
+1287,1906,Deborah Johnson,240,Susan Erickson,Cardiology,2024-08-18,Diabetes,Appendectomy,1615.61
+1288,1239,Amanda Wiggins,218,Kristen Reilly,Dermatology,2024-02-29,Knee Pain,Insulin Therapy,4474.81
+1289,1816,Sara Johnston,297,Paul Parker,Neurology,2024-06-03,Knee Pain,Medication,1627.36
+1290,1658,Mary Carlson,290,James Erickson,General Surgery,2024-07-22,Skin Rash,ECG and Angiogram,3648.9
+1291,1741,Dr. Jack Allen DDS,278,Rachel Bryant,Cardiology,2024-05-15,Migraine,Medication,3996.09
+1292,1238,Richard Evans,231,Maria Henry,Pediatrics,2024-11-11,Migraine,Topical Cream,4922.61
+1293,1290,Megan Phillips,258,Jared Rodriguez,Neurology,2024-02-22,Skin Rash,Topical Cream,848.16
+1294,1168,Bethany Henson,296,Lindsey Gilmore,Neurology,2024-06-11,Migraine,Inhalers,1485.5
+1295,1155,Justin Hunter,273,Sheena Wolf,Pediatrics,2024-01-19,Heart Attack,Physical Therapy,4794.04
+1296,1819,Victor Mckee,207,Jerome Thompson,Cardiology,2024-08-13,Diabetes,Inhalers,1762.04
+1297,1067,John Cantu,231,Maria Henry,General Surgery,2024-01-08,Migraine,Angioplasty,4461.21
+1298,1730,Ashley King,250,Lindsey Jackson,Endocrinology,2024-07-18,Broken Leg,Inhalers,2787.38
+1299,1071,Jose Kemp,235,David Lewis,General Surgery,2024-03-16,Migraine,Casting,4686.04
+1300,1308,Christine Gregory,240,Susan Erickson,Orthopedics,2024-07-30,Seizures,Physical Therapy,2637.11
+1301,1979,Nathan Washington,241,Christina Berg,Endocrinology,2024-05-07,Chest Pain,Medication,2358.93
+1302,1250,Adam Reese,226,Miss Janice Romero,Cardiology,2024-05-26,Skin Rash,Casting,109.97
+1303,1360,Laurie Cooper,256,Kimberly Mendez,Pediatrics,2024-02-07,Heart Attack,Casting,3682.29
+1304,1889,Tiffany Gibson,217,Aaron Diaz,Neurology,2024-09-06,Asthma,Insulin Therapy,1628.1
+1305,1048,Christopher Miller,270,Haley Francis,General Surgery,2024-01-12,Migraine,Topical Cream,3176.0
+1306,1804,Brian Quinn,243,Rebecca Lester,Endocrinology,2024-01-07,Appendicitis,Medication,3659.46
+1307,1755,Andrew Fowler,288,Aaron Cole,Cardiology,2024-03-30,Knee Pain,Physical Therapy,1681.71
+1308,1079,Randy Harper,204,Kimberly Moyer,Cardiology,2024-04-15,Skin Rash,Medication,4715.99
+1309,1056,Terry Hickman,235,David Lewis,Cardiology,2024-05-16,Knee Pain,Appendectomy,2653.37
+1310,1269,Caitlin Freeman,277,Jennifer Snyder,General Surgery,2024-09-18,Asthma,Physical Therapy,4665.44
+1311,1053,Dr. Michael Rose,210,Jamie Johnson,Orthopedics,2024-08-22,Migraine,Insulin Therapy,2910.88
+1312,1194,Michael Chaney,253,Christina Roth,Endocrinology,2024-08-19,Skin Rash,Casting,3434.33
+1313,1003,Heather Robinson,215,James Martin,Orthopedics,2024-07-13,Seizures,Angioplasty,1265.7
+1314,1500,Tommy Hawkins,243,Rebecca Lester,Pediatrics,2024-03-31,Knee Pain,Angioplasty,544.28
+1315,1107,Alison Fields,217,Aaron Diaz,Neurology,2024-07-24,Diabetes,Angioplasty,1441.66
+1316,1235,Cynthia Black,221,Allen Weaver,Neurology,2024-03-13,Migraine,Angioplasty,3230.06
+1317,1549,Andrew Mann,221,Allen Weaver,Orthopedics,2024-05-27,Migraine,Inhalers,3703.66
+1318,1208,Jason Hernandez,285,David Powell,General Surgery,2024-08-06,Seizures,Casting,4755.94
+1319,1897,Benjamin Robinson,240,Susan Erickson,Pediatrics,2024-05-07,Asthma,Casting,2709.44
+1320,1745,Ricky Lewis,244,Anthony Cook,Pediatrics,2024-02-17,Asthma,Casting,1327.14
+1321,1909,Christopher Stevens,228,Sharon Lopez,General Surgery,2024-09-21,Appendicitis,Appendectomy,1259.05
+1322,1371,Laurie Weber,274,Mark Henderson,General Surgery,2024-10-21,Broken Leg,Medication,402.24
+1323,1133,Kirsten Pope,225,April Li,Neurology,2024-08-27,Chest Pain,Topical Cream,1718.8
+1324,1438,Norma Guerrero,226,Miss Janice Romero,Neurology,2024-02-11,Migraine,Topical Cream,2478.88
+1325,1584,Virginia Irwin,282,Sandra Farrell,Neurology,2024-07-25,Knee Pain,Appendectomy,1022.02
+1326,1128,Victoria Singleton,213,Casey Thompson MD,Dermatology,2024-08-13,Asthma,Topical Cream,2854.26
+1327,1736,Stephanie Benson,236,John Miller,Endocrinology,2024-02-05,Knee Pain,Angioplasty,3552.05
+1328,1583,Morgan House,212,Lisa Jennings,Pediatrics,2024-03-27,Asthma,ECG and Angiogram,3070.01
+1329,1398,Edward Stephens,271,Tammy Allen,Dermatology,2024-09-29,Seizures,Topical Cream,3190.69
+1330,1850,Kurt Hicks,289,William Cooper,Dermatology,2024-04-20,Migraine,Insulin Therapy,2959.07
+1331,1707,Nina Mitchell,270,Haley Francis,Dermatology,2024-08-20,Knee Pain,Physical Therapy,4379.37
+1332,1969,Pamela Cross,258,Jared Rodriguez,Orthopedics,2024-05-30,Knee Pain,Topical Cream,353.68
+1333,1202,Ryan Munoz,287,Mary Grant,Pediatrics,2024-02-19,Appendicitis,Topical Cream,1764.57
+1334,1185,Vanessa Brady,240,Susan Erickson,Orthopedics,2024-09-24,Seizures,Angioplasty,3245.87
+1335,1116,Russell Armstrong,206,Timothy Peterson,Dermatology,2024-04-17,Broken Leg,Angioplasty,670.58
+1336,1910,Peggy Ortiz,262,Sandra Taylor,Dermatology,2024-10-31,Appendicitis,ECG and Angiogram,4114.65
+1337,1058,Shelby Davis,210,Jamie Johnson,Pediatrics,2024-06-27,Knee Pain,ECG and Angiogram,2534.6
+1338,1786,Laura Garcia,258,Jared Rodriguez,Cardiology,2024-09-25,Skin Rash,Inhalers,4752.71
+1339,1797,Glenda Nguyen,227,Todd Kramer,Orthopedics,2024-08-18,Asthma,Topical Cream,4638.72
+1340,1283,Mike Watson,289,William Cooper,Endocrinology,2024-06-13,Chest Pain,Topical Cream,2571.52
+1341,1433,Melanie Sosa,281,Jessica Simpson,Orthopedics,2024-02-10,Skin Rash,Inhalers,678.85
+1342,1655,Brian Wagner,224,Michael Young,Orthopedics,2024-09-26,Heart Attack,Appendectomy,3352.63
+1343,1345,Emily Lambert,212,Lisa Jennings,Orthopedics,2024-08-05,Heart Attack,Physical Therapy,2657.56
+1344,1935,Derek Newman,200,Jason Brewer DVM,General Surgery,2024-04-17,Migraine,Appendectomy,533.31
+1345,1229,Steven Larsen,203,Carrie Steele,Orthopedics,2024-01-19,Broken Leg,Topical Cream,3251.81
+1346,1304,Tyler Esparza,289,William Cooper,Dermatology,2024-06-01,Chest Pain,Inhalers,3766.4
+1347,1913,Jennifer Wilson,298,Scott Hernandez,Endocrinology,2024-06-08,Heart Attack,Casting,1386.66
+1348,1167,Michael Smith,293,Sarah Brown,Orthopedics,2024-09-29,Chest Pain,ECG and Angiogram,1486.73
+1349,1647,Donald Soto,241,Christina Berg,Cardiology,2024-06-23,Appendicitis,ECG and Angiogram,2726.69
+1350,1847,Alexandra Castillo,244,Anthony Cook,Pediatrics,2024-02-04,Asthma,Physical Therapy,1861.72
+1351,1218,Mark Powell,220,Andrea Ruiz,Neurology,2024-06-29,Seizures,Medication,2354.62
+1352,1164,Joshua Bernard,246,Mary Garcia,Neurology,2024-02-11,Skin Rash,ECG and Angiogram,3098.17
+1353,1807,Jesse Adams,239,Mark Jackson,Cardiology,2024-06-29,Appendicitis,Inhalers,2800.2
+1354,1245,Edward Rivas,254,Lisa Holder,General Surgery,2024-10-09,Diabetes,Physical Therapy,3971.47
+1355,1484,Mark Smith,270,Haley Francis,Pediatrics,2024-04-28,Asthma,Inhalers,262.66
+1356,1608,Renee Stuart,292,Hector Thompson,Dermatology,2024-10-30,Knee Pain,Appendectomy,2765.52
+1357,1237,Sara Cantrell,287,Mary Grant,Neurology,2024-04-23,Chest Pain,Topical Cream,3965.63
+1358,1115,Michelle Bryant,238,Samantha Jordan,Neurology,2024-10-01,Asthma,Physical Therapy,3905.71
+1359,1210,Gregory Flores,289,William Cooper,Dermatology,2024-03-11,Broken Leg,Physical Therapy,3144.89
+1360,1981,Amber Martinez,213,Casey Thompson MD,General Surgery,2024-10-08,Asthma,ECG and Angiogram,1102.86
+1361,1026,Renee Lambert,254,Lisa Holder,Orthopedics,2024-04-19,Knee Pain,Appendectomy,891.02
+1362,1998,Mike Bishop,285,David Powell,Cardiology,2024-06-02,Heart Attack,Casting,1062.69
+1363,1638,James Olsen,280,Karen Dyer,Orthopedics,2024-01-28,Appendicitis,Angioplasty,471.64
+1364,1912,Jasmin Brady,256,Kimberly Mendez,Cardiology,2024-08-05,Knee Pain,Insulin Therapy,3326.67
+1365,1292,Samantha Harmon,222,Matthew Sparks,Neurology,2024-01-12,Broken Leg,Appendectomy,316.37
+1366,1354,Jason Reed,234,Glenn Benitez,Neurology,2024-10-17,Diabetes,Casting,2109.43
+1367,1834,Jorge Davis,270,Haley Francis,Cardiology,2024-10-18,Appendicitis,Casting,4762.59
+1368,1996,Mark Miller,273,Sheena Wolf,Dermatology,2024-02-10,Skin Rash,Insulin Therapy,3433.19
+1369,1078,Shelby Atkins,294,Hunter Johnson,Dermatology,2024-09-05,Seizures,Insulin Therapy,2561.96
+1370,1399,Bruce Williams,233,Caroline Moon,Dermatology,2024-02-26,Broken Leg,Casting,2659.46
+1371,1735,Dr. Ronald Floyd,268,Alexis Doyle,Endocrinology,2024-05-24,Skin Rash,Casting,1770.96
+1372,1531,Judy Oliver,223,Fred Jenkins,Pediatrics,2024-01-15,Knee Pain,Casting,3215.86
+1373,1012,Sharon Oconnell,221,Allen Weaver,Endocrinology,2024-04-20,Broken Leg,Insulin Therapy,4269.66
+1374,1001,John Olson,246,Mary Garcia,Cardiology,2024-05-13,Asthma,ECG and Angiogram,3673.78
+1375,1449,Justin Romero,248,Andrew Adams,Dermatology,2024-03-30,Asthma,Insulin Therapy,3305.78
+1376,1216,Joseph Butler,259,Diana Lee,Pediatrics,2024-07-03,Skin Rash,Topical Cream,2557.32
+1377,1501,Mary Castro,206,Timothy Peterson,Dermatology,2024-07-03,Skin Rash,Casting,3131.41
+1378,1436,Kevin Young,222,Matthew Sparks,Cardiology,2024-09-14,Knee Pain,Inhalers,3667.93
+1379,1625,Robert Savage,251,Katherine King,General Surgery,2024-04-13,Diabetes,Medication,4164.48
+1380,1528,John Alvarado,286,Chelsey Thomas,Dermatology,2024-05-18,Chest Pain,Medication,4624.27
+1381,1740,Gabriel Snyder,238,Samantha Jordan,Dermatology,2024-05-13,Migraine,Medication,650.75
+1382,1413,Jennifer Burton,263,Timothy King,Pediatrics,2024-04-22,Appendicitis,Insulin Therapy,2481.44
+1383,1756,Sara Hinton,232,Don Richard,Cardiology,2024-08-14,Appendicitis,Appendectomy,3559.56
+1384,1423,Michael Gomez,239,Mark Jackson,Neurology,2024-04-28,Knee Pain,Topical Cream,3667.15
+1385,1094,Stephanie Glenn,208,Laura Austin,Endocrinology,2024-06-18,Skin Rash,Inhalers,4632.29
+1386,1373,Robert Olson,236,John Miller,Neurology,2024-08-28,Appendicitis,Medication,3500.05
+1387,1698,Joe Holloway,242,Sheryl Gibson,Neurology,2024-03-11,Skin Rash,Casting,1575.18
+1388,1668,Andrew Madden,272,Bobby Hansen,Dermatology,2024-08-28,Diabetes,Physical Therapy,946.66
+1389,1260,Angel Santiago,222,Matthew Sparks,General Surgery,2024-06-30,Heart Attack,Appendectomy,2794.0
+1390,1044,Kathy Fisher,266,Justin Greer,Endocrinology,2024-01-29,Diabetes,Casting,770.14
+1391,1366,Matthew Lynn,298,Scott Hernandez,Cardiology,2024-02-16,Diabetes,ECG and Angiogram,644.43
+1392,1911,James Murphy,206,Timothy Peterson,Endocrinology,2024-06-22,Skin Rash,Appendectomy,4787.68
+1393,1381,Cynthia Calderon,213,Casey Thompson MD,Endocrinology,2024-05-21,Appendicitis,Medication,3319.6
+1394,1892,Theresa Davila,271,Tammy Allen,Orthopedics,2024-04-21,Seizures,Physical Therapy,1453.45
+1395,1341,Mr. James Campos,258,Jared Rodriguez,Pediatrics,2024-10-31,Skin Rash,Casting,1465.11
+1396,1802,Dave Salas,265,Jessica Odom,Neurology,2024-04-15,Asthma,Insulin Therapy,1611.74
+1397,1120,Sandra Howell,220,Andrea Ruiz,Pediatrics,2024-04-14,Broken Leg,Angioplasty,2876.91
+1398,1207,Joseph Hunter,247,James Sullivan,Dermatology,2024-05-23,Chest Pain,ECG and Angiogram,1303.3
+1399,1950,Lauren Larson,232,Don Richard,Cardiology,2024-09-25,Asthma,Angioplasty,2125.02
+1400,1143,Belinda Yoder,217,Aaron Diaz,General Surgery,2024-01-27,Skin Rash,Topical Cream,4691.43
+1401,1434,Anthony Baldwin,299,Judy Turner,Cardiology,2024-07-02,Appendicitis,Insulin Therapy,4675.28
+1402,1627,Kevin Meadows,225,April Li,General Surgery,2024-03-12,Broken Leg,Casting,4567.07
+1403,1137,Michael Hayes,247,James Sullivan,Orthopedics,2024-04-15,Diabetes,Angioplasty,3688.77
+1404,1082,Denise Jones,262,Sandra Taylor,Neurology,2024-05-25,Diabetes,ECG and Angiogram,3420.71
+1405,1228,Jessica Malone,222,Matthew Sparks,Dermatology,2024-04-10,Seizures,Medication,452.62
+1406,1222,Jordan Ward,210,Jamie Johnson,Cardiology,2024-02-23,Chest Pain,Casting,4449.08
+1407,1869,Mitchell Johnson,288,Aaron Cole,Orthopedics,2024-04-25,Heart Attack,Topical Cream,2937.26
+1408,1492,Matthew Martinez,204,Kimberly Moyer,Neurology,2024-09-14,Knee Pain,Insulin Therapy,486.68
+1409,1836,Faith Johnson,248,Andrew Adams,Orthopedics,2024-04-01,Appendicitis,ECG and Angiogram,2820.81
+1410,1780,Ashley Shelton,234,Glenn Benitez,Neurology,2024-07-09,Appendicitis,Inhalers,2883.15
+1411,1309,Ashley Roberts,262,Sandra Taylor,Cardiology,2024-03-14,Appendicitis,Insulin Therapy,610.58
+1412,1200,Nancy Norris,252,Tamara Kim,Endocrinology,2024-08-01,Chest Pain,Topical Cream,1559.84
+1413,1688,Carla Boyd,227,Todd Kramer,Orthopedics,2024-09-29,Migraine,ECG and Angiogram,2806.71
+1414,1630,Megan Khan,235,David Lewis,Orthopedics,2024-03-20,Seizures,Appendectomy,1570.49
+1415,1757,Timothy Andrade,228,Sharon Lopez,Dermatology,2024-05-11,Chest Pain,Casting,1920.59
+1416,1739,Alyssa Morgan,235,David Lewis,Orthopedics,2024-07-17,Broken Leg,Insulin Therapy,4889.0
+1417,1992,Jessica Cohen,297,Paul Parker,Endocrinology,2024-06-10,Knee Pain,Medication,2922.13
+1418,1980,Carol Nelson,217,Aaron Diaz,Orthopedics,2024-01-27,Knee Pain,ECG and Angiogram,4842.01
+1419,1261,Jonathon Bell,215,James Martin,Endocrinology,2024-06-05,Skin Rash,ECG and Angiogram,1144.59
+1420,1106,Erica Walker,215,James Martin,Pediatrics,2024-10-21,Appendicitis,Insulin Therapy,3630.15
+1421,1204,Cameron Lara,289,William Cooper,Cardiology,2024-04-03,Heart Attack,Insulin Therapy,3897.11
+1422,1601,Alexander Johnston,201,Carl Ballard,Pediatrics,2024-05-07,Knee Pain,ECG and Angiogram,247.04
+1423,1036,Carrie Knox,232,Don Richard,Endocrinology,2024-02-17,Asthma,Casting,2432.84
+1424,1059,Sean Smith,232,Don Richard,General Surgery,2024-03-03,Knee Pain,Casting,4777.99
+1425,1386,Melissa Gonzalez,236,John Miller,Orthopedics,2024-08-04,Heart Attack,Insulin Therapy,3484.8
+1426,1667,Stephen Ray,266,Justin Greer,General Surgery,2024-09-26,Chest Pain,Physical Therapy,4817.0
+1427,1008,Amy Davis,257,April Johnson,Pediatrics,2024-04-28,Skin Rash,Physical Therapy,537.98
+1428,1843,Dr. Douglas Moses,233,Caroline Moon,Cardiology,2024-01-17,Appendicitis,Physical Therapy,4383.88
+1429,1539,Renee Rollins,297,Paul Parker,Dermatology,2024-03-09,Asthma,ECG and Angiogram,2117.19
+1430,1617,Eric Garrett,201,Carl Ballard,Orthopedics,2024-01-07,Chest Pain,ECG and Angiogram,1957.84
+1431,1743,Tammy Cox,295,Karen Jones,Cardiology,2024-05-05,Knee Pain,Inhalers,3183.83
+1432,1976,Mrs. Heather Osborne,206,Timothy Peterson,Orthopedics,2024-05-11,Migraine,Physical Therapy,3966.24
+1433,1267,Tyler Moore,236,John Miller,Endocrinology,2024-08-05,Seizures,Medication,4884.0
+1434,1669,Joel Stanton,233,Caroline Moon,Cardiology,2024-10-01,Heart Attack,Appendectomy,2371.14
+1435,1964,Allison Petersen,213,Casey Thompson MD,Neurology,2024-02-08,Knee Pain,ECG and Angiogram,495.63
+1436,1209,Nicole Vaughn,246,Mary Garcia,Dermatology,2024-07-19,Heart Attack,Medication,223.83
+1437,1004,Elaine Garza,239,Mark Jackson,Neurology,2024-02-24,Diabetes,Inhalers,2918.71
+1438,1877,Chelsea Wallace,251,Katherine King,Cardiology,2024-01-13,Chest Pain,Casting,1077.61
+1439,1612,Carlos Hart,283,Michael Miller,Dermatology,2024-08-13,Knee Pain,Physical Therapy,4068.9
+1440,1575,Brenda Blake,259,Diana Lee,General Surgery,2024-07-31,Skin Rash,Appendectomy,3392.03
+1441,1322,Michael Guzman,280,Karen Dyer,General Surgery,2024-06-12,Migraine,Inhalers,1831.15
+1442,1633,Reginald Zhang,286,Chelsey Thomas,Orthopedics,2024-09-21,Diabetes,Insulin Therapy,2672.65
+1443,1692,Henry Smith,274,Mark Henderson,Dermatology,2024-09-19,Migraine,Medication,4801.59
+1444,1568,Michael Munoz,219,Barbara Richards,Pediatrics,2024-10-09,Broken Leg,Inhalers,989.74
+1445,1925,Kerry Garcia,299,Judy Turner,General Surgery,2024-06-14,Appendicitis,Appendectomy,4228.97
+1446,1818,John Gonzales,245,David Evans,Neurology,2024-09-27,Chest Pain,Casting,3045.21
+1447,1046,Theresa Hill,205,Grace Nelson,Pediatrics,2024-03-14,Skin Rash,Medication,2847.37
+1448,1206,Kevin Johnson,218,Kristen Reilly,Dermatology,2024-03-12,Heart Attack,Physical Therapy,2145.54
+1449,1762,Tyler Anderson,284,Tommy Hernandez,Neurology,2024-11-01,Migraine,Medication,171.38
+1450,1319,Stephen Cooper,210,Jamie Johnson,Orthopedics,2024-04-17,Diabetes,Medication,2959.18
+1451,1716,Johnny Cunningham,236,John Miller,Neurology,2024-08-03,Broken Leg,Casting,1230.98
+1452,1301,Mark Kennedy,229,Mark Nguyen,Neurology,2024-10-08,Heart Attack,Casting,4340.97
+1453,1517,David Graham,283,Michael Miller,Pediatrics,2024-07-06,Chest Pain,Physical Therapy,2350.86
+1454,1947,Gail Alexander,245,David Evans,Orthopedics,2024-06-24,Asthma,Medication,3510.55
+1455,1509,Michelle Vang,273,Sheena Wolf,Pediatrics,2024-06-05,Migraine,Topical Cream,3477.73
+1456,1159,Barbara Schmidt,204,Kimberly Moyer,Endocrinology,2024-01-02,Asthma,Casting,2553.79
+1457,1015,Justin Nichols,298,Scott Hernandez,Dermatology,2024-08-17,Broken Leg,Inhalers,647.96
+1458,1340,Douglas Marshall,210,Jamie Johnson,Endocrinology,2024-09-24,Chest Pain,Physical Therapy,3847.58
+1459,1678,Aaron Mason,296,Lindsey Gilmore,Orthopedics,2024-07-04,Seizures,Physical Therapy,1046.36
+1460,1846,Edward Alexander,215,James Martin,General Surgery,2024-01-13,Diabetes,ECG and Angiogram,3030.05
+1461,1140,William Le,271,Tammy Allen,Dermatology,2024-01-24,Heart Attack,Medication,4856.95
+1462,1242,Matthew Phelps,225,April Li,Pediatrics,2024-07-14,Seizures,Insulin Therapy,2520.11
+1463,1119,Kimberly Chambers,290,James Erickson,Endocrinology,2024-05-27,Skin Rash,ECG and Angiogram,850.8
+1464,1546,Thomas Buchanan,201,Carl Ballard,Endocrinology,2024-02-16,Chest Pain,Casting,4054.69
+1465,1603,Wanda Crawford,212,Lisa Jennings,Dermatology,2024-02-01,Migraine,ECG and Angiogram,3463.15
+1466,1857,Steven Carter,296,Lindsey Gilmore,General Surgery,2024-02-19,Broken Leg,Topical Cream,2405.14
+1467,1520,Amy Gomez,238,Samantha Jordan,Dermatology,2024-08-17,Heart Attack,Medication,1170.02
+1468,1532,Amanda Stewart,273,Sheena Wolf,Orthopedics,2024-08-25,Asthma,Medication,2477.67
+1469,1915,Sherry Walker,203,Carrie Steele,Endocrinology,2024-07-08,Broken Leg,Inhalers,3344.35
+1470,1985,Shelby Rodriguez,295,Karen Jones,Dermatology,2024-06-29,Knee Pain,Inhalers,2324.58
+1471,1887,Aaron Escobar,260,Adam Rogers,Cardiology,2024-07-24,Seizures,ECG and Angiogram,3979.69
+1472,1903,Virginia Taylor,269,Mary Mills,Neurology,2024-04-21,Asthma,Inhalers,3550.93
+1473,1518,Carolyn Mendoza,232,Don Richard,Pediatrics,2024-10-18,Skin Rash,Topical Cream,3768.97
+1474,1984,Stephen Sparks,226,Miss Janice Romero,Dermatology,2024-07-23,Seizures,ECG and Angiogram,2928.61
+1475,1152,Carolyn Potter,272,Bobby Hansen,Neurology,2024-06-12,Skin Rash,Appendectomy,1308.32
+1476,1599,Diane Rojas,211,Ms. Ashley Brown,Pediatrics,2024-06-15,Skin Rash,Appendectomy,125.92
+1477,1566,Robert Foster,205,Grace Nelson,Neurology,2024-02-13,Knee Pain,Physical Therapy,4822.9
+1478,1498,Laura Gomez,292,Hector Thompson,Pediatrics,2024-03-30,Chest Pain,Casting,1485.36
+1479,1695,Veronica Johnson,273,Sheena Wolf,Dermatology,2024-02-21,Appendicitis,ECG and Angiogram,4253.16
+1480,1011,Aimee Mendoza,208,Laura Austin,Orthopedics,2024-07-09,Diabetes,Inhalers,3992.58
+1481,1156,Destiny Ford,258,Jared Rodriguez,Endocrinology,2024-06-29,Heart Attack,Appendectomy,4129.74
+1482,1982,Kevin Landry,272,Bobby Hansen,Neurology,2024-03-25,Migraine,Casting,4450.23
+1483,1456,Micheal Chang,240,Susan Erickson,Cardiology,2024-10-21,Skin Rash,Appendectomy,2996.73
+1484,1812,Mark Levine,246,Mary Garcia,Cardiology,2024-05-21,Diabetes,ECG and Angiogram,1335.74
+1485,1110,Kristen Marshall,218,Kristen Reilly,Orthopedics,2024-09-30,Heart Attack,ECG and Angiogram,4698.81
+1486,1619,Jenny Ryan,221,Allen Weaver,Dermatology,2024-03-14,Appendicitis,Appendectomy,4772.54
+1487,1123,Joel Morrison,246,Mary Garcia,Endocrinology,2024-05-19,Seizures,Casting,3300.95
+1488,1468,Amy Martin,216,Andrew Mendoza,Endocrinology,2024-04-04,Seizures,Appendectomy,1920.79
+1489,1542,Jennifer Franco,226,Miss Janice Romero,Neurology,2024-05-10,Seizures,Physical Therapy,1621.76
+1490,1591,Fernando Scott,259,Diana Lee,Orthopedics,2024-08-23,Diabetes,Physical Therapy,3032.98
+1491,1810,Justin Harper,248,Andrew Adams,Neurology,2024-07-27,Heart Attack,ECG and Angiogram,2950.37
+1492,1435,Terry Kelly,219,Barbara Richards,Dermatology,2024-06-27,Appendicitis,Topical Cream,3855.6
+1493,1084,Kenneth Garcia,283,Michael Miller,Dermatology,2024-09-14,Seizures,Medication,1585.21
+1494,1264,Kevin Lopez,276,Rachel Hughes MD,Endocrinology,2024-02-10,Asthma,Appendectomy,554.85
+1495,1332,Joshua Alvarez,211,Ms. Ashley Brown,Pediatrics,2024-11-02,Knee Pain,Insulin Therapy,2232.8
+1496,1249,James Ramirez,285,David Powell,General Surgery,2024-09-25,Knee Pain,Physical Therapy,2105.23
+1497,1844,Mark Kelley,249,Eric Butler,Neurology,2024-07-15,Asthma,Topical Cream,3239.59
+1498,1693,Kenneth Allison,288,Aaron Cole,General Surgery,2024-02-27,Chest Pain,Medication,807.39
+1499,1024,Charles Gates,227,Todd Kramer,Endocrinology,2024-01-31,Seizures,Appendectomy,4814.91
+1500,1429,Cynthia Brown,252,Tamara Kim,Orthopedics,2024-06-18,Seizures,Angioplasty,4149.41
+1501,1674,Judy Maldonado,263,Timothy King,Endocrinology,2024-04-17,Seizures,Casting,3869.73
+1502,1337,Brent Ruiz,256,Kimberly Mendez,Dermatology,2024-11-02,Appendicitis,Topical Cream,3620.21
+1503,1102,Jessica Ramirez,250,Lindsey Jackson,Orthopedics,2024-03-24,Heart Attack,Physical Therapy,4288.61
+1504,1342,Erica James,278,Rachel Bryant,Dermatology,2024-10-31,Broken Leg,Angioplasty,1722.88
+1505,1523,Paul Thomas,295,Karen Jones,Pediatrics,2024-09-12,Heart Attack,Angioplasty,2167.18
+1506,1223,Diana Chandler,291,Justin Skinner,Neurology,2024-03-12,Skin Rash,Inhalers,1039.13
+1507,1323,Antonio Kramer,222,Matthew Sparks,Cardiology,2024-04-26,Heart Attack,Medication,1899.56
+1508,1427,Melissa Jennings,239,Mark Jackson,General Surgery,2024-07-13,Knee Pain,ECG and Angiogram,2896.21
+1509,1901,Emily Terry,268,Alexis Doyle,General Surgery,2024-02-12,Chest Pain,Inhalers,590.62
+1510,1469,Heather Dorsey,226,Miss Janice Romero,Endocrinology,2024-08-25,Asthma,Topical Cream,3252.12
+1511,1891,Jonathan Garcia,206,Timothy Peterson,Cardiology,2024-04-06,Asthma,Angioplasty,2877.76
+1512,1808,Sarah Juarez,216,Andrew Mendoza,Dermatology,2024-09-13,Heart Attack,Angioplasty,505.76
+1513,1607,Linda Cain,275,Adrian Wolf,Dermatology,2024-08-08,Diabetes,Angioplasty,1026.3
+1514,1470,Kathryn Marshall,256,Kimberly Mendez,Neurology,2024-01-16,Skin Rash,Casting,689.8
+1515,1382,Becky Griffin,232,Don Richard,Orthopedics,2024-06-30,Skin Rash,ECG and Angiogram,4605.08
+1516,1488,Crystal Murray,205,Grace Nelson,Dermatology,2024-08-28,Heart Attack,Insulin Therapy,4526.27
+1517,1792,Leonard Rodriguez,284,Tommy Hernandez,General Surgery,2024-10-30,Appendicitis,Inhalers,3528.13
+1518,1576,Elizabeth Williams,268,Alexis Doyle,Pediatrics,2024-02-22,Asthma,Insulin Therapy,1810.38
+1519,1364,Heather Barajas,251,Katherine King,Cardiology,2024-05-19,Skin Rash,Topical Cream,4574.18
+1520,1010,Ronald Goodwin,213,Casey Thompson MD,Endocrinology,2024-08-06,Migraine,Physical Therapy,3289.8
+1521,1158,Darryl Martinez,210,Jamie Johnson,General Surgery,2024-02-19,Asthma,Appendectomy,2076.65
+1522,1881,Elizabeth Aguilar,270,Haley Francis,Orthopedics,2024-05-01,Heart Attack,Topical Cream,3952.82
+1523,1344,Michelle Jenkins,297,Paul Parker,Cardiology,2024-04-21,Broken Leg,Topical Cream,1142.4
+1524,1593,Charles Donovan,267,Cathy May,General Surgery,2024-04-07,Seizures,Appendectomy,2525.54
+1525,1112,Beth Lee,221,Allen Weaver,General Surgery,2024-05-03,Knee Pain,Medication,4730.54
+1526,1148,Nicholas Gonzalez,295,Karen Jones,Endocrinology,2024-09-20,Migraine,Insulin Therapy,2615.47
+1527,1759,Sara Bartlett,219,Barbara Richards,Endocrinology,2024-01-01,Diabetes,Appendectomy,3775.47
+1528,1144,Timothy Daniels,230,Jessica Hayes,Pediatrics,2024-09-16,Skin Rash,Inhalers,401.16
+1529,1616,Jason Gill,267,Cathy May,Pediatrics,2024-09-14,Seizures,Physical Therapy,3565.8
+1530,1100,Jacob Madden,254,Lisa Holder,General Surgery,2024-05-27,Migraine,Topical Cream,1822.85
+1531,1213,Sean Williams,202,Gary Berry,Cardiology,2024-08-22,Appendicitis,Medication,2313.81
+1532,1334,Claudia Hayes,265,Jessica Odom,Orthopedics,2024-11-09,Asthma,Angioplasty,1716.28
+1533,1573,Veronica Salinas,285,David Powell,Endocrinology,2024-01-28,Heart Attack,Medication,2734.13
+1534,1417,Tammy Ford MD,279,Shelley Cook,Cardiology,2024-03-12,Diabetes,Appendectomy,128.1
+1535,1418,Jacqueline Medina,276,Rachel Hughes MD,Orthopedics,2024-03-08,Migraine,Insulin Therapy,3961.38
+1536,1154,Tina Chavez,254,Lisa Holder,Orthopedics,2024-01-09,Chest Pain,ECG and Angiogram,3787.88
+1537,1091,Nicholas Owens,266,Justin Greer,Dermatology,2024-02-08,Appendicitis,Medication,1076.11
+1538,1451,Tara Thomas,209,Mathew Mayer,Endocrinology,2024-05-12,Skin Rash,Insulin Therapy,1058.78
+1539,1733,Gary Sandoval,274,Mark Henderson,Pediatrics,2024-05-22,Skin Rash,Appendectomy,3815.37
+1540,1252,Steve Hernandez,213,Casey Thompson MD,Dermatology,2024-11-02,Seizures,Inhalers,1209.47
+1541,1257,Andrew Klein,218,Kristen Reilly,General Surgery,2024-03-15,Skin Rash,Appendectomy,4820.51
+1542,1370,Michelle Peters,262,Sandra Taylor,General Surgery,2024-10-19,Skin Rash,Physical Therapy,4217.91
+1543,1968,Samantha Dominguez,221,Allen Weaver,Endocrinology,2024-10-23,Migraine,ECG and Angiogram,3038.49
+1544,1126,Megan Gonzalez,251,Katherine King,Pediatrics,2024-08-01,Diabetes,Topical Cream,549.87
+1545,1285,Joseph Wilcox,296,Lindsey Gilmore,Endocrinology,2024-02-06,Heart Attack,Topical Cream,4773.41
+1546,1579,Amy Brewer,245,David Evans,Orthopedics,2024-07-23,Diabetes,Insulin Therapy,4452.77
+1547,1270,Joan Blair,220,Andrea Ruiz,Pediatrics,2024-05-23,Diabetes,Appendectomy,4378.57
+1548,1821,Michael Thomas,271,Tammy Allen,Cardiology,2024-07-04,Broken Leg,Medication,2542.2
+1549,1997,Christy Torres,274,Mark Henderson,General Surgery,2024-10-29,Migraine,Inhalers,1125.5
+1550,1827,Michelle Cruz,283,Michael Miller,General Surgery,2024-04-11,Knee Pain,Topical Cream,3032.34
+1551,1014,Jonathan Ross,259,Diana Lee,Cardiology,2024-07-13,Seizures,Medication,3958.14
+1552,1088,Shannon Neal,235,David Lewis,Neurology,2024-04-17,Asthma,Inhalers,1561.55
+1553,1987,Derek Randall,273,Sheena Wolf,Orthopedics,2024-08-31,Skin Rash,ECG and Angiogram,4281.68
+1554,1614,Natasha Simpson,256,Kimberly Mendez,Endocrinology,2024-05-18,Broken Leg,Appendectomy,3439.77
+1555,1621,Alan Powell,264,Alison Jordan,Neurology,2024-01-04,Asthma,Appendectomy,4896.76
+1556,1702,Laura Suarez,263,Timothy King,Orthopedics,2024-03-02,Appendicitis,Insulin Therapy,1943.14
+1557,1916,Emily Griffin,200,Jason Brewer DVM,Endocrinology,2024-01-07,Seizures,Physical Therapy,1781.03
+1558,1174,Catherine Bennett,269,Mary Mills,Endocrinology,2024-02-07,Chest Pain,Topical Cream,4926.28
+1559,1515,Travis Patel,261,Whitney Myers,Cardiology,2024-01-24,Knee Pain,Inhalers,2818.63
+1560,1718,Nathan Lamb,268,Alexis Doyle,Dermatology,2024-03-29,Knee Pain,Casting,4474.23
+1561,1534,Tyler Price,201,Carl Ballard,Cardiology,2024-09-26,Heart Attack,Physical Therapy,3083.71
+1562,1613,Madison Simmons,224,Michael Young,Endocrinology,2024-11-01,Knee Pain,Appendectomy,189.56
+1563,1073,Amanda Waters,204,Kimberly Moyer,Endocrinology,2024-10-08,Broken Leg,Angioplasty,1788.79
+1564,1104,Anthony Ortega,239,Mark Jackson,Neurology,2024-08-29,Skin Rash,Physical Therapy,919.5
+1565,1527,Robert Lawson,210,Jamie Johnson,Orthopedics,2024-07-21,Migraine,Angioplasty,3172.34
+1566,1361,Roberto Martinez,295,Karen Jones,Orthopedics,2024-04-03,Appendicitis,Physical Therapy,2497.33
+1567,1302,Crystal Kim,280,Karen Dyer,Cardiology,2024-09-06,Migraine,Medication,1776.17
+1568,1665,Brandy Anderson,261,Whitney Myers,General Surgery,2024-09-20,Broken Leg,Inhalers,2494.97
+1569,1806,Daniel Benson,225,April Li,Cardiology,2024-02-13,Heart Attack,ECG and Angiogram,4197.32
+1570,1683,Sandra Anderson,299,Judy Turner,Neurology,2024-04-21,Diabetes,ECG and Angiogram,3206.81
+1571,1764,Peter Taylor,200,Jason Brewer DVM,Endocrinology,2024-01-20,Asthma,Casting,4263.96
+1572,1548,Henry Brown,276,Rachel Hughes MD,Endocrinology,2024-08-05,Broken Leg,Physical Therapy,4952.9
+1573,1803,Connor Harrison,214,David Reynolds,Neurology,2024-09-24,Asthma,Physical Therapy,1884.61
+1574,1949,Mary Mcdonald,297,Paul Parker,Endocrinology,2024-11-09,Diabetes,Appendectomy,2851.06
+1575,1552,Stephanie Farmer,282,Sandra Farrell,Endocrinology,2024-11-07,Broken Leg,Medication,568.39
+1576,1657,Jeffrey White,236,John Miller,Endocrinology,2024-01-11,Skin Rash,Inhalers,3566.2
+1577,1151,Antonio Becker,262,Sandra Taylor,Orthopedics,2024-05-29,Chest Pain,Casting,2984.2
+1578,1157,Kenneth Whitehead,226,Miss Janice Romero,Neurology,2024-08-27,Chest Pain,Appendectomy,3586.1
+1579,1820,Brooke Gonzalez,274,Mark Henderson,Orthopedics,2024-09-28,Asthma,Appendectomy,1239.35
+1580,1231,Tina Thornton,227,Todd Kramer,Dermatology,2024-10-22,Heart Attack,Inhalers,1016.5
+1581,1193,Harry Anderson,219,Barbara Richards,General Surgery,2024-08-27,Chest Pain,Inhalers,2926.12
+1582,1640,Theresa Smith,226,Miss Janice Romero,Neurology,2024-11-08,Appendicitis,Medication,2887.14
+1583,1317,Amanda Simon,240,Susan Erickson,Endocrinology,2024-10-23,Asthma,Casting,1581.66
+1584,1463,Thomas Cline,268,Alexis Doyle,Dermatology,2024-02-22,Knee Pain,Inhalers,3804.71
+1585,1923,Sara Glass,282,Sandra Farrell,General Surgery,2024-05-30,Broken Leg,ECG and Angiogram,3791.77
+1586,1866,Rebecca Wilson,290,James Erickson,Endocrinology,2024-03-18,Asthma,Casting,1523.11
+1587,1362,Susan Thompson,271,Tammy Allen,General Surgery,2024-03-20,Heart Attack,Topical Cream,257.19
+1588,1286,Jennifer Bennett,262,Sandra Taylor,Dermatology,2024-08-01,Knee Pain,Topical Cream,1695.2
+1589,1052,James Hernandez,249,Eric Butler,Pediatrics,2024-10-22,Chest Pain,Casting,4998.02
+1590,1561,Joshua Lee,217,Aaron Diaz,Cardiology,2024-07-18,Seizures,Insulin Therapy,3386.08
+1591,1958,Benjamin Novak,237,Sheena Heath,Cardiology,2024-09-15,Seizures,ECG and Angiogram,2451.71
+1592,1219,Brian Cooper,214,David Reynolds,Endocrinology,2024-01-12,Skin Rash,Medication,837.58
+1593,1564,Jeffrey Cross,284,Tommy Hernandez,Pediatrics,2024-07-09,Asthma,Inhalers,4386.13
+1594,1142,Joseph Bartlett,224,Michael Young,Orthopedics,2024-04-03,Migraine,Medication,3811.8
+1595,1642,Diamond Waller,224,Michael Young,Orthopedics,2024-10-03,Chest Pain,Appendectomy,4612.3
+1596,1300,Travis Estrada,245,David Evans,Orthopedics,2024-03-18,Skin Rash,Topical Cream,1731.3
+1597,1809,Steven Nelson,250,Lindsey Jackson,Orthopedics,2024-05-10,Skin Rash,Medication,1285.93
+1598,1943,Alexander Nguyen,285,David Powell,Pediatrics,2024-01-25,Broken Leg,Topical Cream,302.44
+1599,1431,Mary Cain,236,John Miller,Neurology,2024-05-24,Skin Rash,Inhalers,791.57
+1600,1205,Charles Bullock,253,Christina Roth,Pediatrics,2024-03-26,Asthma,Medication,1058.78
+1601,1113,Tyler Hernandez,265,Jessica Odom,Pediatrics,2024-03-16,Broken Leg,Inhalers,902.77
+1602,1945,James Patterson,279,Shelley Cook,Cardiology,2024-01-13,Seizures,Insulin Therapy,4803.25
+1603,1279,Dennis Mccarty,245,David Evans,Dermatology,2024-03-25,Chest Pain,ECG and Angiogram,1236.45
+1604,1226,John Torres,224,Michael Young,Orthopedics,2024-07-19,Knee Pain,Medication,4359.72
+1605,1609,Joe Jackson,255,Elijah Estes,Dermatology,2024-06-10,Chest Pain,Inhalers,1607.43
+1606,1428,Cody Cohen,231,Maria Henry,Dermatology,2024-08-17,Migraine,Inhalers,770.82
+1607,1027,Joan Thomas,224,Michael Young,General Surgery,2024-06-11,Asthma,Angioplasty,4124.95
+1608,1960,Michael Bennett,206,Timothy Peterson,Cardiology,2024-08-05,Migraine,Medication,2498.17
+1609,1481,Michael Matthews,249,Eric Butler,Pediatrics,2024-08-21,Knee Pain,Insulin Therapy,1063.07
+1610,1535,Robert Shepherd,269,Mary Mills,General Surgery,2024-01-13,Heart Attack,Angioplasty,1165.1
+1611,1817,Colleen Peterson,234,Glenn Benitez,Dermatology,2024-09-22,Diabetes,Physical Therapy,118.58
+1612,1061,Michael Love,274,Mark Henderson,Orthopedics,2024-03-30,Seizures,Topical Cream,2166.4
+1613,1830,Ashley Campbell,232,Don Richard,Orthopedics,2024-09-25,Knee Pain,Angioplasty,526.64
+1614,1182,Colin Taylor,272,Bobby Hansen,Endocrinology,2024-08-13,Skin Rash,Angioplasty,1633.2
+1615,1221,Tina King,228,Sharon Lopez,Dermatology,2024-10-27,Heart Attack,Inhalers,776.8
+1616,1170,David Gonzales,223,Fred Jenkins,Pediatrics,2024-06-05,Chest Pain,Medication,4470.98
+1617,1268,Laura Higgins,299,Judy Turner,Orthopedics,2024-02-21,Knee Pain,Medication,3293.61
+1618,1032,Daniel Evans,203,Carrie Steele,Orthopedics,2024-03-10,Chest Pain,Physical Therapy,4741.69
+1619,1111,Kimberly Casey,283,Michael Miller,Cardiology,2024-10-18,Migraine,Casting,2571.61
+1620,1805,Justin Garcia,226,Miss Janice Romero,Pediatrics,2024-09-24,Asthma,Appendectomy,4128.61
+1621,1711,Christopher Mcfarland,262,Sandra Taylor,General Surgery,2024-07-11,Knee Pain,Appendectomy,1308.81
+1622,1166,Susan Parks,291,Justin Skinner,Pediatrics,2024-01-16,Skin Rash,Angioplasty,634.35
+1623,1776,Kim Bates,264,Alison Jordan,General Surgery,2024-02-25,Appendicitis,Insulin Therapy,4223.77
+1624,1967,Carl Tyler,243,Rebecca Lester,Orthopedics,2024-06-01,Seizures,Angioplasty,276.98
+1625,1899,Kelly Doyle,269,Mary Mills,Endocrinology,2024-03-25,Seizures,ECG and Angiogram,3584.73
+1626,1483,Tonya White,251,Katherine King,Orthopedics,2024-10-31,Seizures,Insulin Therapy,3664.79
+1627,1147,Charles Powell,210,Jamie Johnson,Pediatrics,2024-01-22,Heart Attack,Medication,3726.69
+1628,1556,Maria King,200,Jason Brewer DVM,Orthopedics,2024-04-08,Seizures,Inhalers,3781.37
+1629,1351,Matthew Rios,216,Andrew Mendoza,Neurology,2024-09-22,Heart Attack,Inhalers,129.37
+1630,1672,Cory Conley,291,Justin Skinner,Pediatrics,2024-10-25,Broken Leg,Medication,2225.0
+1631,1793,Taylor Hernandez,208,Laura Austin,Cardiology,2024-05-28,Chest Pain,Medication,2941.56
+1632,1178,Crystal King,215,James Martin,Cardiology,2024-06-11,Heart Attack,ECG and Angiogram,4561.75
+1633,1885,Sandra Warren,291,Justin Skinner,Dermatology,2024-07-24,Heart Attack,Angioplasty,3733.8
+1634,1719,Justin Powell,232,Don Richard,General Surgery,2024-10-03,Appendicitis,Physical Therapy,4737.19
+1635,1339,Leah Graham,264,Alison Jordan,Endocrinology,2024-02-16,Broken Leg,ECG and Angiogram,1532.16
+1636,1295,Amber Williams,207,Jerome Thompson,Orthopedics,2024-05-27,Diabetes,Physical Therapy,1731.74
+1637,1346,Cathy Jones,220,Andrea Ruiz,Endocrinology,2024-05-22,Broken Leg,Medication,4709.86
+1638,1031,Tina Alexander MD,291,Justin Skinner,Orthopedics,2024-05-11,Heart Attack,Insulin Therapy,3258.16
+1639,1712,Carla Sims,278,Rachel Bryant,Endocrinology,2024-10-12,Heart Attack,Angioplasty,435.06
+1640,1782,Sophia Turner,276,Rachel Hughes MD,General Surgery,2024-08-02,Knee Pain,Medication,2442.99
+1641,1006,Samuel Williamson,277,Jennifer Snyder,Orthopedics,2024-09-29,Asthma,Appendectomy,2599.97
+1642,1577,Thomas Carter,232,Don Richard,Neurology,2024-08-09,Seizures,Inhalers,1878.26
+1643,1650,Briana Simmons,235,David Lewis,Orthopedics,2024-09-07,Seizures,Medication,2515.77
+1644,1541,Aaron Ramirez,254,Lisa Holder,General Surgery,2024-05-12,Knee Pain,Casting,2042.34
+1645,1588,Rebecca Beck,277,Jennifer Snyder,Orthopedics,2024-01-03,Appendicitis,Topical Cream,3988.01
+1646,1774,Phillip Melendez,278,Rachel Bryant,Orthopedics,2024-03-21,Heart Attack,ECG and Angiogram,2191.39
+1647,1580,Kevin Sullivan,206,Timothy Peterson,Orthopedics,2024-11-11,Broken Leg,Topical Cream,1969.06
+1648,1057,Dustin Becker,242,Sheryl Gibson,Dermatology,2024-10-13,Diabetes,ECG and Angiogram,4781.49
+1649,1547,Diana Hamilton,275,Adrian Wolf,Endocrinology,2024-11-06,Skin Rash,Appendectomy,1714.4
+1650,1961,Jesse Stanley,270,Haley Francis,Cardiology,2024-03-22,Migraine,Casting,3375.68
+1651,1578,Tammy Anderson,251,Katherine King,Endocrinology,2024-07-09,Migraine,Physical Therapy,297.83
+1652,1965,Sarah Ayers,277,Jennifer Snyder,Pediatrics,2024-03-06,Chest Pain,Appendectomy,588.0
+1653,1459,Sylvia Carrillo,243,Rebecca Lester,Pediatrics,2024-08-23,Diabetes,Inhalers,4185.02
+1654,1070,Travis Rhodes,223,Fred Jenkins,Endocrinology,2024-02-29,Broken Leg,Casting,4431.8
+1655,1859,Michael Wade,204,Kimberly Moyer,Pediatrics,2024-03-16,Chest Pain,Appendectomy,3752.34
+1656,1933,Hannah Price,233,Caroline Moon,Pediatrics,2024-03-19,Seizures,Inhalers,3625.08
+1657,1858,Jessica Lopez,202,Gary Berry,Endocrinology,2024-04-21,Appendicitis,Casting,2234.1
+1658,1020,Lisa Taylor,247,James Sullivan,Pediatrics,2024-04-15,Chest Pain,Casting,2822.26
+1659,1865,Lindsey Burton,233,Caroline Moon,Orthopedics,2024-05-03,Chest Pain,Insulin Therapy,3304.45
+1660,1557,Adam Ortiz,205,Grace Nelson,Orthopedics,2024-08-09,Appendicitis,Appendectomy,4179.71
+1661,1691,Catherine Nielsen PhD,293,Sarah Brown,Cardiology,2024-06-19,Asthma,Appendectomy,1360.62
+1662,1425,Erin Mendez,232,Don Richard,Orthopedics,2024-08-13,Diabetes,ECG and Angiogram,3811.01
+1663,1125,Andrew Hayes,275,Adrian Wolf,Endocrinology,2024-08-09,Asthma,Insulin Therapy,4930.64
+1664,1798,Joseph Davenport,220,Andrea Ruiz,Neurology,2024-07-13,Migraine,ECG and Angiogram,548.82
+1665,1214,Kimberly Brown,294,Hunter Johnson,Orthopedics,2024-09-02,Appendicitis,Appendectomy,3851.54
+1666,1835,Robin Fisher,223,Fred Jenkins,Endocrinology,2024-07-14,Broken Leg,Appendectomy,3532.98
+1667,1375,Brittney Jackson,299,Judy Turner,General Surgery,2024-06-09,Broken Leg,ECG and Angiogram,1916.91
+1668,1955,Kathleen Alexander,296,Lindsey Gilmore,Dermatology,2024-05-24,Heart Attack,Insulin Therapy,974.71
+1669,1768,Jacob Edwards,282,Sandra Farrell,Pediatrics,2024-08-26,Asthma,Medication,837.32
+1670,1729,Taylor Diaz,206,Timothy Peterson,Dermatology,2024-04-29,Migraine,ECG and Angiogram,4249.72
+1671,1310,David Ortiz,286,Chelsey Thomas,Neurology,2024-09-30,Asthma,Inhalers,1423.07
+1672,1838,Ashley Frey,281,Jessica Simpson,Cardiology,2024-02-05,Chest Pain,Topical Cream,2461.36
+1673,1563,Michele Johnson,285,David Powell,Endocrinology,2024-10-14,Broken Leg,Angioplasty,1437.85
+1674,1927,Kayla Jones,282,Sandra Farrell,Endocrinology,2024-04-26,Migraine,Physical Therapy,224.7
+1675,1415,Kimberly Williams,270,Haley Francis,Cardiology,2024-09-27,Appendicitis,Angioplasty,1152.44
+1676,1251,Brittany Miller,200,Jason Brewer DVM,Endocrinology,2024-11-05,Skin Rash,Appendectomy,1676.61
+1677,1374,Natasha Murphy,239,Mark Jackson,Neurology,2024-09-27,Migraine,Topical Cream,2195.09
+1678,1888,William Cole,200,Jason Brewer DVM,Orthopedics,2024-06-04,Diabetes,Appendectomy,2012.1
+1679,1494,Jason Johnson,212,Lisa Jennings,Endocrinology,2024-07-23,Diabetes,Appendectomy,3676.78
+1680,1186,Shelly West,217,Aaron Diaz,Orthopedics,2024-09-09,Heart Attack,Insulin Therapy,1768.88
+1681,1839,Brian Henderson,270,Haley Francis,General Surgery,2024-04-02,Diabetes,Topical Cream,1416.97
+1682,1895,Brandi Carson,294,Hunter Johnson,Orthopedics,2024-09-29,Migraine,Physical Therapy,2912.91
+1683,1189,Kathy Blair,265,Jessica Odom,Endocrinology,2024-08-15,Seizures,Topical Cream,312.84
+1684,1108,Michael Morris,206,Timothy Peterson,Pediatrics,2024-01-11,Migraine,ECG and Angiogram,3179.36
+1685,1610,Amanda Whitehead,288,Aaron Cole,Neurology,2024-09-11,Knee Pain,Insulin Therapy,3088.12
+1686,1664,Darren Obrien,246,Mary Garcia,Neurology,2024-02-14,Broken Leg,Medication,4242.45
+1687,1281,Katelyn Finley,217,Aaron Diaz,Pediatrics,2024-04-21,Knee Pain,ECG and Angiogram,3927.97
+1688,1851,Kevin Brock,272,Bobby Hansen,Orthopedics,2024-03-22,Migraine,ECG and Angiogram,1742.67
+1689,1753,Benjamin Davis,299,Judy Turner,Endocrinology,2024-07-19,Seizures,Inhalers,797.04
+1690,1363,Ryan Castro,266,Justin Greer,Orthopedics,2024-07-08,Migraine,Physical Therapy,1470.92
+1691,1995,Colin Nguyen,226,Miss Janice Romero,General Surgery,2024-06-30,Heart Attack,Topical Cream,3545.05
+1692,1590,Erica Lewis,203,Carrie Steele,Endocrinology,2024-04-16,Appendicitis,Insulin Therapy,4794.55
+1693,1199,Kristen Doyle,263,Timothy King,General Surgery,2024-01-06,Skin Rash,Angioplasty,936.06
+1694,1055,Michael Hopkins,225,April Li,Dermatology,2024-03-31,Heart Attack,Physical Therapy,4234.58
+1695,1715,Olivia Baker,274,Mark Henderson,Orthopedics,2024-01-29,Knee Pain,Topical Cream,3966.19
+1696,1276,Jennifer Wilson,293,Sarah Brown,Cardiology,2024-07-18,Seizures,Inhalers,3338.27
+1697,1787,Sharon Cox,268,Alexis Doyle,Pediatrics,2024-10-10,Broken Leg,Topical Cream,4710.14
+1698,1530,Guy Richard,246,Mary Garcia,Orthopedics,2024-05-31,Knee Pain,Topical Cream,1725.53
+1699,1453,Veronica Brown,276,Rachel Hughes MD,Endocrinology,2024-01-27,Appendicitis,Casting,4032.17
+1700,1099,Brittany Watkins,214,David Reynolds,General Surgery,2024-07-05,Appendicitis,Angioplasty,689.02
+1701,1723,Ricardo Williams,224,Michael Young,Orthopedics,2024-11-07,Seizures,ECG and Angiogram,3370.82
+1702,1201,Tammy Aguilar,285,David Powell,Pediatrics,2024-06-18,Diabetes,Angioplasty,1012.98
+1703,1163,Jeremy Newman,275,Adrian Wolf,Neurology,2024-05-12,Migraine,Angioplasty,4512.53
+1704,1389,Charles Cooper,279,Shelley Cook,Orthopedics,2024-08-03,Appendicitis,Insulin Therapy,3644.72
+1705,1867,Victor Harris,260,Adam Rogers,Endocrinology,2024-04-04,Asthma,Medication,1217.62
+1706,1636,Vincent Malone,255,Elijah Estes,Cardiology,2024-07-04,Skin Rash,Casting,1397.06
+1707,1878,James Torres,282,Sandra Farrell,Endocrinology,2024-05-04,Asthma,ECG and Angiogram,3944.25
+1708,1596,Todd Harmon,231,Maria Henry,Orthopedics,2024-04-12,Seizures,Physical Therapy,1332.15
+1709,1681,Jeremy Campos,277,Jennifer Snyder,Cardiology,2024-04-18,Migraine,Inhalers,3005.94
+1710,1720,Joseph Vargas,236,John Miller,Endocrinology,2024-08-11,Diabetes,Insulin Therapy,249.56
+1711,1624,Angela Burgess,279,Shelley Cook,Dermatology,2024-03-07,Broken Leg,ECG and Angiogram,3104.92
+1712,1772,James Nunez,268,Alexis Doyle,Pediatrics,2024-10-07,Diabetes,Appendectomy,3699.83
+1713,1585,Stephanie Russell,237,Sheena Heath,Cardiology,2024-06-10,Knee Pain,Inhalers,800.13
+1714,1232,Kevin Romero,235,David Lewis,Endocrinology,2024-08-26,Appendicitis,Physical Therapy,479.47
+1715,1122,Michael Doyle,210,Jamie Johnson,Dermatology,2024-03-07,Knee Pain,Topical Cream,358.78
+1716,1466,William Edwards,271,Tammy Allen,General Surgery,2024-06-08,Broken Leg,Topical Cream,3965.71
+1717,1896,Ann Rivera,248,Andrew Adams,Cardiology,2024-03-09,Diabetes,Physical Therapy,2034.88
+1718,1316,Anna Hanson,211,Ms. Ashley Brown,Cardiology,2024-03-06,Seizures,Appendectomy,3451.93
+1719,1540,Holly Scott,258,Jared Rodriguez,Pediatrics,2024-04-04,Skin Rash,Casting,1947.28
+1720,1747,Thomas Jones,282,Sandra Farrell,Orthopedics,2024-08-24,Asthma,ECG and Angiogram,2918.03
+1721,1622,Kathleen Jordan,273,Sheena Wolf,Neurology,2024-05-25,Asthma,Angioplasty,3394.81
+1722,1000,Hannah Green,204,Kimberly Moyer,Dermatology,2024-07-15,Asthma,Inhalers,4832.36
+1723,1454,Renee Swanson,295,Karen Jones,Neurology,2024-09-25,Broken Leg,Inhalers,1259.62
+1724,1629,Melanie Gonzalez,291,Justin Skinner,Orthopedics,2024-06-28,Chest Pain,Inhalers,2433.36
+1725,1571,Joshua Freeman,248,Andrew Adams,Cardiology,2024-07-25,Heart Attack,Angioplasty,2296.87
+1726,1227,Yolanda Murphy,248,Andrew Adams,Cardiology,2024-07-04,Broken Leg,Angioplasty,3533.78
+1727,1430,Jennifer Garner,270,Haley Francis,Cardiology,2024-01-04,Chest Pain,Angioplasty,535.59
+1728,1659,Krista Esparza,268,Alexis Doyle,General Surgery,2024-09-08,Asthma,Angioplasty,1604.43
+1729,1022,Dustin Thomas,254,Lisa Holder,Neurology,2024-05-06,Appendicitis,Casting,1420.42
+1730,1978,Jimmy Terry,256,Kimberly Mendez,Pediatrics,2024-07-01,Broken Leg,Topical Cream,3797.9
+1731,1732,Hayden Thomas,256,Kimberly Mendez,Pediatrics,2024-05-25,Heart Attack,Casting,4796.16
+1732,1060,Jamie Becker,237,Sheena Heath,Cardiology,2024-02-01,Appendicitis,Insulin Therapy,4605.91
+1733,1489,John Pineda,239,Mark Jackson,Pediatrics,2024-09-20,Knee Pain,Casting,2276.11
+1734,1919,Amy Smith,243,Rebecca Lester,Cardiology,2024-04-15,Chest Pain,Inhalers,1714.54
+1735,1439,Sharon Miller,237,Sheena Heath,Endocrinology,2024-05-02,Migraine,Insulin Therapy,3791.04
+1736,1926,Christy Durham,274,Mark Henderson,Cardiology,2024-05-27,Broken Leg,Physical Therapy,1577.85
+1737,1244,Richard Carpenter,222,Matthew Sparks,Dermatology,2024-02-02,Diabetes,Appendectomy,521.2
+1738,1029,James Lawrence,275,Adrian Wolf,Endocrinology,2024-04-06,Asthma,Physical Therapy,1346.18
+1739,1132,Stephen Park,238,Samantha Jordan,Orthopedics,2024-10-06,Skin Rash,Appendectomy,3608.57
+1740,1951,Kevin Barry,269,Mary Mills,Cardiology,2024-05-02,Asthma,Appendectomy,1923.38
+1741,1437,Colleen Martin,249,Eric Butler,Endocrinology,2024-09-19,Skin Rash,Inhalers,3780.75
+1742,1275,Vanessa Rodriguez,247,James Sullivan,Neurology,2024-11-05,Skin Rash,Appendectomy,3133.22
+1743,1367,Leslie Montgomery,248,Andrew Adams,Orthopedics,2024-04-09,Diabetes,ECG and Angiogram,415.97
+1744,1347,Anne Johnson,201,Carl Ballard,Cardiology,2024-08-25,Migraine,ECG and Angiogram,3057.63
+1745,1560,Dominic Gonzalez,203,Carrie Steele,Dermatology,2024-03-22,Broken Leg,Insulin Therapy,4289.74
+1746,1623,Victor Frey,265,Jessica Odom,General Surgery,2024-01-22,Chest Pain,Insulin Therapy,1363.38
+1747,1068,Sara Diaz,299,Judy Turner,Cardiology,2024-04-28,Asthma,Angioplasty,3403.72
+1748,1191,William Torres,295,Karen Jones,Dermatology,2024-09-30,Seizures,Medication,4270.53
+1749,1041,Steven Green,269,Mary Mills,Endocrinology,2024-09-23,Chest Pain,Inhalers,3754.05
+1750,1529,Christina Sanchez,282,Sandra Farrell,Orthopedics,2024-07-08,Seizures,ECG and Angiogram,4027.37
+1751,1861,Victoria Freeman,284,Tommy Hernandez,Cardiology,2024-07-30,Asthma,Topical Cream,2053.51
+1752,1840,Lawrence Moore,262,Sandra Taylor,Endocrinology,2024-08-16,Broken Leg,ECG and Angiogram,601.99
+1753,1570,Jonathan Brown,245,David Evans,Endocrinology,2024-04-04,Broken Leg,Topical Cream,435.64
+1754,1377,Hannah Krause,288,Aaron Cole,General Surgery,2024-06-11,Chest Pain,Physical Therapy,2855.75
+1755,1769,James Hill,275,Adrian Wolf,General Surgery,2024-04-09,Asthma,Medication,2868.44
+1756,1262,Jeffery Thompson,202,Gary Berry,Neurology,2024-08-23,Chest Pain,Physical Therapy,4047.94
+1757,1130,Mike Lam,244,Anthony Cook,Dermatology,2024-11-09,Heart Attack,Appendectomy,457.38
+1758,1376,Emily Thomas,288,Aaron Cole,Cardiology,2024-02-08,Skin Rash,Physical Therapy,1136.5
+1759,1183,Morgan Lynn,280,Karen Dyer,Neurology,2024-06-18,Heart Attack,Casting,3261.33
+1760,1537,Emma Hernandez,298,Scott Hernandez,Neurology,2024-03-18,Skin Rash,Casting,1230.27
+1761,1118,Clayton Jones Jr.,276,Rachel Hughes MD,Endocrinology,2024-06-12,Knee Pain,Inhalers,903.33
+1762,1930,Shelby Moore,277,Jennifer Snyder,Dermatology,2024-04-21,Knee Pain,Physical Therapy,4608.88
+1763,1411,Stacey White,279,Shelley Cook,Endocrinology,2024-08-23,Diabetes,Casting,597.54
+1764,1845,Ralph Barnes,264,Alison Jordan,Dermatology,2024-01-11,Heart Attack,Insulin Therapy,3125.49
+1765,1397,Kaitlyn Martinez,233,Caroline Moon,Cardiology,2024-04-04,Heart Attack,ECG and Angiogram,1062.24
+1766,1962,Cheryl Mason,222,Matthew Sparks,Neurology,2024-09-06,Appendicitis,Angioplasty,2539.18
+1767,1645,Toni Davis,262,Sandra Taylor,Endocrinology,2024-05-04,Broken Leg,Casting,4447.87
+1768,1562,Kevin Blackburn,238,Samantha Jordan,Endocrinology,2024-07-31,Chest Pain,Medication,4662.47
+1769,1139,Victoria Harper,286,Chelsey Thomas,Neurology,2024-07-17,Seizures,Angioplasty,1617.04
+1770,1697,Alex Anderson,262,Sandra Taylor,Pediatrics,2024-03-17,Skin Rash,Appendectomy,1577.47
+1771,1037,William Wilson DVM,240,Susan Erickson,Neurology,2024-07-19,Appendicitis,Insulin Therapy,1774.32
+1772,1034,Sharon Hall,269,Mary Mills,Cardiology,2024-10-04,Knee Pain,Physical Therapy,411.29
+1773,1333,Margaret Chung,283,Michael Miller,General Surgery,2024-10-23,Diabetes,ECG and Angiogram,1414.29
+1774,1708,Tony Cherry,275,Adrian Wolf,Endocrinology,2024-06-13,Seizures,Medication,3055.3
+1775,1543,Vanessa Vincent,299,Judy Turner,General Surgery,2024-06-16,Appendicitis,Insulin Therapy,2030.49
+1776,1387,Laura Shaw,242,Sheryl Gibson,Dermatology,2024-11-05,Heart Attack,Casting,149.5
+1777,1942,Frances Atkins,233,Caroline Moon,General Surgery,2024-10-01,Chest Pain,Appendectomy,1287.43
+1778,1380,Michael Hartman,275,Adrian Wolf,Endocrinology,2024-06-27,Diabetes,Appendectomy,4412.72
+1779,1879,Anthony Mcdowell,294,Hunter Johnson,Cardiology,2024-08-17,Skin Rash,Physical Therapy,2434.07
+1780,1457,Leah Reese,277,Jennifer Snyder,Neurology,2024-09-04,Appendicitis,Casting,3231.38
+1781,1634,Jason Black,223,Fred Jenkins,Neurology,2024-07-28,Diabetes,Physical Therapy,4487.09
+1782,1907,Justin Martin,215,James Martin,Orthopedics,2024-08-24,Skin Rash,Appendectomy,4497.49
+1783,1136,James Thompson,295,Karen Jones,Cardiology,2024-03-27,Diabetes,Insulin Therapy,3333.2
+1784,1490,Renee Miller,289,William Cooper,Pediatrics,2024-01-07,Asthma,Insulin Therapy,3178.62
+1785,1611,Laura Cabrera,240,Susan Erickson,General Surgery,2024-09-19,Asthma,Physical Therapy,163.24
+1786,1758,Ashley Lee,267,Cathy May,General Surgery,2024-09-23,Broken Leg,Insulin Therapy,1761.41
+1787,1687,Emily Molina,239,Mark Jackson,Pediatrics,2024-10-18,Knee Pain,Angioplasty,4543.42
+1788,1388,James Cole,205,Grace Nelson,Neurology,2024-06-18,Heart Attack,Angioplasty,4574.77
+1789,1862,Jeffrey Peck,294,Hunter Johnson,Cardiology,2024-01-17,Chest Pain,Physical Therapy,3370.49
+1790,1991,Marie Wilson,276,Rachel Hughes MD,Orthopedics,2024-03-14,Asthma,Insulin Therapy,3806.92
+1791,1864,David Wiley,281,Jessica Simpson,General Surgery,2024-01-17,Knee Pain,Insulin Therapy,2592.38
+1792,1742,Sarah Bullock,294,Hunter Johnson,Endocrinology,2024-10-07,Knee Pain,Insulin Therapy,1231.13
+1793,1472,Tracey Cortez,239,Mark Jackson,Cardiology,2024-01-27,Broken Leg,Appendectomy,2440.61
+1794,1030,Anthony Sanchez,222,Matthew Sparks,Dermatology,2024-01-07,Diabetes,Angioplasty,902.97
+1795,1421,Ryan Fernandez,206,Timothy Peterson,Pediatrics,2024-07-20,Diabetes,Angioplasty,2842.33
+1796,1790,Jennifer Johnson,214,David Reynolds,Orthopedics,2024-07-22,Broken Leg,Physical Therapy,1517.98
+1797,1420,Andrew Green,253,Christina Roth,Neurology,2024-05-02,Asthma,Angioplasty,4541.64
+1798,1007,Michael Hawkins,261,Whitney Myers,Neurology,2024-01-26,Chest Pain,Physical Therapy,1695.06
+1799,1312,James Hunter,242,Sheryl Gibson,Endocrinology,2024-07-18,Seizures,Angioplasty,539.62
+1800,1898,David Edwards,272,Bobby Hansen,Pediatrics,2024-07-26,Chest Pain,Medication,4970.4
+1801,1274,Victoria Fuller,216,Andrew Mendoza,Cardiology,2024-09-16,Broken Leg,Topical Cream,2483.94
+1802,1473,Brooke Peterson,229,Mark Nguyen,Orthopedics,2024-04-19,Migraine,Angioplasty,1971.3
+1803,1165,Bianca Hale,282,Sandra Farrell,Neurology,2024-02-07,Seizures,ECG and Angiogram,3660.67
+1804,1738,Kevin Garcia,251,Katherine King,Endocrinology,2024-10-09,Migraine,Casting,4307.72
+1805,1220,David Hays,206,Timothy Peterson,Neurology,2024-01-01,Chest Pain,Angioplasty,4154.72
+1806,1446,David Wong,239,Mark Jackson,General Surgery,2024-06-19,Knee Pain,Insulin Therapy,4286.49
+1807,1426,Joel Campos,221,Allen Weaver,Dermatology,2024-05-10,Heart Attack,Angioplasty,3358.13
+1808,1886,James Howell,214,David Reynolds,Pediatrics,2024-08-12,Chest Pain,Inhalers,700.28
+1809,1491,Brian Martin,292,Hector Thompson,General Surgery,2024-03-21,Diabetes,Insulin Therapy,2628.5
+1810,1628,Jessica Washington,205,Grace Nelson,Dermatology,2024-08-13,Appendicitis,Appendectomy,4159.54
+1811,1905,Louis Lang,259,Diana Lee,General Surgery,2024-04-10,Heart Attack,Topical Cream,658.09
+1812,1482,Austin Myers,233,Caroline Moon,Orthopedics,2024-08-18,Appendicitis,Appendectomy,3829.75
+1813,1868,Amy Lowe,267,Cathy May,Cardiology,2024-04-18,Appendicitis,Medication,2324.57
+1814,1190,Pam King,240,Susan Erickson,General Surgery,2024-09-24,Asthma,ECG and Angiogram,2476.15
+1815,1476,Debra Robbins,232,Don Richard,Cardiology,2024-07-11,Heart Attack,ECG and Angiogram,2577.13
+1816,1832,Laura Watts,201,Carl Ballard,Neurology,2024-04-29,Asthma,Insulin Therapy,4212.85
+1817,1086,Christopher Rogers,221,Allen Weaver,Dermatology,2024-02-03,Migraine,Topical Cream,120.59
+1818,1325,Kristen Randall,296,Lindsey Gilmore,Orthopedics,2024-05-26,Heart Attack,ECG and Angiogram,4930.66
+1819,1406,Shawn White,285,David Powell,Pediatrics,2024-09-10,Heart Attack,Angioplasty,254.17
+1820,1744,Chris Booker,212,Lisa Jennings,Orthopedics,2024-07-11,Heart Attack,Angioplasty,1645.24
+1821,1471,Sarah Campbell,219,Barbara Richards,Endocrinology,2024-06-22,Heart Attack,Medication,1499.44
+1822,1479,Ruth Hernandez,233,Caroline Moon,Pediatrics,2024-08-08,Knee Pain,Topical Cream,1515.16
+1823,1447,Manuel Wilson,222,Matthew Sparks,General Surgery,2024-03-10,Heart Attack,Casting,4948.76
+1824,1462,Travis Walker,284,Tommy Hernandez,Orthopedics,2024-07-11,Migraine,Angioplasty,4176.73
+1825,1348,Rebecca Reyes,230,Jessica Hayes,Orthopedics,2024-09-21,Diabetes,Topical Cream,3178.47
+1826,1505,William Bartlett,297,Paul Parker,Cardiology,2024-10-03,Migraine,Topical Cream,1647.15
+1827,1589,John Taylor,239,Mark Jackson,Endocrinology,2024-01-03,Appendicitis,Casting,1151.48
+1828,1160,Charles Turner,249,Eric Butler,Dermatology,2024-07-02,Heart Attack,ECG and Angiogram,1146.84
+1829,1127,Stephen Miller,253,Christina Roth,Orthopedics,2024-08-23,Knee Pain,Physical Therapy,2159.13
+1830,1618,Keith Carlson,259,Diana Lee,Cardiology,2024-06-04,Appendicitis,Topical Cream,842.01
+1831,1680,Nicole Cook,241,Christina Berg,General Surgery,2024-07-12,Diabetes,Insulin Therapy,2958.52
+1832,1725,Dustin Rollins,292,Hector Thompson,Orthopedics,2024-03-31,Broken Leg,Topical Cream,1341.34
+1833,1724,Michael Simmons,277,Jennifer Snyder,General Surgery,2024-07-24,Broken Leg,Physical Therapy,1087.77
+1834,1240,Marissa Nielsen,257,April Johnson,Dermatology,2024-04-19,Chest Pain,Insulin Therapy,1492.84
+1835,1874,Dustin Ball,293,Sarah Brown,Cardiology,2024-04-07,Seizures,Insulin Therapy,809.73
+1836,1536,Evan Gallegos,213,Casey Thompson MD,General Surgery,2024-02-23,Asthma,Casting,1148.27
+1837,1670,Mark Warren,277,Jennifer Snyder,Endocrinology,2024-04-02,Skin Rash,Casting,3456.63
+1838,1306,James Khan,205,Grace Nelson,Endocrinology,2024-07-14,Asthma,Appendectomy,3970.47
+1839,1525,Melissa Goodman,275,Adrian Wolf,Pediatrics,2024-06-13,Skin Rash,Topical Cream,3949.4
+1840,1922,Paul Sanders,270,Haley Francis,Cardiology,2024-07-11,Skin Rash,Insulin Therapy,4791.23
+1841,1701,Jennifer Nelson,270,Haley Francis,Neurology,2024-09-23,Appendicitis,ECG and Angiogram,4703.18
+1842,1699,Tammy Stephens,211,Ms. Ashley Brown,Orthopedics,2024-04-08,Skin Rash,Appendectomy,4462.57
+1843,1038,Kimberly Riggs,257,April Johnson,Orthopedics,2024-03-09,Seizures,Medication,1829.4
+1844,1656,Sarah Wilson,296,Lindsey Gilmore,Endocrinology,2024-07-29,Knee Pain,Angioplasty,4386.23
+1845,1215,Erica Winters,287,Mary Grant,Cardiology,2024-02-01,Migraine,Physical Therapy,2106.12
+1846,1796,Marie Gates,236,John Miller,Pediatrics,2024-04-30,Heart Attack,Angioplasty,119.55
+1847,1990,Michael Conrad,267,Cathy May,Cardiology,2024-08-28,Diabetes,Appendectomy,1667.67
+1848,1072,Angela Chaney,289,William Cooper,Orthopedics,2024-05-05,Chest Pain,Inhalers,102.57
+1849,1419,Teresa Murphy,230,Jessica Hayes,Cardiology,2024-04-12,Heart Attack,Inhalers,3750.52
+1850,1402,Brian Wilson,201,Carl Ballard,Neurology,2024-05-13,Chest Pain,Insulin Therapy,3833.54
+1851,1095,Thomas Robinson,280,Karen Dyer,Pediatrics,2024-01-18,Migraine,ECG and Angiogram,3023.42
+1852,1321,Mrs. Tina Ray MD,287,Mary Grant,Dermatology,2024-01-23,Skin Rash,Angioplasty,3288.51
+1853,1524,Sarah Davis,295,Karen Jones,Orthopedics,2024-07-26,Seizures,Casting,4094.25
+1854,1666,Joseph Hatfield,201,Carl Ballard,Endocrinology,2024-09-15,Skin Rash,Casting,4479.78
+1855,1234,Anne Briggs,280,Karen Dyer,Orthopedics,2024-09-19,Knee Pain,ECG and Angiogram,3631.82
+1856,1604,Jonathan Rodriguez,228,Sharon Lopez,Cardiology,2024-07-02,Seizures,Appendectomy,4097.35
+1857,1040,Regina Rojas,286,Chelsey Thomas,Dermatology,2024-09-22,Seizures,Physical Therapy,3073.54
+1858,1478,Abigail Jones,292,Hector Thompson,Endocrinology,2024-02-05,Diabetes,ECG and Angiogram,3377.66
+1859,1989,Kevin Rich,246,Mary Garcia,Cardiology,2024-02-01,Appendicitis,Angioplasty,957.96
+1860,1324,Caroline Mccann,249,Eric Butler,Orthopedics,2024-06-23,Migraine,Casting,4537.9
+1861,1823,Adam Bailey,270,Haley Francis,General Surgery,2024-04-09,Seizures,Medication,2240.5
+1862,1314,Chad Becker,217,Aaron Diaz,Cardiology,2024-02-26,Knee Pain,Inhalers,4398.77
+1863,1318,Christopher Mcdonald,218,Kristen Reilly,Neurology,2024-11-08,Appendicitis,Topical Cream,4997.34
+1864,1726,Richard Nelson,263,Timothy King,Endocrinology,2024-10-28,Diabetes,Physical Therapy,602.23
+1865,1728,Jason Petty,286,Chelsey Thomas,Pediatrics,2024-10-26,Heart Attack,Insulin Therapy,4786.53
+1866,1986,Meredith Garza,264,Alison Jordan,Orthopedics,2024-05-17,Skin Rash,Inhalers,2712.8
+1867,1751,Jorge Odonnell,250,Lindsey Jackson,Endocrinology,2024-01-13,Knee Pain,Physical Therapy,3026.77
+1868,1404,Jonathan Hernandez,291,Justin Skinner,Endocrinology,2024-02-18,Knee Pain,Casting,263.22
+1869,1105,Scott Brennan,260,Adam Rogers,Neurology,2024-01-16,Migraine,Appendectomy,4732.51
+1870,1661,Kurt Crane,227,Todd Kramer,Dermatology,2024-03-21,Diabetes,Insulin Therapy,1677.98
+1871,1175,Scott Fields,251,Katherine King,Endocrinology,2024-02-12,Seizures,Appendectomy,2847.56
+1872,1465,Eric Fox,214,David Reynolds,Endocrinology,2024-02-23,Migraine,ECG and Angiogram,4816.59
+1873,1487,Steven Williams,287,Mary Grant,Cardiology,2024-03-25,Asthma,Appendectomy,2919.68
+1874,1822,Taylor Peterson,218,Kristen Reilly,Cardiology,2024-06-03,Diabetes,Angioplasty,3505.38
+1875,1043,Colleen Mcmillan,289,William Cooper,Dermatology,2024-07-18,Broken Leg,Insulin Therapy,4045.26
+1876,1673,Anthony Taylor,281,Jessica Simpson,Orthopedics,2024-01-12,Seizures,Insulin Therapy,2285.26
+1877,1083,Julie Wilson,265,Jessica Odom,Pediatrics,2024-03-12,Heart Attack,Casting,2431.62
+1878,1255,Bruce Wood,246,Mary Garcia,Neurology,2024-09-11,Seizures,Casting,3614.13
+1879,1994,Ashley Mercado,237,Sheena Heath,Orthopedics,2024-02-09,Chest Pain,Inhalers,1403.93
+1880,1329,Whitney Lawrence,247,James Sullivan,Neurology,2024-01-23,Skin Rash,Topical Cream,2754.61
+1881,1928,Ann Baird,224,Michael Young,Dermatology,2024-06-23,Broken Leg,Casting,2593.57
+1882,1553,Gene Potter,239,Mark Jackson,Cardiology,2024-09-04,Asthma,Appendectomy,2884.6
+1883,1959,Omar Hughes,296,Lindsey Gilmore,General Surgery,2024-04-27,Skin Rash,Medication,4068.58
+1884,1939,Amanda Perez,209,Mathew Mayer,Neurology,2024-03-03,Broken Leg,Inhalers,4281.8
+1885,1296,Samantha Brennan,234,Glenn Benitez,Cardiology,2024-09-12,Knee Pain,Topical Cream,4610.83
+1886,1005,Mark Mata,205,Grace Nelson,Neurology,2024-01-05,Heart Attack,ECG and Angiogram,1150.79
+1887,1485,Timothy Smith,204,Kimberly Moyer,Neurology,2024-05-16,Skin Rash,ECG and Angiogram,3493.38
+1888,1826,Melissa Norton,208,Laura Austin,Endocrinology,2024-03-29,Chest Pain,ECG and Angiogram,607.51
+1889,1176,Ryan Woodward,219,Barbara Richards,Endocrinology,2024-03-08,Heart Attack,Insulin Therapy,4475.34
+1890,1131,Karen Marshall,209,Mathew Mayer,Cardiology,2024-04-27,Diabetes,Casting,3026.45
+1891,1442,Jessica Jones,278,Rachel Bryant,Neurology,2024-04-19,Chest Pain,Inhalers,1691.35
+1892,1988,Jeanette Fry,201,Carl Ballard,Cardiology,2024-09-21,Diabetes,Medication,614.69
+1893,1101,Joshua Thomas,257,April Johnson,Orthopedics,2024-04-28,Knee Pain,Insulin Therapy,715.23
+1894,1766,Heather Ryan,247,James Sullivan,Dermatology,2024-08-05,Broken Leg,Inhalers,2257.61
+1895,1508,Nathan Barnett,258,Jared Rodriguez,Neurology,2024-10-27,Migraine,Physical Therapy,4833.46
+1896,1019,Brandy Bean,258,Jared Rodriguez,General Surgery,2024-06-12,Knee Pain,Medication,4136.81
+1897,1098,Vincent Rodriguez,204,Kimberly Moyer,Neurology,2024-04-23,Diabetes,Casting,1795.4
+1898,1973,Michael Poole,285,David Powell,General Surgery,2024-04-11,Broken Leg,Inhalers,1350.92
+1899,1679,Roy Miller,229,Mark Nguyen,Neurology,2024-05-27,Skin Rash,ECG and Angiogram,2144.19
+1900,1538,Mark Torres,245,David Evans,Neurology,2024-07-23,Heart Attack,Topical Cream,4208.38
+1901,1051,Kyle Smith,290,James Erickson,Cardiology,2024-06-24,Asthma,Physical Therapy,3940.45
+1902,1129,Sue Allen,284,Tommy Hernandez,Dermatology,2024-03-04,Skin Rash,Topical Cream,3733.34
+1903,1649,Ashley Martin,266,Justin Greer,General Surgery,2024-05-11,Skin Rash,Angioplasty,2351.93
+1904,1422,Jenna Shea,289,William Cooper,Endocrinology,2024-03-13,Broken Leg,Physical Therapy,705.27
+1905,1594,Albert Reeves,261,Whitney Myers,Cardiology,2024-08-26,Skin Rash,Angioplasty,2309.04
+1906,1075,Abigail Jordan,239,Mark Jackson,General Surgery,2024-03-11,Appendicitis,Angioplasty,223.14
+1907,1171,Richard Horne,250,Lindsey Jackson,Endocrinology,2024-11-01,Asthma,Topical Cream,2407.42
+1908,1663,Danny Burns,262,Sandra Taylor,Orthopedics,2024-02-28,Heart Attack,ECG and Angiogram,646.67
+1909,1475,Jon Jacobs,228,Sharon Lopez,Orthopedics,2024-07-11,Knee Pain,Insulin Therapy,2605.13
+1910,1516,Laura Ramos,204,Kimberly Moyer,Cardiology,2024-02-20,Knee Pain,Casting,107.6
+1911,1510,Jonathan Costa,297,Paul Parker,Neurology,2024-07-09,Appendicitis,Casting,3383.51
+1912,1477,Eric Parsons,278,Rachel Bryant,General Surgery,2024-11-12,Knee Pain,Inhalers,4116.7
+1913,1842,Dustin Livingston,278,Rachel Bryant,Dermatology,2024-07-24,Migraine,Angioplasty,2327.47
+1914,1062,Jacob Mason,205,Grace Nelson,Orthopedics,2024-07-11,Seizures,Topical Cream,4803.91
+1915,1299,Gerald Smith,222,Matthew Sparks,Endocrinology,2024-09-12,Asthma,Topical Cream,4453.45
+1916,1311,Diane Simpson,261,Whitney Myers,Cardiology,2024-03-01,Appendicitis,Casting,4085.12
+1917,1514,Jasmine Morgan,275,Adrian Wolf,Pediatrics,2024-07-23,Diabetes,Casting,1504.86
+1918,1002,Joanne Castillo,275,Adrian Wolf,Cardiology,2024-09-23,Heart Attack,Physical Therapy,2833.19
+1919,1936,Susan Burns,214,David Reynolds,Cardiology,2024-08-21,Knee Pain,Inhalers,3035.65
+1920,1121,Victoria Wolf,291,Justin Skinner,Endocrinology,2024-02-19,Chest Pain,Appendectomy,3311.78
+1921,1586,Mary Pollard,273,Sheena Wolf,General Surgery,2024-10-10,Asthma,Insulin Therapy,3288.0
+1922,1365,Rachel Stevens,239,Mark Jackson,General Surgery,2024-06-08,Diabetes,Casting,322.59
+1923,1401,Don Harris,250,Lindsey Jackson,Dermatology,2024-07-18,Diabetes,Angioplasty,1689.4
+1924,1196,Jeanette Baker,299,Judy Turner,Dermatology,2024-08-02,Migraine,Insulin Therapy,531.27
+1925,1069,Charles Allen,263,Timothy King,Cardiology,2024-08-24,Broken Leg,Angioplasty,3972.08
+1926,1258,Colleen Jordan,248,Andrew Adams,Neurology,2024-10-21,Appendicitis,Casting,1335.69
+1927,1187,Adriana Burns,250,Lindsey Jackson,Dermatology,2024-09-02,Asthma,Insulin Therapy,3784.29
+1928,1558,Rachel Dunn,294,Hunter Johnson,Dermatology,2024-09-16,Knee Pain,Physical Therapy,4635.78
+1929,1074,Amy Guerrero,298,Scott Hernandez,Orthopedics,2024-06-29,Appendicitis,Appendectomy,3464.81
+1930,1727,Alicia Morgan,228,Sharon Lopez,Endocrinology,2024-07-12,Knee Pain,Appendectomy,1637.25
+1931,1403,Peter White,221,Allen Weaver,Neurology,2024-01-16,Appendicitis,Inhalers,4584.42
+1932,1243,Adam Hansen,244,Anthony Cook,Orthopedics,2024-08-16,Chest Pain,Casting,3041.8
+1933,1815,Emily Moreno,227,Todd Kramer,Cardiology,2024-09-18,Seizures,Angioplasty,1832.02
+1934,1092,Shawn Ayers,297,Paul Parker,Neurology,2024-08-17,Heart Attack,Physical Therapy,986.23
+1935,1400,Terry Herrera,238,Samantha Jordan,Cardiology,2024-10-26,Migraine,Casting,1275.63
+1936,1293,Sara Lane,211,Ms. Ashley Brown,Pediatrics,2024-01-09,Chest Pain,Medication,2128.37
+1937,1017,Tony Golden,278,Rachel Bryant,Pediatrics,2024-04-03,Migraine,ECG and Angiogram,1489.8
+1938,1407,Nicole Garcia,292,Hector Thompson,Pediatrics,2024-10-08,Seizures,Medication,4644.03
+1939,1297,Charles Baker,297,Paul Parker,Dermatology,2024-10-26,Asthma,Medication,129.5
+1940,1192,Christina Savage,281,Jessica Simpson,Orthopedics,2024-08-26,Asthma,Inhalers,1558.17
+1941,1355,Eric Ross,261,Whitney Myers,Orthopedics,2024-02-15,Knee Pain,ECG and Angiogram,959.88
+1942,1893,Richard Matthews,227,Todd Kramer,Endocrinology,2024-10-23,Seizures,Angioplasty,3160.81
+1943,1023,Michelle Elliott,271,Tammy Allen,Neurology,2024-03-26,Migraine,Angioplasty,4514.99
+1944,1330,Roger Jones,239,Mark Jackson,Neurology,2024-09-13,Appendicitis,Insulin Therapy,4428.57
+1945,1941,Vanessa Lin,227,Todd Kramer,Neurology,2024-02-18,Diabetes,Physical Therapy,1609.87
+1946,1177,Samuel Carlson,290,James Erickson,Cardiology,2024-01-08,Appendicitis,Appendectomy,3627.61
+1947,1335,Anthony Clark,272,Bobby Hansen,Dermatology,2024-06-27,Diabetes,Medication,1821.39
+1948,1409,Kimberly Price,237,Sheena Heath,Neurology,2024-08-05,Seizures,Physical Therapy,2217.49
+1949,1880,Thomas Wolf,247,James Sullivan,General Surgery,2024-05-31,Asthma,Topical Cream,3571.46
+1950,1902,Natasha Frazier,254,Lisa Holder,Orthopedics,2024-04-02,Appendicitis,Inhalers,1212.49
+1951,1946,Melissa Weber,216,Andrew Mendoza,Cardiology,2024-09-21,Knee Pain,Appendectomy,679.4
+1952,1854,Katherine Carroll,221,Allen Weaver,Endocrinology,2024-10-20,Diabetes,Inhalers,4931.92
+1953,1828,William Nixon,248,Andrew Adams,Dermatology,2024-08-08,Broken Leg,Inhalers,3047.1
+1954,1256,Kristin Little,262,Sandra Taylor,Orthopedics,2024-09-29,Migraine,Physical Therapy,3250.78
+1955,1233,Tiffany Allen,238,Samantha Jordan,Orthopedics,2024-07-31,Asthma,Casting,738.66
+1956,1918,Alexander Flynn,265,Jessica Odom,Cardiology,2024-03-24,Seizures,Appendectomy,666.57
+1957,1188,Brian Welch,273,Sheena Wolf,Orthopedics,2024-06-15,Chest Pain,Topical Cream,3718.95
+1958,1328,Samuel Maldonado,286,Chelsey Thomas,Cardiology,2024-05-23,Appendicitis,Casting,3676.43
+1959,1145,Emily Lopez,239,Mark Jackson,Dermatology,2024-02-11,Heart Attack,Topical Cream,4757.13
+1960,1526,Kyle Allen,276,Rachel Hughes MD,Endocrinology,2024-09-21,Heart Attack,Physical Therapy,2041.11
+1961,1908,Margaret Graham,282,Sandra Farrell,Endocrinology,2024-05-27,Seizures,Angioplasty,3990.56
+1962,1643,Maria Macdonald,235,David Lewis,Cardiology,2024-01-27,Appendicitis,Angioplasty,3728.94
+1963,1033,George Norman,228,Sharon Lopez,Endocrinology,2024-03-14,Knee Pain,Medication,1565.64
+1964,1461,Ashley Stark,279,Shelley Cook,Endocrinology,2024-03-29,Diabetes,Inhalers,1180.46
+1965,1938,Brett Harris,286,Chelsey Thomas,Dermatology,2024-03-30,Seizures,Insulin Therapy,3108.82
+1966,1379,Mary Manning,290,James Erickson,Pediatrics,2024-11-02,Heart Attack,Appendectomy,2929.21
+1967,1305,Margaret Roberts,297,Paul Parker,General Surgery,2024-08-03,Skin Rash,Angioplasty,2728.95
+1968,1550,Wendy Johnson,247,James Sullivan,General Surgery,2024-01-22,Chest Pain,Casting,1461.7
+1969,1875,John Peterson,240,Susan Erickson,Endocrinology,2024-08-13,Heart Attack,Casting,1605.13
+1970,1545,Jonathan Sanchez,260,Adam Rogers,Dermatology,2024-09-09,Appendicitis,Physical Therapy,669.88
+1971,1331,Michael Young,295,Karen Jones,Orthopedics,2024-06-16,Knee Pain,Inhalers,3512.88
+1972,1963,Jason Nielsen,231,Maria Henry,Dermatology,2024-04-25,Diabetes,Inhalers,4806.56
+1973,1876,Tyler Gomez,255,Elijah Estes,Neurology,2024-07-31,Appendicitis,Medication,3674.94
+1974,1932,Courtney Jackson,215,James Martin,Neurology,2024-05-07,Knee Pain,Topical Cream,4856.88
+1975,1521,Kristen Freeman,260,Adam Rogers,Orthopedics,2024-06-29,Heart Attack,Angioplasty,4223.48
+1976,1455,Morgan Baker,227,Todd Kramer,Pediatrics,2024-04-14,Asthma,Appendectomy,3124.92
+1977,1721,Brian Moore,230,Jessica Hayes,Endocrinology,2024-07-01,Knee Pain,Medication,2149.36
+1978,1280,Richard Flores,249,Eric Butler,Neurology,2024-11-01,Broken Leg,Physical Therapy,1620.97
+1979,1714,Mary Elliott,260,Adam Rogers,Dermatology,2024-10-23,Migraine,Insulin Therapy,568.18
+1980,1248,Angela Anderson,219,Barbara Richards,Dermatology,2024-09-29,Heart Attack,Angioplasty,3281.34
+1981,1021,Mr. Raymond Silva,229,Mark Nguyen,Dermatology,2024-05-12,Appendicitis,Topical Cream,4794.42
+1982,1654,Angela Caldwell,210,Jamie Johnson,Cardiology,2024-04-08,Chest Pain,Inhalers,1587.7
+1983,1089,Zachary Stevens,293,Sarah Brown,Pediatrics,2024-06-05,Broken Leg,Insulin Therapy,3797.21
+1984,1794,Wanda Nash,214,David Reynolds,Cardiology,2024-09-27,Seizures,Inhalers,1534.98
+1985,1572,Kristopher Campbell,202,Gary Berry,Dermatology,2024-10-18,Heart Attack,Angioplasty,2479.01
+1986,1141,Jorge Le,246,Mary Garcia,Pediatrics,2024-03-08,Seizures,Physical Therapy,2086.27
+1987,1605,Jacqueline Cole,262,Sandra Taylor,General Surgery,2024-10-19,Heart Attack,Physical Therapy,3416.56
+1988,1957,Matthew Bowen,277,Jennifer Snyder,Orthopedics,2024-06-05,Knee Pain,ECG and Angiogram,2134.84
+1989,1700,Kenneth Dean,274,Mark Henderson,Dermatology,2024-01-14,Broken Leg,Medication,1583.13
+1990,1394,Larry Hernandez,229,Mark Nguyen,Dermatology,2024-09-09,Diabetes,Inhalers,1706.43
+1991,1153,Kimberly Smith,282,Sandra Farrell,Orthopedics,2024-08-14,Seizures,Physical Therapy,996.79
+1992,1706,David Sosa,243,Rebecca Lester,Pediatrics,2024-09-26,Chest Pain,Appendectomy,1195.51
+1993,1349,Martha Dawson,239,Mark Jackson,Endocrinology,2024-11-04,Asthma,ECG and Angiogram,2136.95
+1994,1172,Christine Holt,202,Gary Berry,Neurology,2024-01-09,Broken Leg,Medication,3147.6
+1995,1495,Martin Walker,208,Laura Austin,Orthopedics,2024-06-26,Diabetes,Angioplasty,4897.05
+1996,1860,Timothy Stuart,274,Mark Henderson,Orthopedics,2024-02-01,Migraine,Angioplasty,2245.61
+1997,1684,Keith Brown,238,Samantha Jordan,Neurology,2024-10-12,Asthma,ECG and Angiogram,4063.51
+1998,1779,Ashley Harris,288,Aaron Cole,General Surgery,2024-08-12,Asthma,Topical Cream,2337.18
+1999,1848,Nicholas Baker,221,Allen Weaver,Endocrinology,2024-03-21,Chest Pain,Inhalers,1389.1

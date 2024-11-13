@@ -1,0 +1,23 @@
+version: 2
+
+# defining the sources
+sources:
+  - name: stating_data #logical name for the source
+    schema: public # name of the schema
+    tables:
+      - name: staging_patient_visits
+        description: "raw data tha is loaded from teh csv"
+        columns:
+          - name: visit_id
+            description: "Unique identifier for each patient visit."
+            tests:
+              - not_null
+              - unique
+          - name: patient_id
+            description: "Unique identifier for each patient."
+            tests:
+              - not_null
+          - name: doctor_id
+            description: "Unique identifier for each doctor."
+            tests:
+              - not_null

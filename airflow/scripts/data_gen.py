@@ -5,25 +5,25 @@ from faker import Faker
 # Initialize Faker to generate random names and other info
 fake = Faker()
 
-
-# Function to generate 1000 rows of dummy data
+# Function to generate dummy data with unique IDs
 def generate_hospital_data(num_records=1000):
     data = []
     start_visit_id = 1000
 
-    # Generate unique IDs for patients and doctors
-    unique_patient_ids = random.sample(range(1000, 3000), num_records)  # Generate unique patient IDs
-    unique_doctor_ids = random.sample(range(200, 300), 10)  # Generate a smaller unique set of doctor IDs
+    # Generate unique IDs for patients
+    unique_patient_ids = random.sample(range(1000, 1000 + num_records), num_records)  # Generate unique patient IDs
+    # Generate a smaller unique set of doctor IDs
+    unique_doctor_ids = list(range(200, 300))  # Limited doctor IDs (to repeat some for multiple visits)
 
     # Generate unique doctor names based on their IDs
     doctor_info = {doc_id: fake.name() for doc_id in unique_doctor_ids}
 
     for i in range(num_records):
-        visit_id = start_visit_id + i
-        patient_id = unique_patient_ids[i]
+        visit_id = start_visit_id + i  # Unique visit ID
+        patient_id = unique_patient_ids[i]  # Unique patient ID for each record
         patient_name = fake.name()
 
-        # Select a random doctor and retrieve consistent doctor info
+        # Select a random doctor ID and retrieve consistent doctor info
         doctor_id = random.choice(unique_doctor_ids)
         doctor_name = doctor_info[doctor_id]
 
@@ -57,7 +57,6 @@ def generate_hospital_data(num_records=1000):
     df.to_csv('../rawdata/staging_data.csv', index=False)
 
     print(f"Generated {num_records} rows of dummy data and saved to 'staging_data.csv'.")
-
 
 # Generate and save the data
 generate_hospital_data()
