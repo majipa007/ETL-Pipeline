@@ -25,3 +25,19 @@ models:
         description: "Full name of the patient."
         tests:
           - not_null
+  - name: dim_doctors
+    description: "Dimension table containing doctor information"
+    columns:
+      - name: doctor_id
+        description: "Unique identifier for each doctor"
+        tests:
+          - not_null
+          - unique
+      - name: doctor_name
+        description: "Full name of the doctor"
+        tests:
+          - not_null
+      - name: specialization
+        description: "Specialization of the doctor"
+        tests:
+          - not_null

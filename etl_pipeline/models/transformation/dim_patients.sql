@@ -6,7 +6,7 @@
 
 with dim_pat as (
     select
-        patient_id,
+        distinct patient_id,
         patient_name,
     COUNT(DISTINCT visit_id) AS total_visits
     from {{source('trans', 'staging_patient_visits')}}

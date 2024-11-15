@@ -1,10 +1,20 @@
-{{
-    config(materialized = "table",
-    schema = "analytics_schema")
-}}
+{{config(
+    materialized='table',
+    schema = 'analytics_schema'
+)}}
 
-SELECT DISTINCT
+with dim_doc as (
+    select
+        distinct doctor_id,
+        doctor_name,
+        specialization,
+        COUNT(DISTINCT visit_id) AS total_visits
+    from {{ source('trans', 'staging_patient_visits')}}
+    group by doctor_id, doctor_name, specialization
+)
+select
     doctor_id,
     doctor_name,
-    specialization
-FROM {{ source('staging_data', 'staging_patient_visits') }}
+    specialization,
+    total_visits
+from dim_doc
