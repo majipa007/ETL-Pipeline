@@ -1,5 +1,5 @@
 {{config(
-    materialized='view',
+    materialized='table',
     schema = 'analytics_schema'
 )}}
  -- store in analytics_schema

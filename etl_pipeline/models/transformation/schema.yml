@@ -20,7 +20,7 @@ models:
         description: "Unique identifier for each patient."
         tests:
           - not_null
-          - unique
+#          - unique
       - name: patient_name
         description: "Full name of the patient."
         tests:

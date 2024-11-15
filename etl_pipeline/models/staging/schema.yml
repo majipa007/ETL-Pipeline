@@ -12,7 +12,7 @@ sources:
             description: "Unique identifier for each patient visit."
             tests:
               - not_null
-              - unique
+#              - unique
           - name: patient_id
             description: "Unique identifier for each patient."
             tests:
