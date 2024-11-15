@@ -1,15 +1,16 @@
-{{config(
+{{ config(
     materialized='table',
-    schema = 'analytics_schema'
-)}}
+    schema='analytics_schema'
+) }}
 
+-- Create the doctors dimension table in the analytics_schema
 with dim_doc as (
     select
-        distinct doctor_id,
+        doctor_id,
         doctor_name,
         specialization,
-        COUNT(DISTINCT visit_id) AS total_visits
-    from {{ source('trans', 'staging_patient_visits')}}
+        count(distinct visit_id) as total_visits
+    from {{ source('trans', 'staging_patient_visits') }}
     group by doctor_id, doctor_name, specialization
 )
 select

@@ -1,23 +1,22 @@
 version: 2
 
-# defining the sources
 sources:
-  - name: staging_data #logical name for the source
-    schema: public # name of the schema
+  - name: staging_data
+    schema: public
     tables:
       - name: staging_patient_visits
-        description: "raw data tha is loaded from teh csv"
+        description: "Raw data that is loaded from the CSV"
         columns:
-          - name: visit_id
+          - name: row_id  # Update to match actual column name
             description: "Unique identifier for each patient visit."
             tests:
               - not_null
-#              - unique
+              - unique
           - name: patient_id
             description: "Unique identifier for each patient."
             tests:
               - not_null
-          - name: doctor_id
+          - name: doctor  # Update to match actual column name
             description: "Unique identifier for each doctor."
             tests:
               - not_null
