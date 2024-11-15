@@ -6,7 +6,7 @@
 -- Create the patients dimension table in the analytics_schema
 with dim_pat as (
     select
-        patient_id,
+        distinct patient_id,
         patient_name,
         count(distinct visit_id) as total_visits
     from {{ source('trans', 'staging_patient_visits') }}

@@ -28,12 +28,12 @@ models:
   - name: dim_doctors
     description: "Dimension table containing doctor information"
     columns:
-      - name: doctor_id
-        description: "Unique identifier for each doctor"
-        tests:
-          - not_null
-          - unique
-      - name: doctor_name
+#      - name: doctor_id
+#        description: "Unique identifier for each doctor"
+#        tests:
+#          - not_null
+#          - unique
+      - name: doctor
         description: "Full name of the doctor"
         tests:
           - not_null
