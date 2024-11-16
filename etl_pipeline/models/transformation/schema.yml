@@ -62,3 +62,91 @@ models:
           - relationships:
               to: ref('fact_revenue')  # Ensures that total_revenue exists in fact_revenue (fact table)
 
+  - name: fact_patient_visits
+    description: "Fact table containing patient visit records including revenue, service metrics, and links to dimensional data"
+    columns:
+      - name: doctor_id
+        description: "Surrogate key linking to the doctors dimension table"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_doctors')
+              field: doctor_id
+
+      - name: branch_id
+        description: "Surrogate key linking to the hospital branches dimension table"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_branches')
+              field: branch_id
+
+      - name: risk_id
+        description: "Surrogate key linking to the patient risk profiles dimension table"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_risk')
+              field: risk_id
+
+      - name: row_id
+        description: "Unique identifier for each patient visit record"
+        tests:
+          - unique
+          - not_null
+
+      - name: patient_id
+        description: "Natural key linking to the patients dimension table"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_patients')
+              field: patient_id
+
+      - name: date_of_admit
+        description: "Date when the patient was admitted"
+        tests:
+          - not_null
+          - dbt_utils.date_in_valid_range:
+              maximum_date: "{{ var('max_date') }}"
+              minimum_date: "{{ var('min_date') }}"
+
+      - name: date_of_discharge
+        description: "Date when the patient was discharged"
+        tests:
+          - dbt_utils.date_in_valid_range:
+              maximum_date: "{{ var('max_date') }}"
+              minimum_date: "{{ var('min_date') }}"
+
+      - name: department
+        description: "Department where the patient received treatment"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['General Surgery', 'Microbiology']  # Add all valid departments
+
+      - name: revenue
+        description: "Revenue generated from the patient visit"
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: minutes_to_service
+        description: "Time taken to provide service to the patient in minutes"
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: number_of_patient_visits
+        description: "Count of visits for this patient record"
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 1"
+
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "date_of_discharge >= date_of_admit"
+          where: "date_of_discharge is not null"
