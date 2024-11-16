@@ -76,3 +76,19 @@ Runtime Error
 [0m13:20:49.665761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76748bc1a310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76748834f910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76748834f850>]}
 [0m13:20:49.666645 [debug] [MainThread]: Flushing usage events
 [0m13:20:50.963455 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:36:30.400614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bad55fbca10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bad55b1ef50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bad55b1e210>]}
+
+
+============================== 19:36:30.404429 | d6daaa78-7f47-4edd-8b3f-90730bec75bb ==============================
+[0m19:36:30.404429 [info ] [MainThread]: Running with dbt=1.9.0-b4
+[0m19:36:30.404926 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/sukuna/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:36:30.405437 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sukuna/Documents/PROJECTS/ETL_Pipeline/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:36:30.406291 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_wall_clock_time": 0.046718497, "process_user_time": 0.951481, "process_kernel_time": 0.113785, "process_mem_max_rss": "87228", "process_in_blocks": "6888", "process_out_blocks": "16", "command_success": false}
+[0m19:36:30.407039 [debug] [MainThread]: Command `dbt docs generate` failed at 19:36:30.406881 after 0.05 seconds
+[0m19:36:30.407581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bad55b1e2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bad55f09e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bad55b17750>]}
+[0m19:36:30.408040 [debug] [MainThread]: Flushing usage events
+[0m19:36:31.658050 [debug] [MainThread]: An error was encountered while trying to flush usage events

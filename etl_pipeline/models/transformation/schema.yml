@@ -62,7 +62,7 @@ models:
           - relationships:
               to: ref('fact_revenue')  # Ensures that total_revenue exists in fact_revenue (fact table)
 
-  - name: fact_patient_visits
+  - name: fact_revenue
     description: "Fact table containing patient visit records including revenue, service metrics, and links to dimensional data"
     columns:
       - name: doctor_id
@@ -103,28 +103,6 @@ models:
               to: ref('dim_patients')
               field: patient_id
 
-      - name: date_of_admit
-        description: "Date when the patient was admitted"
-        tests:
-          - not_null
-          - dbt_utils.date_in_valid_range:
-              maximum_date: "{{ var('max_date') }}"
-              minimum_date: "{{ var('min_date') }}"
-
-      - name: date_of_discharge
-        description: "Date when the patient was discharged"
-        tests:
-          - dbt_utils.date_in_valid_range:
-              maximum_date: "{{ var('max_date') }}"
-              minimum_date: "{{ var('min_date') }}"
-
-      - name: department
-        description: "Department where the patient received treatment"
-        tests:
-          - not_null
-          - accepted_values:
-              values: ['General Surgery', 'Microbiology']  # Add all valid departments
-
       - name: revenue
         description: "Revenue generated from the patient visit"
         tests:
@@ -145,8 +123,3 @@ models:
           - not_null
           - dbt_utils.expression_is_true:
               expression: ">= 1"
-
-    tests:
-      - dbt_utils.expression_is_true:
-          expression: "date_of_discharge >= date_of_admit"
-          where: "date_of_discharge is not null"

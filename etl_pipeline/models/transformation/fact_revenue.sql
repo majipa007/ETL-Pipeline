@@ -14,8 +14,6 @@ with fact_patient_visits as (
         -- Natural keys and attributes
         row_id,
         patient_id,
-        date_of_admit,
-        date_of_discharge,
         department,
 
         -- Metrics (facts)
@@ -32,18 +30,11 @@ select
     doctor_id,
     branch_id,
     risk_id,
-
     -- Natural keys
     row_id,
     patient_id,
-
-    -- Dates
-    date_of_admit,
-    date_of_discharge,
-
     -- Metrics
-    revenue,
     minutes_to_service,
-    number_of_patient_visits
-
+    number_of_patient_visits,
+    revenue
 from fact_patient_visits
