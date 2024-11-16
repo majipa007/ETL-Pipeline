@@ -4,19 +4,18 @@
 ) }}
 
 -- Create the doctors dimension table in the analytics_schema
-with dim_doc as (
+with dim_bra as (
     select
-        {{ dbt_utils.generate_surrogate_key(['doctor', 'hospital_branch']) }} as doctor_id,        doctor,
+        {{ dbt_utils.generate_surrogate_key(['hospital_branch']) }} as branch_id,
+        hospital_branch,
         department,
-        count(*) as total_visits,
         sum(revenue) as revenue
     from {{ source('trans', 'staging_patient_visits') }}
-    group by doctor_id,doctor, department
+    group by branch_id,hospital_branch, department
 )
 select
-    doctor_id,
-    doctor,
+    branch_id,
+    hospital_branch,
     department,
-    total_visits,
     revenue
-from dim_doc
+from dim_bra
