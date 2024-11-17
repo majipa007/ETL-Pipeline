@@ -12,5 +12,5 @@ RUN pip install --no-cache-dir \
     dbt-core \
     dbt-postgres \
     pandas \
-    psycopg2-binary
-
+    psycopg2-binary \
+    apache-airflow-providers-postgres

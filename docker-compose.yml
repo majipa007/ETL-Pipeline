@@ -14,9 +14,10 @@ services:
 
   etl-airflow:
     container_name: etl_airflow
-    image: apache/airflow:latest
+    image: etl:latest
     volumes:
       - ./airflow:/opt/airflow
+      - ./etl_pipeline:/opt/airflow/dbt_project
     ports:
       - "8080:8080"
     user: "${UID}:${GID}"
