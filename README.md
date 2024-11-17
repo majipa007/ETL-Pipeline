@@ -1,5 +1,3 @@
-Here's a concise and focused **README.md** tailored to your project, covering only the plan and process:
-
 ---
 
 # **ETL Pipeline for Hospital Data Analytics**
@@ -78,3 +76,5 @@ To provide actionable insights into hospital operations by organizing data into 
 ---
 
 This document provides an overview of the project and its workflow. Implementation details and setup instructions will follow once the orchestration environment is finalized.
+
+---
