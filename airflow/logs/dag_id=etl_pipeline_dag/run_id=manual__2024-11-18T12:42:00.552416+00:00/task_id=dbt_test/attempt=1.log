@@ -1,0 +1,85 @@
+[2024-11-18T12:42:33.264+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-18T12:42:33.274+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_pipeline_dag.dbt_test manual__2024-11-18T12:42:00.552416+00:00 [queued]>
+[2024-11-18T12:42:33.282+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_pipeline_dag.dbt_test manual__2024-11-18T12:42:00.552416+00:00 [queued]>
+[2024-11-18T12:42:33.282+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-18T12:42:33.308+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): dbt_test> on 2024-11-18 12:42:00.552416+00:00
+[2024-11-18T12:42:33.319+0000] {standard_task_runner.py:72} INFO - Started process 358 to run task
+[2024-11-18T12:42:33.323+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_pipeline_dag', 'dbt_test', 'manual__2024-11-18T12:42:00.552416+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp0gct5dqb']
+[2024-11-18T12:42:33.325+0000] {standard_task_runner.py:105} INFO - Job 28: Subtask dbt_test
+[2024-11-18T12:42:33.382+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_pipeline_dag.dbt_test manual__2024-11-18T12:42:00.552416+00:00 [running]> on host 945969587f65
+[2024-11-18T12:42:33.460+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_pipeline_dag' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2024-11-18T12:42:00.552416+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-18T12:42:00.552416+00:00'
+[2024-11-18T12:42:33.461+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-18T12:42:33.481+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-18T12:42:33.482+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow/etl_pipeline && dbt test --profiles-dir /opt/airflow/etl_pipeline']
+[2024-11-18T12:42:33.489+0000] {subprocess.py:99} INFO - Output:
+[2024-11-18T12:42:35.608+0000] {subprocess.py:106} INFO - [0m12:42:35  Running with dbt=1.8.8
+[2024-11-18T12:42:36.195+0000] {subprocess.py:106} INFO - [0m12:42:36  Registered adapter: postgres=1.8.2
+[2024-11-18T12:42:36.426+0000] {subprocess.py:106} INFO - [0m12:42:36  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-11-18T12:42:36.427+0000] {subprocess.py:106} INFO - There are 1 unused configuration paths:
+[2024-11-18T12:42:36.427+0000] {subprocess.py:106} INFO - - models.etl_pipeline.production
+[2024-11-18T12:42:36.715+0000] {subprocess.py:106} INFO - [0m12:42:36  Found 6 models, 25 data tests, 2 sources, 539 macros
+[2024-11-18T12:42:36.721+0000] {subprocess.py:106} INFO - [0m12:42:36
+[2024-11-18T12:42:36.845+0000] {subprocess.py:106} INFO - [0m12:42:36  Concurrency: 1 threads (target='dev')
+[2024-11-18T12:42:36.846+0000] {subprocess.py:106} INFO - [0m12:42:36
+[2024-11-18T12:42:36.852+0000] {subprocess.py:106} INFO - [0m12:42:36  1 of 25 START test dbt_utils_expression_is_true_fact_revenue_minutes_to_service___0  [RUN]
+[2024-11-18T12:42:36.953+0000] {subprocess.py:106} INFO - [0m12:42:36  1 of 25 PASS dbt_utils_expression_is_true_fact_revenue_minutes_to_service___0 .. [[32mPASS[0m in 0.10s]
+[2024-11-18T12:42:36.959+0000] {subprocess.py:106} INFO - [0m12:42:36  2 of 25 START test dbt_utils_expression_is_true_fact_revenue_number_of_patient_visits___1  [RUN]
+[2024-11-18T12:42:37.055+0000] {subprocess.py:106} INFO - [0m12:42:37  2 of 25 PASS dbt_utils_expression_is_true_fact_revenue_number_of_patient_visits___1  [[32mPASS[0m in 0.09s]
+[2024-11-18T12:42:37.061+0000] {subprocess.py:106} INFO - [0m12:42:37  3 of 25 START test dbt_utils_expression_is_true_fact_revenue_revenue___0 ....... [RUN]
+[2024-11-18T12:42:37.157+0000] {subprocess.py:106} INFO - [0m12:42:37  3 of 25 PASS dbt_utils_expression_is_true_fact_revenue_revenue___0 ............. [[32mPASS[0m in 0.09s]
+[2024-11-18T12:42:37.164+0000] {subprocess.py:106} INFO - [0m12:42:37  4 of 25 START test not_null_dim_doctors_department ............................. [RUN]
+[2024-11-18T12:42:37.270+0000] {subprocess.py:106} INFO - [0m12:42:37  4 of 25 PASS not_null_dim_doctors_department ................................... [[32mPASS[0m in 0.10s]
+[2024-11-18T12:42:37.277+0000] {subprocess.py:106} INFO - [0m12:42:37  5 of 25 START test not_null_dim_doctors_doctor ................................. [RUN]
+[2024-11-18T12:42:37.370+0000] {subprocess.py:106} INFO - [0m12:42:37  5 of 25 PASS not_null_dim_doctors_doctor ....................................... [[32mPASS[0m in 0.09s]
+[2024-11-18T12:42:37.379+0000] {subprocess.py:106} INFO - [0m12:42:37  6 of 25 START test not_null_dim_patients_patient_id ............................ [RUN]
+[2024-11-18T12:42:37.483+0000] {subprocess.py:106} INFO - [0m12:42:37  6 of 25 PASS not_null_dim_patients_patient_id .................................. [[32mPASS[0m in 0.10s]
+[2024-11-18T12:42:37.493+0000] {subprocess.py:106} INFO - [0m12:42:37  7 of 25 START test not_null_dim_patients_patient_name .......................... [RUN]
+[2024-11-18T12:42:37.591+0000] {subprocess.py:106} INFO - [0m12:42:37  7 of 25 PASS not_null_dim_patients_patient_name ................................ [[32mPASS[0m in 0.10s]
+[2024-11-18T12:42:37.600+0000] {subprocess.py:106} INFO - [0m12:42:37  8 of 25 START test not_null_fact_revenue_branch_id ............................. [RUN]
+[2024-11-18T12:42:37.709+0000] {subprocess.py:106} INFO - [0m12:42:37  8 of 25 PASS not_null_fact_revenue_branch_id ................................... [[32mPASS[0m in 0.11s]
+[2024-11-18T12:42:37.718+0000] {subprocess.py:106} INFO - [0m12:42:37  9 of 25 START test not_null_fact_revenue_doctor_id ............................. [RUN]
+[2024-11-18T12:42:37.793+0000] {subprocess.py:106} INFO - [0m12:42:37  9 of 25 PASS not_null_fact_revenue_doctor_id ................................... [[32mPASS[0m in 0.07s]
+[2024-11-18T12:42:37.797+0000] {subprocess.py:106} INFO - [0m12:42:37  10 of 25 START test not_null_fact_revenue_minutes_to_service ................... [RUN]
+[2024-11-18T12:42:37.851+0000] {subprocess.py:106} INFO - [0m12:42:37  10 of 25 PASS not_null_fact_revenue_minutes_to_service ......................... [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:37.855+0000] {subprocess.py:106} INFO - [0m12:42:37  11 of 25 START test not_null_fact_revenue_number_of_patient_visits ............. [RUN]
+[2024-11-18T12:42:37.907+0000] {subprocess.py:106} INFO - [0m12:42:37  11 of 25 PASS not_null_fact_revenue_number_of_patient_visits ................... [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:37.911+0000] {subprocess.py:106} INFO - [0m12:42:37  12 of 25 START test not_null_fact_revenue_patient_id ........................... [RUN]
+[2024-11-18T12:42:37.959+0000] {subprocess.py:106} INFO - [0m12:42:37  12 of 25 PASS not_null_fact_revenue_patient_id ................................. [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:37.963+0000] {subprocess.py:106} INFO - [0m12:42:37  13 of 25 START test not_null_fact_revenue_revenue .............................. [RUN]
+[2024-11-18T12:42:38.027+0000] {subprocess.py:106} INFO - [0m12:42:38  13 of 25 PASS not_null_fact_revenue_revenue .................................... [[32mPASS[0m in 0.06s]
+[2024-11-18T12:42:38.033+0000] {subprocess.py:106} INFO - [0m12:42:38  14 of 25 START test not_null_fact_revenue_risk_id .............................. [RUN]
+[2024-11-18T12:42:38.107+0000] {subprocess.py:106} INFO - [0m12:42:38  14 of 25 PASS not_null_fact_revenue_risk_id .................................... [[32mPASS[0m in 0.07s]
+[2024-11-18T12:42:38.111+0000] {subprocess.py:106} INFO - [0m12:42:38  15 of 25 START test not_null_fact_revenue_row_id ............................... [RUN]
+[2024-11-18T12:42:38.168+0000] {subprocess.py:106} INFO - [0m12:42:38  15 of 25 PASS not_null_fact_revenue_row_id ..................................... [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:38.173+0000] {subprocess.py:106} INFO - [0m12:42:38  16 of 25 START test relationships_fact_revenue_branch_id__branch_id__ref_dim_branches_  [RUN]
+[2024-11-18T12:42:38.246+0000] {subprocess.py:106} INFO - [0m12:42:38  16 of 25 PASS relationships_fact_revenue_branch_id__branch_id__ref_dim_branches_  [[32mPASS[0m in 0.07s]
+[2024-11-18T12:42:38.250+0000] {subprocess.py:106} INFO - [0m12:42:38  17 of 25 START test relationships_fact_revenue_patient_id__patient_id__ref_dim_patients_  [RUN]
+[2024-11-18T12:42:38.315+0000] {subprocess.py:106} INFO - [0m12:42:38  17 of 25 PASS relationships_fact_revenue_patient_id__patient_id__ref_dim_patients_  [[32mPASS[0m in 0.06s]
+[2024-11-18T12:42:38.318+0000] {subprocess.py:106} INFO - [0m12:42:38  18 of 25 START test relationships_fact_revenue_risk_id__risk_id__ref_dim_risk_ . [RUN]
+[2024-11-18T12:42:38.374+0000] {subprocess.py:106} INFO - [0m12:42:38  18 of 25 PASS relationships_fact_revenue_risk_id__risk_id__ref_dim_risk_ ....... [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:38.377+0000] {subprocess.py:106} INFO - [0m12:42:38  19 of 25 START test source_not_null_staging_data_staging_patient_visits_doctor . [RUN]
+[2024-11-18T12:42:38.433+0000] {subprocess.py:106} INFO - [0m12:42:38  19 of 25 PASS source_not_null_staging_data_staging_patient_visits_doctor ....... [[32mPASS[0m in 0.06s]
+[2024-11-18T12:42:38.437+0000] {subprocess.py:106} INFO - [0m12:42:38  20 of 25 START test source_not_null_staging_data_staging_patient_visits_patient_id  [RUN]
+[2024-11-18T12:42:38.585+0000] {subprocess.py:106} INFO - [0m12:42:38  20 of 25 PASS source_not_null_staging_data_staging_patient_visits_patient_id ... [[32mPASS[0m in 0.14s]
+[2024-11-18T12:42:38.588+0000] {subprocess.py:106} INFO - [0m12:42:38  21 of 25 START test source_not_null_staging_data_staging_patient_visits_row_id . [RUN]
+[2024-11-18T12:42:38.641+0000] {subprocess.py:106} INFO - [0m12:42:38  21 of 25 PASS source_not_null_staging_data_staging_patient_visits_row_id ....... [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:38.644+0000] {subprocess.py:106} INFO - [0m12:42:38  22 of 25 START test source_not_null_trans_staging_patient_visits_patient_id .... [RUN]
+[2024-11-18T12:42:38.692+0000] {subprocess.py:106} INFO - [0m12:42:38  22 of 25 PASS source_not_null_trans_staging_patient_visits_patient_id .......... [[32mPASS[0m in 0.05s]
+[2024-11-18T12:42:38.697+0000] {subprocess.py:106} INFO - [0m12:42:38  23 of 25 START test source_unique_staging_data_staging_patient_visits_row_id ... [RUN]
+[2024-11-18T12:42:38.741+0000] {subprocess.py:106} INFO - [0m12:42:38  23 of 25 PASS source_unique_staging_data_staging_patient_visits_row_id ......... [[32mPASS[0m in 0.04s]
+[2024-11-18T12:42:38.743+0000] {subprocess.py:106} INFO - [0m12:42:38  24 of 25 START test unique_dim_patients_patient_id ............................. [RUN]
+[2024-11-18T12:42:38.779+0000] {subprocess.py:106} INFO - [0m12:42:38  24 of 25 PASS unique_dim_patients_patient_id ................................... [[32mPASS[0m in 0.03s]
+[2024-11-18T12:42:38.782+0000] {subprocess.py:106} INFO - [0m12:42:38  25 of 25 START test unique_fact_revenue_row_id ................................. [RUN]
+[2024-11-18T12:42:38.844+0000] {subprocess.py:106} INFO - [0m12:42:38  25 of 25 PASS unique_fact_revenue_row_id ....................................... [[32mPASS[0m in 0.06s]
+[2024-11-18T12:42:38.872+0000] {subprocess.py:106} INFO - [0m12:42:38
+[2024-11-18T12:42:38.872+0000] {subprocess.py:106} INFO - [0m12:42:38  Finished running 25 data tests in 0 hours 0 minutes and 2.15 seconds (2.15s).
+[2024-11-18T12:42:38.959+0000] {subprocess.py:106} INFO - [0m12:42:38
+[2024-11-18T12:42:38.960+0000] {subprocess.py:106} INFO - [0m12:42:38  [32mCompleted successfully[0m
+[2024-11-18T12:42:38.961+0000] {subprocess.py:106} INFO - [0m12:42:38
+[2024-11-18T12:42:38.961+0000] {subprocess.py:106} INFO - [0m12:42:38  Done. PASS=25 WARN=0 ERROR=0 SKIP=0 TOTAL=25
+[2024-11-18T12:42:40.690+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-11-18T12:42:40.722+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-18T12:42:40.723+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_pipeline_dag, task_id=dbt_test, run_id=manual__2024-11-18T12:42:00.552416+00:00, execution_date=20241118T124200, start_date=20241118T124233, end_date=20241118T124240
+[2024-11-18T12:42:40.787+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-18T12:42:40.816+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-18T12:42:40.827+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

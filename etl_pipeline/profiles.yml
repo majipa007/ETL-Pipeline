@@ -1,0 +1,12 @@
+etl_pipeline:
+  outputs:
+    dev:
+      dbname: db
+      host: postgres
+      pass: secret
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: etl
+  target: dev

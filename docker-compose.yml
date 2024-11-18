@@ -11,13 +11,20 @@ services:
       - ./postgres_data:/var/lib/postgresql/data
     ports:
       - "5000:5432"
+#    networks:
+#      - etl_network
+#    healthcheck:
+#      test: ["CMD-SHELL", "pg_isready -U etl"]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
 
   etl-airflow:
     container_name: etl_airflow
     image: etl:latest
     volumes:
       - ./airflow:/opt/airflow
-      - ./etl_pipeline:/opt/airflow/dbt_project
+      - ./etl_pipeline:/opt/airflow/etl_pipeline
     ports:
       - "8080:8080"
     user: "${UID}:${GID}"
@@ -29,3 +36,14 @@ services:
       chmod -R 777 /opt/airflow &&
       airflow standalone
       "
+      
+
+#    networks:
+#      - etl_network
+##    depends_on:
+##      postgres:
+##        condition: service_healthy
+
+#networks:
+#  etl_network:
+#    driver: bridge

@@ -1,0 +1,624 @@
+[2024-11-18T12:37:52.092+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-18T12:37:52.139+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_pipeline_dag.dbt_run manual__2024-11-18T12:33:00.228556+00:00 [queued]>
+[2024-11-18T12:37:52.168+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_pipeline_dag.dbt_run manual__2024-11-18T12:33:00.228556+00:00 [queued]>
+[2024-11-18T12:37:52.169+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-18T12:37:52.360+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): dbt_run> on 2024-11-18 12:33:00.228556+00:00
+[2024-11-18T12:37:52.376+0000] {standard_task_runner.py:72} INFO - Started process 164 to run task
+[2024-11-18T12:37:52.385+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_pipeline_dag', 'dbt_run', 'manual__2024-11-18T12:33:00.228556+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp9drqegwh']
+[2024-11-18T12:37:52.390+0000] {standard_task_runner.py:105} INFO - Job 17: Subtask dbt_run
+[2024-11-18T12:37:52.502+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_pipeline_dag.dbt_run manual__2024-11-18T12:33:00.228556+00:00 [running]> on host 945969587f65
+[2024-11-18T12:37:52.763+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_pipeline_dag' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-11-18T12:33:00.228556+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-18T12:33:00.228556+00:00'
+[2024-11-18T12:37:52.768+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-18T12:37:52.856+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-18T12:37:52.858+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', '\n            cd /opt/airflow/etl_pipeline &&             echo "Running dbt with profiles.yml in: $DBT_PROFILES_DIR" &&             dbt run --debug --profiles-dir /opt/airflow/etl_pipeline\n        ']
+[2024-11-18T12:37:52.884+0000] {subprocess.py:99} INFO - Output:
+[2024-11-18T12:37:52.889+0000] {subprocess.py:106} INFO - Running dbt with profiles.yml in:
+[2024-11-18T12:37:55.030+0000] {subprocess.py:106} INFO - [0m12:37:55  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefa52c8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef93ab1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef8d1d1c0>]}
+[2024-11-18T12:37:55.032+0000] {subprocess.py:106} INFO - [0m12:37:55  Running with dbt=1.8.8
+[2024-11-18T12:37:55.033+0000] {subprocess.py:106} INFO - [0m12:37:55  running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/opt/airflow/etl_pipeline', 'log_path': '/opt/airflow/etl_pipeline/logs', 'fail_fast': 'False', 'debug': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --debug --profiles-dir /opt/airflow/etl_pipeline', 'send_anonymous_usage_stats': 'True'}
+[2024-11-18T12:37:55.380+0000] {subprocess.py:106} INFO - [0m12:37:55  Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef98d66f0>]}
+[2024-11-18T12:37:55.687+0000] {subprocess.py:106} INFO - [0m12:37:55  Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef8c76bd0>]}
+[2024-11-18T12:37:55.690+0000] {subprocess.py:106} INFO - [0m12:37:55  Registered adapter: postgres=1.8.2
+[2024-11-18T12:37:55.760+0000] {subprocess.py:106} INFO - [0m12:37:55  checksum: ec53e341a936509427e16df1c646386a84befec52c1957e3f4359fbc36fc93f5, vars: {}, profile: , target: , version: 1.8.8
+[2024-11-18T12:37:56.019+0000] {subprocess.py:106} INFO - [0m12:37:56  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[2024-11-18T12:37:56.019+0000] {subprocess.py:106} INFO - [0m12:37:56  Partial parsing enabled, no changes found, skipping parsing
+[2024-11-18T12:37:56.025+0000] {subprocess.py:106} INFO - [0m12:37:56  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-11-18T12:37:56.026+0000] {subprocess.py:106} INFO - There are 1 unused configuration paths:
+[2024-11-18T12:37:56.026+0000] {subprocess.py:106} INFO - - models.etl_pipeline.production
+[2024-11-18T12:37:56.077+0000] {subprocess.py:106} INFO - [0m12:37:56  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef8ffe0f0>]}
+[2024-11-18T12:37:56.216+0000] {subprocess.py:106} INFO - [0m12:37:56  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef7afdb20>]}
+[2024-11-18T12:37:56.216+0000] {subprocess.py:106} INFO - [0m12:37:56  Found 6 models, 26 data tests, 2 sources, 539 macros
+[2024-11-18T12:37:56.217+0000] {subprocess.py:106} INFO - [0m12:37:56  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef804ff20>]}
+[2024-11-18T12:37:56.219+0000] {subprocess.py:106} INFO - [0m12:37:56
+[2024-11-18T12:37:56.220+0000] {subprocess.py:106} INFO - [0m12:37:56  Acquiring new postgres connection 'master'
+[2024-11-18T12:37:56.224+0000] {subprocess.py:106} INFO - [0m12:37:56  Acquiring new postgres connection 'list_db'
+[2024-11-18T12:37:56.277+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "list_db"
+[2024-11-18T12:37:56.278+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "connection_name": "list_db"} */
+[2024-11-18T12:37:56.278+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.279+0000] {subprocess.py:106} INFO -     select distinct nspname from pg_namespace
+[2024-11-18T12:37:56.279+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.279+0000] {subprocess.py:106} INFO - [0m12:37:56  Opening a new connection, currently in state init
+[2024-11-18T12:37:56.341+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: SELECT 6 in 0.061 seconds
+[2024-11-18T12:37:56.348+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db: Close
+[2024-11-18T12:37:56.358+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "list_db"
+[2024-11-18T12:37:56.359+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "connection_name": "list_db"} */
+[2024-11-18T12:37:56.361+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.363+0000] {subprocess.py:106} INFO -     select distinct nspname from pg_namespace
+[2024-11-18T12:37:56.364+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.365+0000] {subprocess.py:106} INFO - [0m12:37:56  Opening a new connection, currently in state closed
+[2024-11-18T12:37:56.393+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: SELECT 6 in 0.030 seconds
+[2024-11-18T12:37:56.399+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db: Close
+[2024-11-18T12:37:56.407+0000] {subprocess.py:106} INFO - [0m12:37:56  Re-using an available connection from the pool (formerly list_db, now list_db_public)
+[2024-11-18T12:37:56.435+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "list_db_public"
+[2024-11-18T12:37:56.436+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public: BEGIN
+[2024-11-18T12:37:56.437+0000] {subprocess.py:106} INFO - [0m12:37:56  Opening a new connection, currently in state closed
+[2024-11-18T12:37:56.467+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: BEGIN in 0.028 seconds
+[2024-11-18T12:37:56.469+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "list_db_public"
+[2024-11-18T12:37:56.471+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "connection_name": "list_db_public"} */
+[2024-11-18T12:37:56.472+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:56.472+0000] {subprocess.py:106} INFO -       'db' as database,
+[2024-11-18T12:37:56.473+0000] {subprocess.py:106} INFO -       tablename as name,
+[2024-11-18T12:37:56.474+0000] {subprocess.py:106} INFO -       schemaname as schema,
+[2024-11-18T12:37:56.474+0000] {subprocess.py:106} INFO -       'table' as type
+[2024-11-18T12:37:56.475+0000] {subprocess.py:106} INFO -     from pg_tables
+[2024-11-18T12:37:56.476+0000] {subprocess.py:106} INFO -     where schemaname ilike 'public'
+[2024-11-18T12:37:56.477+0000] {subprocess.py:106} INFO -     union all
+[2024-11-18T12:37:56.477+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:56.478+0000] {subprocess.py:106} INFO -       'db' as database,
+[2024-11-18T12:37:56.479+0000] {subprocess.py:106} INFO -       viewname as name,
+[2024-11-18T12:37:56.480+0000] {subprocess.py:106} INFO -       schemaname as schema,
+[2024-11-18T12:37:56.481+0000] {subprocess.py:106} INFO -       'view' as type
+[2024-11-18T12:37:56.483+0000] {subprocess.py:106} INFO -     from pg_views
+[2024-11-18T12:37:56.483+0000] {subprocess.py:106} INFO -     where schemaname ilike 'public'
+[2024-11-18T12:37:56.484+0000] {subprocess.py:106} INFO -     union all
+[2024-11-18T12:37:56.485+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:56.486+0000] {subprocess.py:106} INFO -       'db' as database,
+[2024-11-18T12:37:56.486+0000] {subprocess.py:106} INFO -       matviewname as name,
+[2024-11-18T12:37:56.487+0000] {subprocess.py:106} INFO -       schemaname as schema,
+[2024-11-18T12:37:56.488+0000] {subprocess.py:106} INFO -       'materialized_view' as type
+[2024-11-18T12:37:56.488+0000] {subprocess.py:106} INFO -     from pg_matviews
+[2024-11-18T12:37:56.489+0000] {subprocess.py:106} INFO -     where schemaname ilike 'public'
+[2024-11-18T12:37:56.490+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.490+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: SELECT 1 in 0.010 seconds
+[2024-11-18T12:37:56.491+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public: ROLLBACK
+[2024-11-18T12:37:56.491+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public: Close
+[2024-11-18T12:37:56.494+0000] {subprocess.py:106} INFO - [0m12:37:56  Re-using an available connection from the pool (formerly list_db_public, now list_db_public_analytics_schema)
+[2024-11-18T12:37:56.507+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "list_db_public_analytics_schema"
+[2024-11-18T12:37:56.508+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public_analytics_schema: BEGIN
+[2024-11-18T12:37:56.510+0000] {subprocess.py:106} INFO - [0m12:37:56  Opening a new connection, currently in state closed
+[2024-11-18T12:37:56.538+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: BEGIN in 0.028 seconds
+[2024-11-18T12:37:56.539+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "list_db_public_analytics_schema"
+[2024-11-18T12:37:56.541+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public_analytics_schema: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "connection_name": "list_db_public_analytics_schema"} */
+[2024-11-18T12:37:56.542+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:56.543+0000] {subprocess.py:106} INFO -       'db' as database,
+[2024-11-18T12:37:56.544+0000] {subprocess.py:106} INFO -       tablename as name,
+[2024-11-18T12:37:56.545+0000] {subprocess.py:106} INFO -       schemaname as schema,
+[2024-11-18T12:37:56.546+0000] {subprocess.py:106} INFO -       'table' as type
+[2024-11-18T12:37:56.547+0000] {subprocess.py:106} INFO -     from pg_tables
+[2024-11-18T12:37:56.548+0000] {subprocess.py:106} INFO -     where schemaname ilike 'public_analytics_schema'
+[2024-11-18T12:37:56.549+0000] {subprocess.py:106} INFO -     union all
+[2024-11-18T12:37:56.549+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:56.550+0000] {subprocess.py:106} INFO -       'db' as database,
+[2024-11-18T12:37:56.550+0000] {subprocess.py:106} INFO -       viewname as name,
+[2024-11-18T12:37:56.551+0000] {subprocess.py:106} INFO -       schemaname as schema,
+[2024-11-18T12:37:56.552+0000] {subprocess.py:106} INFO -       'view' as type
+[2024-11-18T12:37:56.553+0000] {subprocess.py:106} INFO -     from pg_views
+[2024-11-18T12:37:56.554+0000] {subprocess.py:106} INFO -     where schemaname ilike 'public_analytics_schema'
+[2024-11-18T12:37:56.555+0000] {subprocess.py:106} INFO -     union all
+[2024-11-18T12:37:56.556+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:56.557+0000] {subprocess.py:106} INFO -       'db' as database,
+[2024-11-18T12:37:56.558+0000] {subprocess.py:106} INFO -       matviewname as name,
+[2024-11-18T12:37:56.559+0000] {subprocess.py:106} INFO -       schemaname as schema,
+[2024-11-18T12:37:56.559+0000] {subprocess.py:106} INFO -       'materialized_view' as type
+[2024-11-18T12:37:56.560+0000] {subprocess.py:106} INFO -     from pg_matviews
+[2024-11-18T12:37:56.560+0000] {subprocess.py:106} INFO -     where schemaname ilike 'public_analytics_schema'
+[2024-11-18T12:37:56.561+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.561+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: SELECT 5 in 0.011 seconds
+[2024-11-18T12:37:56.562+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public_analytics_schema: ROLLBACK
+[2024-11-18T12:37:56.563+0000] {subprocess.py:106} INFO - [0m12:37:56  On list_db_public_analytics_schema: Close
+[2024-11-18T12:37:56.595+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "master"
+[2024-11-18T12:37:56.598+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: BEGIN
+[2024-11-18T12:37:56.600+0000] {subprocess.py:106} INFO - [0m12:37:56  Opening a new connection, currently in state init
+[2024-11-18T12:37:56.628+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: BEGIN in 0.028 seconds
+[2024-11-18T12:37:56.630+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "master"
+[2024-11-18T12:37:56.634+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "connection_name": "master"} */
+[2024-11-18T12:37:56.635+0000] {subprocess.py:106} INFO - with relation as (
+[2024-11-18T12:37:56.636+0000] {subprocess.py:106} INFO -         select
+[2024-11-18T12:37:56.637+0000] {subprocess.py:106} INFO -             pg_rewrite.ev_class as class,
+[2024-11-18T12:37:56.637+0000] {subprocess.py:106} INFO -             pg_rewrite.oid as id
+[2024-11-18T12:37:56.638+0000] {subprocess.py:106} INFO -         from pg_rewrite
+[2024-11-18T12:37:56.638+0000] {subprocess.py:106} INFO -     ),
+[2024-11-18T12:37:56.639+0000] {subprocess.py:106} INFO -     class as (
+[2024-11-18T12:37:56.640+0000] {subprocess.py:106} INFO -         select
+[2024-11-18T12:37:56.640+0000] {subprocess.py:106} INFO -             oid as id,
+[2024-11-18T12:37:56.641+0000] {subprocess.py:106} INFO -             relname as name,
+[2024-11-18T12:37:56.642+0000] {subprocess.py:106} INFO -             relnamespace as schema,
+[2024-11-18T12:37:56.643+0000] {subprocess.py:106} INFO -             relkind as kind
+[2024-11-18T12:37:56.644+0000] {subprocess.py:106} INFO -         from pg_class
+[2024-11-18T12:37:56.645+0000] {subprocess.py:106} INFO -     ),
+[2024-11-18T12:37:56.646+0000] {subprocess.py:106} INFO -     dependency as (
+[2024-11-18T12:37:56.647+0000] {subprocess.py:106} INFO -         select distinct
+[2024-11-18T12:37:56.648+0000] {subprocess.py:106} INFO -             pg_depend.objid as id,
+[2024-11-18T12:37:56.649+0000] {subprocess.py:106} INFO -             pg_depend.refobjid as ref
+[2024-11-18T12:37:56.650+0000] {subprocess.py:106} INFO -         from pg_depend
+[2024-11-18T12:37:56.650+0000] {subprocess.py:106} INFO -     ),
+[2024-11-18T12:37:56.651+0000] {subprocess.py:106} INFO -     schema as (
+[2024-11-18T12:37:56.651+0000] {subprocess.py:106} INFO -         select
+[2024-11-18T12:37:56.652+0000] {subprocess.py:106} INFO -             pg_namespace.oid as id,
+[2024-11-18T12:37:56.652+0000] {subprocess.py:106} INFO -             pg_namespace.nspname as name
+[2024-11-18T12:37:56.653+0000] {subprocess.py:106} INFO -         from pg_namespace
+[2024-11-18T12:37:56.654+0000] {subprocess.py:106} INFO -         where nspname != 'information_schema' and nspname not like 'pg\_%'
+[2024-11-18T12:37:56.654+0000] {subprocess.py:106} INFO -     ),
+[2024-11-18T12:37:56.655+0000] {subprocess.py:106} INFO -     referenced as (
+[2024-11-18T12:37:56.655+0000] {subprocess.py:106} INFO -         select
+[2024-11-18T12:37:56.656+0000] {subprocess.py:106} INFO -             relation.id AS id,
+[2024-11-18T12:37:56.657+0000] {subprocess.py:106} INFO -             referenced_class.name ,
+[2024-11-18T12:37:56.658+0000] {subprocess.py:106} INFO -             referenced_class.schema ,
+[2024-11-18T12:37:56.659+0000] {subprocess.py:106} INFO -             referenced_class.kind
+[2024-11-18T12:37:56.660+0000] {subprocess.py:106} INFO -         from relation
+[2024-11-18T12:37:56.661+0000] {subprocess.py:106} INFO -         join class as referenced_class on relation.class=referenced_class.id
+[2024-11-18T12:37:56.662+0000] {subprocess.py:106} INFO -         where referenced_class.kind in ('r', 'v', 'm')
+[2024-11-18T12:37:56.663+0000] {subprocess.py:106} INFO -     ),
+[2024-11-18T12:37:56.664+0000] {subprocess.py:106} INFO -     relationships as (
+[2024-11-18T12:37:56.665+0000] {subprocess.py:106} INFO -         select
+[2024-11-18T12:37:56.666+0000] {subprocess.py:106} INFO -             referenced.name as referenced_name,
+[2024-11-18T12:37:56.667+0000] {subprocess.py:106} INFO -             referenced.schema as referenced_schema_id,
+[2024-11-18T12:37:56.668+0000] {subprocess.py:106} INFO -             dependent_class.name as dependent_name,
+[2024-11-18T12:37:56.670+0000] {subprocess.py:106} INFO -             dependent_class.schema as dependent_schema_id,
+[2024-11-18T12:37:56.670+0000] {subprocess.py:106} INFO -             referenced.kind as kind
+[2024-11-18T12:37:56.671+0000] {subprocess.py:106} INFO -         from referenced
+[2024-11-18T12:37:56.672+0000] {subprocess.py:106} INFO -         join dependency on referenced.id=dependency.id
+[2024-11-18T12:37:56.672+0000] {subprocess.py:106} INFO -         join class as dependent_class on dependency.ref=dependent_class.id
+[2024-11-18T12:37:56.673+0000] {subprocess.py:106} INFO -         where
+[2024-11-18T12:37:56.673+0000] {subprocess.py:106} INFO -             (referenced.name != dependent_class.name or
+[2024-11-18T12:37:56.674+0000] {subprocess.py:106} INFO -              referenced.schema != dependent_class.schema)
+[2024-11-18T12:37:56.675+0000] {subprocess.py:106} INFO -     )
+[2024-11-18T12:37:56.675+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:56.676+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:56.676+0000] {subprocess.py:106} INFO -         referenced_schema.name as referenced_schema,
+[2024-11-18T12:37:56.677+0000] {subprocess.py:106} INFO -         relationships.referenced_name as referenced_name,
+[2024-11-18T12:37:56.678+0000] {subprocess.py:106} INFO -         dependent_schema.name as dependent_schema,
+[2024-11-18T12:37:56.678+0000] {subprocess.py:106} INFO -         relationships.dependent_name as dependent_name
+[2024-11-18T12:37:56.679+0000] {subprocess.py:106} INFO -     from relationships
+[2024-11-18T12:37:56.680+0000] {subprocess.py:106} INFO -     join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+[2024-11-18T12:37:56.681+0000] {subprocess.py:106} INFO -     join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+[2024-11-18T12:37:56.682+0000] {subprocess.py:106} INFO -     group by referenced_schema, referenced_name, dependent_schema, dependent_name
+[2024-11-18T12:37:56.684+0000] {subprocess.py:106} INFO -     order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[2024-11-18T12:37:56.686+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: SELECT 0 in 0.018 seconds
+[2024-11-18T12:37:56.688+0000] {subprocess.py:106} INFO - [0m12:37:56  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef804de20>]}
+[2024-11-18T12:37:56.689+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: ROLLBACK
+[2024-11-18T12:37:56.690+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "master"
+[2024-11-18T12:37:56.691+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: BEGIN
+[2024-11-18T12:37:56.692+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: BEGIN in 0.001 seconds
+[2024-11-18T12:37:56.693+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: COMMIT
+[2024-11-18T12:37:56.694+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "master"
+[2024-11-18T12:37:56.695+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: COMMIT
+[2024-11-18T12:37:56.696+0000] {subprocess.py:106} INFO - [0m12:37:56  SQL status: COMMIT in 0.000 seconds
+[2024-11-18T12:37:56.697+0000] {subprocess.py:106} INFO - [0m12:37:56  On master: Close
+[2024-11-18T12:37:56.697+0000] {subprocess.py:106} INFO - [0m12:37:56  Concurrency: 1 threads (target='dev')
+[2024-11-18T12:37:56.698+0000] {subprocess.py:106} INFO - [0m12:37:56
+[2024-11-18T12:37:56.701+0000] {subprocess.py:106} INFO - [0m12:37:56  Began running node model.etl_pipeline.dim_branches
+[2024-11-18T12:37:56.704+0000] {subprocess.py:106} INFO - [0m12:37:56  1 of 6 START sql table model public_analytics_schema.dim_branches .............. [RUN]
+[2024-11-18T12:37:56.706+0000] {subprocess.py:106} INFO - [0m12:37:56  Re-using an available connection from the pool (formerly list_db_public_analytics_schema, now model.etl_pipeline.dim_branches)
+[2024-11-18T12:37:56.708+0000] {subprocess.py:106} INFO - [0m12:37:56  Began compiling node model.etl_pipeline.dim_branches
+[2024-11-18T12:37:56.814+0000] {subprocess.py:106} INFO - [0m12:37:56  Writing injected SQL for node "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:56.818+0000] {subprocess.py:106} INFO - [0m12:37:56  Began executing node model.etl_pipeline.dim_branches
+[2024-11-18T12:37:56.982+0000] {subprocess.py:106} INFO - [0m12:37:56  Writing runtime sql for node "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:56.983+0000] {subprocess.py:106} INFO - [0m12:37:56  Using postgres connection "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:56.984+0000] {subprocess.py:106} INFO - [0m12:37:56  On model.etl_pipeline.dim_branches: BEGIN
+[2024-11-18T12:37:56.985+0000] {subprocess.py:106} INFO - [0m12:37:56  Opening a new connection, currently in state closed
+[2024-11-18T12:37:57.029+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: BEGIN in 0.043 seconds
+[2024-11-18T12:37:57.029+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_branches"} */
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO -   create  table "db"."public_analytics_schema"."dim_branches__dbt_tmp"
+[2024-11-18T12:37:57.030+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO -     as
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO -   (
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.031+0000] {subprocess.py:106} INFO - -- Create the doctors dimension table in the analytics_schema
+[2024-11-18T12:37:57.032+0000] {subprocess.py:106} INFO - with dim_bra as (
+[2024-11-18T12:37:57.032+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:57.032+0000] {subprocess.py:106} INFO -         md5(cast(coalesce(cast(hospital_branch as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as branch_id,
+[2024-11-18T12:37:57.032+0000] {subprocess.py:106} INFO -         hospital_branch,
+[2024-11-18T12:37:57.032+0000] {subprocess.py:106} INFO -         sum(revenue) as revenue
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO -     from "db"."public"."staging_patient_visits"
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO -     group by branch_id, hospital_branch
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO - )
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO -     branch_id,
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO -     hospital_branch,
+[2024-11-18T12:37:57.033+0000] {subprocess.py:106} INFO -     revenue
+[2024-11-18T12:37:57.034+0000] {subprocess.py:106} INFO - from dim_bra
+[2024-11-18T12:37:57.034+0000] {subprocess.py:106} INFO -   );
+[2024-11-18T12:37:57.034+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.054+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: SELECT 3 in 0.023 seconds
+[2024-11-18T12:37:57.070+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:57.071+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_branches"} */
+[2024-11-18T12:37:57.071+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_branches" rename to "dim_branches__dbt_backup"
+[2024-11-18T12:37:57.072+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:57.081+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:57.084+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_branches"} */
+[2024-11-18T12:37:57.084+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_branches__dbt_tmp" rename to "dim_branches"
+[2024-11-18T12:37:57.086+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:57.117+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: COMMIT
+[2024-11-18T12:37:57.117+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:57.118+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: COMMIT
+[2024-11-18T12:37:57.127+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: COMMIT in 0.008 seconds
+[2024-11-18T12:37:57.138+0000] {subprocess.py:106} INFO - [0m12:37:57  Applying DROP to: "db"."public_analytics_schema"."dim_branches__dbt_backup"
+[2024-11-18T12:37:57.147+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_branches"
+[2024-11-18T12:37:57.148+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_branches"} */
+[2024-11-18T12:37:57.148+0000] {subprocess.py:106} INFO - drop table if exists "db"."public_analytics_schema"."dim_branches__dbt_backup" cascade
+[2024-11-18T12:37:57.154+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: DROP TABLE in 0.006 seconds
+[2024-11-18T12:37:57.157+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_branches: Close
+[2024-11-18T12:37:57.160+0000] {subprocess.py:106} INFO - [0m12:37:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef9f2bad0>]}
+[2024-11-18T12:37:57.162+0000] {subprocess.py:106} INFO - [0m12:37:57  1 of 6 OK created sql table model public_analytics_schema.dim_branches ......... [[32mSELECT 3[0m in 0.45s]
+[2024-11-18T12:37:57.164+0000] {subprocess.py:106} INFO - [0m12:37:57  Finished running node model.etl_pipeline.dim_branches
+[2024-11-18T12:37:57.165+0000] {subprocess.py:106} INFO - [0m12:37:57  Began running node model.etl_pipeline.dim_doctors
+[2024-11-18T12:37:57.166+0000] {subprocess.py:106} INFO - [0m12:37:57  2 of 6 START sql table model public_analytics_schema.dim_doctors ............... [RUN]
+[2024-11-18T12:37:57.167+0000] {subprocess.py:106} INFO - [0m12:37:57  Re-using an available connection from the pool (formerly model.etl_pipeline.dim_branches, now model.etl_pipeline.dim_doctors)
+[2024-11-18T12:37:57.169+0000] {subprocess.py:106} INFO - [0m12:37:57  Began compiling node model.etl_pipeline.dim_doctors
+[2024-11-18T12:37:57.173+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing injected SQL for node "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.174+0000] {subprocess.py:106} INFO - [0m12:37:57  Began executing node model.etl_pipeline.dim_doctors
+[2024-11-18T12:37:57.182+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing runtime sql for node "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.183+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.184+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: BEGIN
+[2024-11-18T12:37:57.184+0000] {subprocess.py:106} INFO - [0m12:37:57  Opening a new connection, currently in state closed
+[2024-11-18T12:37:57.196+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: BEGIN in 0.012 seconds
+[2024-11-18T12:37:57.197+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.198+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_doctors"} */
+[2024-11-18T12:37:57.199+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.199+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.199+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.200+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.200+0000] {subprocess.py:106} INFO -   create  table "db"."public_analytics_schema"."dim_doctors__dbt_tmp"
+[2024-11-18T12:37:57.200+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.200+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.200+0000] {subprocess.py:106} INFO -     as
+[2024-11-18T12:37:57.201+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.201+0000] {subprocess.py:106} INFO -   (
+[2024-11-18T12:37:57.201+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.201+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO - -- Create the doctors dimension table in the analytics_schema
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO - with dim_doc as (
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO -         md5(cast(coalesce(cast(doctor as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(department as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as doctor_id,
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO -         doctor,
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO -         department,
+[2024-11-18T12:37:57.202+0000] {subprocess.py:106} INFO -         count(*) as total_visits,
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO -         sum(revenue) as revenue
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO -     from "db"."public"."staging_patient_visits"
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO -     group by doctor_id, doctor, department
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO - )
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO -     doctor_id,
+[2024-11-18T12:37:57.203+0000] {subprocess.py:106} INFO -     doctor,
+[2024-11-18T12:37:57.204+0000] {subprocess.py:106} INFO -     department,
+[2024-11-18T12:37:57.204+0000] {subprocess.py:106} INFO -     total_visits,
+[2024-11-18T12:37:57.204+0000] {subprocess.py:106} INFO -     revenue
+[2024-11-18T12:37:57.204+0000] {subprocess.py:106} INFO - from dim_doc
+[2024-11-18T12:37:57.204+0000] {subprocess.py:106} INFO -   );
+[2024-11-18T12:37:57.204+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.229+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: SELECT 31 in 0.030 seconds
+[2024-11-18T12:37:57.234+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.235+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_doctors"} */
+[2024-11-18T12:37:57.235+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_doctors" rename to "dim_doctors__dbt_backup"
+[2024-11-18T12:37:57.236+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.000 seconds
+[2024-11-18T12:37:57.240+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.241+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_doctors"} */
+[2024-11-18T12:37:57.241+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_doctors__dbt_tmp" rename to "dim_doctors"
+[2024-11-18T12:37:57.242+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:57.247+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: COMMIT
+[2024-11-18T12:37:57.247+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.248+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: COMMIT
+[2024-11-18T12:37:57.256+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: COMMIT in 0.007 seconds
+[2024-11-18T12:37:57.261+0000] {subprocess.py:106} INFO - [0m12:37:57  Applying DROP to: "db"."public_analytics_schema"."dim_doctors__dbt_backup"
+[2024-11-18T12:37:57.264+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_doctors"
+[2024-11-18T12:37:57.265+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_doctors"} */
+[2024-11-18T12:37:57.266+0000] {subprocess.py:106} INFO - drop table if exists "db"."public_analytics_schema"."dim_doctors__dbt_backup" cascade
+[2024-11-18T12:37:57.274+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: DROP TABLE in 0.008 seconds
+[2024-11-18T12:37:57.280+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_doctors: Close
+[2024-11-18T12:37:57.281+0000] {subprocess.py:106} INFO - [0m12:37:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef6f73860>]}
+[2024-11-18T12:37:57.283+0000] {subprocess.py:106} INFO - [0m12:37:57  2 of 6 OK created sql table model public_analytics_schema.dim_doctors .......... [[32mSELECT 31[0m in 0.11s]
+[2024-11-18T12:37:57.286+0000] {subprocess.py:106} INFO - [0m12:37:57  Finished running node model.etl_pipeline.dim_doctors
+[2024-11-18T12:37:57.288+0000] {subprocess.py:106} INFO - [0m12:37:57  Began running node model.etl_pipeline.dim_patients
+[2024-11-18T12:37:57.290+0000] {subprocess.py:106} INFO - [0m12:37:57  3 of 6 START sql table model public_analytics_schema.dim_patients .............. [RUN]
+[2024-11-18T12:37:57.292+0000] {subprocess.py:106} INFO - [0m12:37:57  Re-using an available connection from the pool (formerly model.etl_pipeline.dim_doctors, now model.etl_pipeline.dim_patients)
+[2024-11-18T12:37:57.295+0000] {subprocess.py:106} INFO - [0m12:37:57  Began compiling node model.etl_pipeline.dim_patients
+[2024-11-18T12:37:57.308+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing injected SQL for node "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.312+0000] {subprocess.py:106} INFO - [0m12:37:57  Began executing node model.etl_pipeline.dim_patients
+[2024-11-18T12:37:57.329+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing runtime sql for node "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.332+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.334+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: BEGIN
+[2024-11-18T12:37:57.336+0000] {subprocess.py:106} INFO - [0m12:37:57  Opening a new connection, currently in state closed
+[2024-11-18T12:37:57.366+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: BEGIN in 0.030 seconds
+[2024-11-18T12:37:57.368+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.370+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_patients"} */
+[2024-11-18T12:37:57.371+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.372+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.373+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.374+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.375+0000] {subprocess.py:106} INFO -   create  table "db"."public_analytics_schema"."dim_patients__dbt_tmp"
+[2024-11-18T12:37:57.376+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.377+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.378+0000] {subprocess.py:106} INFO -     as
+[2024-11-18T12:37:57.379+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.379+0000] {subprocess.py:106} INFO -   (
+[2024-11-18T12:37:57.380+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.381+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.381+0000] {subprocess.py:106} INFO - -- Create the patients dimension table in the analytics_schema
+[2024-11-18T12:37:57.382+0000] {subprocess.py:106} INFO - with dim_pat as (
+[2024-11-18T12:37:57.383+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:57.383+0000] {subprocess.py:106} INFO -         patient_id,
+[2024-11-18T12:37:57.384+0000] {subprocess.py:106} INFO -         patient_name,
+[2024-11-18T12:37:57.384+0000] {subprocess.py:106} INFO -         count(*) as total_visits,
+[2024-11-18T12:37:57.385+0000] {subprocess.py:106} INFO -         sum(revenue) as total_spent
+[2024-11-18T12:37:57.385+0000] {subprocess.py:106} INFO -     from "db"."public"."staging_patient_visits"
+[2024-11-18T12:37:57.386+0000] {subprocess.py:106} INFO -     group by patient_id, patient_name
+[2024-11-18T12:37:57.387+0000] {subprocess.py:106} INFO - )
+[2024-11-18T12:37:57.388+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:57.389+0000] {subprocess.py:106} INFO -     patient_id,
+[2024-11-18T12:37:57.389+0000] {subprocess.py:106} INFO -     patient_name,
+[2024-11-18T12:37:57.390+0000] {subprocess.py:106} INFO -     total_visits,
+[2024-11-18T12:37:57.390+0000] {subprocess.py:106} INFO -     total_spent
+[2024-11-18T12:37:57.391+0000] {subprocess.py:106} INFO - from dim_pat
+[2024-11-18T12:37:57.391+0000] {subprocess.py:106} INFO -   );
+[2024-11-18T12:37:57.392+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.394+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: SELECT 2423 in 0.022 seconds
+[2024-11-18T12:37:57.408+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.409+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_patients"} */
+[2024-11-18T12:37:57.411+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_patients" rename to "dim_patients__dbt_backup"
+[2024-11-18T12:37:57.415+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.002 seconds
+[2024-11-18T12:37:57.428+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.432+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_patients"} */
+[2024-11-18T12:37:57.433+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_patients__dbt_tmp" rename to "dim_patients"
+[2024-11-18T12:37:57.436+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:57.445+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: COMMIT
+[2024-11-18T12:37:57.447+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.449+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: COMMIT
+[2024-11-18T12:37:57.487+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: COMMIT in 0.036 seconds
+[2024-11-18T12:37:57.498+0000] {subprocess.py:106} INFO - [0m12:37:57  Applying DROP to: "db"."public_analytics_schema"."dim_patients__dbt_backup"
+[2024-11-18T12:37:57.501+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_patients"
+[2024-11-18T12:37:57.503+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_patients"} */
+[2024-11-18T12:37:57.504+0000] {subprocess.py:106} INFO - drop table if exists "db"."public_analytics_schema"."dim_patients__dbt_backup" cascade
+[2024-11-18T12:37:57.520+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: DROP TABLE in 0.014 seconds
+[2024-11-18T12:37:57.525+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_patients: Close
+[2024-11-18T12:37:57.528+0000] {subprocess.py:106} INFO - [0m12:37:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef7335e50>]}
+[2024-11-18T12:37:57.533+0000] {subprocess.py:106} INFO - [0m12:37:57  3 of 6 OK created sql table model public_analytics_schema.dim_patients ......... [[32mSELECT 2423[0m in 0.24s]
+[2024-11-18T12:37:57.536+0000] {subprocess.py:106} INFO - [0m12:37:57  Finished running node model.etl_pipeline.dim_patients
+[2024-11-18T12:37:57.538+0000] {subprocess.py:106} INFO - [0m12:37:57  Began running node model.etl_pipeline.dim_risk
+[2024-11-18T12:37:57.540+0000] {subprocess.py:106} INFO - [0m12:37:57  4 of 6 START sql table model public_analytics_schema.dim_risk .................. [RUN]
+[2024-11-18T12:37:57.543+0000] {subprocess.py:106} INFO - [0m12:37:57  Re-using an available connection from the pool (formerly model.etl_pipeline.dim_patients, now model.etl_pipeline.dim_risk)
+[2024-11-18T12:37:57.545+0000] {subprocess.py:106} INFO - [0m12:37:57  Began compiling node model.etl_pipeline.dim_risk
+[2024-11-18T12:37:57.564+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing injected SQL for node "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.567+0000] {subprocess.py:106} INFO - [0m12:37:57  Began executing node model.etl_pipeline.dim_risk
+[2024-11-18T12:37:57.589+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing runtime sql for node "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.592+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.595+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: BEGIN
+[2024-11-18T12:37:57.597+0000] {subprocess.py:106} INFO - [0m12:37:57  Opening a new connection, currently in state closed
+[2024-11-18T12:37:57.625+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: BEGIN in 0.028 seconds
+[2024-11-18T12:37:57.627+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.630+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_risk"} */
+[2024-11-18T12:37:57.631+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.632+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.633+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.634+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.635+0000] {subprocess.py:106} INFO -   create  table "db"."public_analytics_schema"."dim_risk__dbt_tmp"
+[2024-11-18T12:37:57.636+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.637+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.638+0000] {subprocess.py:106} INFO -     as
+[2024-11-18T12:37:57.639+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.640+0000] {subprocess.py:106} INFO -   (
+[2024-11-18T12:37:57.641+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.642+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.642+0000] {subprocess.py:106} INFO - -- Create the patient risk dimension table in the analytics_schema
+[2024-11-18T12:37:57.643+0000] {subprocess.py:106} INFO - with dim_risk as (
+[2024-11-18T12:37:57.643+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:57.644+0000] {subprocess.py:106} INFO -         md5(cast(coalesce(cast(patient_risk_profile as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as risk_id,
+[2024-11-18T12:37:57.645+0000] {subprocess.py:106} INFO -         patient_risk_profile,  -- Ensure this column exists in the source table
+[2024-11-18T12:37:57.645+0000] {subprocess.py:106} INFO -         count(*) as cases,
+[2024-11-18T12:37:57.646+0000] {subprocess.py:106} INFO -         sum(revenue) as revenue
+[2024-11-18T12:37:57.646+0000] {subprocess.py:106} INFO -     from "db"."public"."staging_patient_visits"
+[2024-11-18T12:37:57.647+0000] {subprocess.py:106} INFO -     group by risk_id, patient_risk_profile
+[2024-11-18T12:37:57.648+0000] {subprocess.py:106} INFO - )
+[2024-11-18T12:37:57.649+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:57.649+0000] {subprocess.py:106} INFO -     risk_id,
+[2024-11-18T12:37:57.650+0000] {subprocess.py:106} INFO -     patient_risk_profile,
+[2024-11-18T12:37:57.650+0000] {subprocess.py:106} INFO -     revenue
+[2024-11-18T12:37:57.651+0000] {subprocess.py:106} INFO - from dim_risk
+[2024-11-18T12:37:57.651+0000] {subprocess.py:106} INFO -   );
+[2024-11-18T12:37:57.652+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.693+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: SELECT 2 in 0.061 seconds
+[2024-11-18T12:37:57.709+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.713+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_risk"} */
+[2024-11-18T12:37:57.715+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_risk" rename to "dim_risk__dbt_backup"
+[2024-11-18T12:37:57.719+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.002 seconds
+[2024-11-18T12:37:57.734+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.737+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_risk"} */
+[2024-11-18T12:37:57.738+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."dim_risk__dbt_tmp" rename to "dim_risk"
+[2024-11-18T12:37:57.740+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:57.750+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: COMMIT
+[2024-11-18T12:37:57.752+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.754+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: COMMIT
+[2024-11-18T12:37:57.764+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: COMMIT in 0.007 seconds
+[2024-11-18T12:37:57.775+0000] {subprocess.py:106} INFO - [0m12:37:57  Applying DROP to: "db"."public_analytics_schema"."dim_risk__dbt_backup"
+[2024-11-18T12:37:57.779+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.dim_risk"
+[2024-11-18T12:37:57.782+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.dim_risk"} */
+[2024-11-18T12:37:57.784+0000] {subprocess.py:106} INFO - drop table if exists "db"."public_analytics_schema"."dim_risk__dbt_backup" cascade
+[2024-11-18T12:37:57.792+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: DROP TABLE in 0.007 seconds
+[2024-11-18T12:37:57.799+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.dim_risk: Close
+[2024-11-18T12:37:57.802+0000] {subprocess.py:106} INFO - [0m12:37:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef6fcad80>]}
+[2024-11-18T12:37:57.804+0000] {subprocess.py:106} INFO - [0m12:37:57  4 of 6 OK created sql table model public_analytics_schema.dim_risk ............. [[32mSELECT 2[0m in 0.26s]
+[2024-11-18T12:37:57.807+0000] {subprocess.py:106} INFO - [0m12:37:57  Finished running node model.etl_pipeline.dim_risk
+[2024-11-18T12:37:57.809+0000] {subprocess.py:106} INFO - [0m12:37:57  Began running node model.etl_pipeline.fact_revenue
+[2024-11-18T12:37:57.812+0000] {subprocess.py:106} INFO - [0m12:37:57  5 of 6 START sql table model public_analytics_schema.fact_revenue .............. [RUN]
+[2024-11-18T12:37:57.815+0000] {subprocess.py:106} INFO - [0m12:37:57  Re-using an available connection from the pool (formerly model.etl_pipeline.dim_risk, now model.etl_pipeline.fact_revenue)
+[2024-11-18T12:37:57.817+0000] {subprocess.py:106} INFO - [0m12:37:57  Began compiling node model.etl_pipeline.fact_revenue
+[2024-11-18T12:37:57.849+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing injected SQL for node "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:57.851+0000] {subprocess.py:106} INFO - [0m12:37:57  Began executing node model.etl_pipeline.fact_revenue
+[2024-11-18T12:37:57.869+0000] {subprocess.py:106} INFO - [0m12:37:57  Writing runtime sql for node "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:57.871+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:57.873+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.fact_revenue: BEGIN
+[2024-11-18T12:37:57.874+0000] {subprocess.py:106} INFO - [0m12:37:57  Opening a new connection, currently in state closed
+[2024-11-18T12:37:57.907+0000] {subprocess.py:106} INFO - [0m12:37:57  SQL status: BEGIN in 0.032 seconds
+[2024-11-18T12:37:57.908+0000] {subprocess.py:106} INFO - [0m12:37:57  Using postgres connection "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:57.911+0000] {subprocess.py:106} INFO - [0m12:37:57  On model.etl_pipeline.fact_revenue: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.fact_revenue"} */
+[2024-11-18T12:37:57.912+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.913+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.914+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.915+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.916+0000] {subprocess.py:106} INFO -   create  table "db"."public_analytics_schema"."fact_revenue__dbt_tmp"
+[2024-11-18T12:37:57.917+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.917+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.918+0000] {subprocess.py:106} INFO -     as
+[2024-11-18T12:37:57.919+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.919+0000] {subprocess.py:106} INFO -   (
+[2024-11-18T12:37:57.920+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.920+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.921+0000] {subprocess.py:106} INFO - -- Create the fact table for patient visits
+[2024-11-18T12:37:57.922+0000] {subprocess.py:106} INFO - with fact_patient_visits as (
+[2024-11-18T12:37:57.923+0000] {subprocess.py:106} INFO -     select
+[2024-11-18T12:37:57.923+0000] {subprocess.py:106} INFO -         -- Surrogate keys from dimension tables
+[2024-11-18T12:37:57.924+0000] {subprocess.py:106} INFO -         md5(cast(coalesce(cast(doctor as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(hospital_branch as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as doctor_id,
+[2024-11-18T12:37:57.925+0000] {subprocess.py:106} INFO -         md5(cast(coalesce(cast(hospital_branch as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as branch_id,
+[2024-11-18T12:37:57.925+0000] {subprocess.py:106} INFO -         md5(cast(coalesce(cast(patient_risk_profile as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as risk_id,
+[2024-11-18T12:37:57.926+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.927+0000] {subprocess.py:106} INFO -         -- Natural keys and attributes
+[2024-11-18T12:37:57.928+0000] {subprocess.py:106} INFO -         row_id,
+[2024-11-18T12:37:57.928+0000] {subprocess.py:106} INFO -         patient_id,
+[2024-11-18T12:37:57.929+0000] {subprocess.py:106} INFO -         department,
+[2024-11-18T12:37:57.929+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.930+0000] {subprocess.py:106} INFO -         -- Metrics (facts)
+[2024-11-18T12:37:57.931+0000] {subprocess.py:106} INFO -         revenue,
+[2024-11-18T12:37:57.932+0000] {subprocess.py:106} INFO -         minutes_to_service,
+[2024-11-18T12:37:57.932+0000] {subprocess.py:106} INFO -         number_of_patient_visits
+[2024-11-18T12:37:57.933+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.934+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.936+0000] {subprocess.py:106} INFO -     from "db"."public"."staging_patient_visits"
+[2024-11-18T12:37:57.936+0000] {subprocess.py:106} INFO - )
+[2024-11-18T12:37:57.937+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:57.938+0000] {subprocess.py:106} INFO - select
+[2024-11-18T12:37:57.939+0000] {subprocess.py:106} INFO -     -- Surrogate keys
+[2024-11-18T12:37:57.939+0000] {subprocess.py:106} INFO -     doctor_id,
+[2024-11-18T12:37:57.940+0000] {subprocess.py:106} INFO -     branch_id,
+[2024-11-18T12:37:57.940+0000] {subprocess.py:106} INFO -     risk_id,
+[2024-11-18T12:37:57.941+0000] {subprocess.py:106} INFO -     -- Natural keys
+[2024-11-18T12:37:57.942+0000] {subprocess.py:106} INFO -     row_id,
+[2024-11-18T12:37:57.942+0000] {subprocess.py:106} INFO -     patient_id,
+[2024-11-18T12:37:57.943+0000] {subprocess.py:106} INFO -     -- Metrics
+[2024-11-18T12:37:57.944+0000] {subprocess.py:106} INFO -     minutes_to_service,
+[2024-11-18T12:37:57.944+0000] {subprocess.py:106} INFO -     number_of_patient_visits,
+[2024-11-18T12:37:57.945+0000] {subprocess.py:106} INFO -     revenue
+[2024-11-18T12:37:57.946+0000] {subprocess.py:106} INFO - from fact_patient_visits
+[2024-11-18T12:37:57.946+0000] {subprocess.py:106} INFO -   );
+[2024-11-18T12:37:57.947+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.039+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: SELECT 6334 in 0.125 seconds
+[2024-11-18T12:37:58.053+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:58.056+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.fact_revenue: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.fact_revenue"} */
+[2024-11-18T12:37:58.057+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."fact_revenue" rename to "fact_revenue__dbt_backup"
+[2024-11-18T12:37:58.059+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:58.077+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:58.080+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.fact_revenue: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.fact_revenue"} */
+[2024-11-18T12:37:58.081+0000] {subprocess.py:106} INFO - alter table "db"."public_analytics_schema"."fact_revenue__dbt_tmp" rename to "fact_revenue"
+[2024-11-18T12:37:58.083+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:58.092+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.fact_revenue: COMMIT
+[2024-11-18T12:37:58.095+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:58.097+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.fact_revenue: COMMIT
+[2024-11-18T12:37:58.116+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: COMMIT in 0.015 seconds
+[2024-11-18T12:37:58.136+0000] {subprocess.py:106} INFO - [0m12:37:58  Applying DROP to: "db"."public_analytics_schema"."fact_revenue__dbt_backup"
+[2024-11-18T12:37:58.142+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.fact_revenue"
+[2024-11-18T12:37:58.147+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.fact_revenue: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.fact_revenue"} */
+[2024-11-18T12:37:58.148+0000] {subprocess.py:106} INFO - drop table if exists "db"."public_analytics_schema"."fact_revenue__dbt_backup" cascade
+[2024-11-18T12:37:58.165+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: DROP TABLE in 0.015 seconds
+[2024-11-18T12:37:58.173+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.fact_revenue: Close
+[2024-11-18T12:37:58.177+0000] {subprocess.py:106} INFO - [0m12:37:58  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef7905ac0>]}
+[2024-11-18T12:37:58.180+0000] {subprocess.py:106} INFO - [0m12:37:58  5 of 6 OK created sql table model public_analytics_schema.fact_revenue ......... [[32mSELECT 6334[0m in 0.36s]
+[2024-11-18T12:37:58.183+0000] {subprocess.py:106} INFO - [0m12:37:58  Finished running node model.etl_pipeline.fact_revenue
+[2024-11-18T12:37:58.186+0000] {subprocess.py:106} INFO - [0m12:37:58  Began running node model.etl_pipeline.staging_patient_visits
+[2024-11-18T12:37:58.191+0000] {subprocess.py:106} INFO - [0m12:37:58  6 of 6 START sql table model public.staging_patient_visits ..................... [RUN]
+[2024-11-18T12:37:58.195+0000] {subprocess.py:106} INFO - [0m12:37:58  Re-using an available connection from the pool (formerly model.etl_pipeline.fact_revenue, now model.etl_pipeline.staging_patient_visits)
+[2024-11-18T12:37:58.198+0000] {subprocess.py:106} INFO - [0m12:37:58  Began compiling node model.etl_pipeline.staging_patient_visits
+[2024-11-18T12:37:58.213+0000] {subprocess.py:106} INFO - [0m12:37:58  Writing injected SQL for node "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.216+0000] {subprocess.py:106} INFO - [0m12:37:58  Began executing node model.etl_pipeline.staging_patient_visits
+[2024-11-18T12:37:58.242+0000] {subprocess.py:106} INFO - [0m12:37:58  Writing runtime sql for node "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.245+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.248+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: BEGIN
+[2024-11-18T12:37:58.250+0000] {subprocess.py:106} INFO - [0m12:37:58  Opening a new connection, currently in state closed
+[2024-11-18T12:37:58.279+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: BEGIN in 0.029 seconds
+[2024-11-18T12:37:58.281+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.283+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.staging_patient_visits"} */
+[2024-11-18T12:37:58.283+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.284+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.285+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.285+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.286+0000] {subprocess.py:106} INFO -   create  table "db"."public"."staging_patient_visits__dbt_tmp"
+[2024-11-18T12:37:58.287+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.287+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.288+0000] {subprocess.py:106} INFO -     as
+[2024-11-18T12:37:58.288+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.289+0000] {subprocess.py:106} INFO -   (
+[2024-11-18T12:37:58.290+0000] {subprocess.py:106} INFO -     -- having staging_patient as table as it is temporary and has no updates
+[2024-11-18T12:37:58.290+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.291+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.291+0000] {subprocess.py:106} INFO - -- loading the data extracted from the csv file
+[2024-11-18T12:37:58.292+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.293+0000] {subprocess.py:106} INFO - SELECT *
+[2024-11-18T12:37:58.293+0000] {subprocess.py:106} INFO - FROM "db"."public"."staging_patient_visits"
+[2024-11-18T12:37:58.294+0000] {subprocess.py:106} INFO -   );
+[2024-11-18T12:37:58.295+0000] {subprocess.py:106} INFO - 
+[2024-11-18T12:37:58.314+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: SELECT 6334 in 0.029 seconds
+[2024-11-18T12:37:58.332+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.334+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.staging_patient_visits"} */
+[2024-11-18T12:37:58.334+0000] {subprocess.py:106} INFO - alter table "db"."public"."staging_patient_visits" rename to "staging_patient_visits__dbt_backup"
+[2024-11-18T12:37:58.336+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:58.349+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.351+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.staging_patient_visits"} */
+[2024-11-18T12:37:58.351+0000] {subprocess.py:106} INFO - alter table "db"."public"."staging_patient_visits__dbt_tmp" rename to "staging_patient_visits"
+[2024-11-18T12:37:58.353+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: ALTER TABLE in 0.001 seconds
+[2024-11-18T12:37:58.361+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: COMMIT
+[2024-11-18T12:37:58.363+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.365+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: COMMIT
+[2024-11-18T12:37:58.372+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: COMMIT in 0.005 seconds
+[2024-11-18T12:37:58.382+0000] {subprocess.py:106} INFO - [0m12:37:58  Applying DROP to: "db"."public"."staging_patient_visits__dbt_backup"
+[2024-11-18T12:37:58.387+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "model.etl_pipeline.staging_patient_visits"
+[2024-11-18T12:37:58.389+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: /* {"app": "dbt", "dbt_version": "1.8.8", "profile_name": "etl_pipeline", "target_name": "dev", "node_id": "model.etl_pipeline.staging_patient_visits"} */
+[2024-11-18T12:37:58.390+0000] {subprocess.py:106} INFO - drop table if exists "db"."public"."staging_patient_visits__dbt_backup" cascade
+[2024-11-18T12:37:58.400+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: DROP TABLE in 0.008 seconds
+[2024-11-18T12:37:58.407+0000] {subprocess.py:106} INFO - [0m12:37:58  On model.etl_pipeline.staging_patient_visits: Close
+[2024-11-18T12:37:58.411+0000] {subprocess.py:106} INFO - [0m12:37:58  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '15237a75-0ffa-4d5d-88ba-b2513462cf0a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef6fb2a20>]}
+[2024-11-18T12:37:58.415+0000] {subprocess.py:106} INFO - [0m12:37:58  6 of 6 OK created sql table model public.staging_patient_visits ................ [[32mSELECT 6334[0m in 0.22s]
+[2024-11-18T12:37:58.420+0000] {subprocess.py:106} INFO - [0m12:37:58  Finished running node model.etl_pipeline.staging_patient_visits
+[2024-11-18T12:37:58.428+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "master"
+[2024-11-18T12:37:58.432+0000] {subprocess.py:106} INFO - [0m12:37:58  On master: BEGIN
+[2024-11-18T12:37:58.434+0000] {subprocess.py:106} INFO - [0m12:37:58  Opening a new connection, currently in state closed
+[2024-11-18T12:37:58.468+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: BEGIN in 0.033 seconds
+[2024-11-18T12:37:58.470+0000] {subprocess.py:106} INFO - [0m12:37:58  On master: COMMIT
+[2024-11-18T12:37:58.473+0000] {subprocess.py:106} INFO - [0m12:37:58  Using postgres connection "master"
+[2024-11-18T12:37:58.475+0000] {subprocess.py:106} INFO - [0m12:37:58  On master: COMMIT
+[2024-11-18T12:37:58.482+0000] {subprocess.py:106} INFO - [0m12:37:58  SQL status: COMMIT in 0.001 seconds
+[2024-11-18T12:37:58.484+0000] {subprocess.py:106} INFO - [0m12:37:58  On master: Close
+[2024-11-18T12:37:58.493+0000] {subprocess.py:106} INFO - [0m12:37:58  Connection 'master' was properly closed.
+[2024-11-18T12:37:58.500+0000] {subprocess.py:106} INFO - [0m12:37:58  Connection 'model.etl_pipeline.staging_patient_visits' was properly closed.
+[2024-11-18T12:37:58.502+0000] {subprocess.py:106} INFO - [0m12:37:58
+[2024-11-18T12:37:58.506+0000] {subprocess.py:106} INFO - [0m12:37:58  Finished running 6 table models in 0 hours 0 minutes and 2.28 seconds (2.28s).
+[2024-11-18T12:37:58.525+0000] {subprocess.py:106} INFO - [0m12:37:58  Command end result
+[2024-11-18T12:37:58.709+0000] {subprocess.py:106} INFO - [0m12:37:58
+[2024-11-18T12:37:58.709+0000] {subprocess.py:106} INFO - [0m12:37:58  [32mCompleted successfully[0m
+[2024-11-18T12:37:58.710+0000] {subprocess.py:106} INFO - [0m12:37:58
+[2024-11-18T12:37:58.710+0000] {subprocess.py:106} INFO - [0m12:37:58  Done. PASS=6 WARN=0 ERROR=0 SKIP=0 TOTAL=6
+[2024-11-18T12:37:58.712+0000] {subprocess.py:106} INFO - [0m12:37:58  Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 3.7395754, "process_user_time": 4.563724, "process_kernel_time": 0.461579, "process_mem_max_rss": "116268", "process_in_blocks": "2264", "process_out_blocks": "2760"}
+[2024-11-18T12:37:58.713+0000] {subprocess.py:106} INFO - [0m12:37:58  Command `dbt run` succeeded at 12:37:58.712688 after 3.74 seconds
+[2024-11-18T12:37:58.713+0000] {subprocess.py:106} INFO - [0m12:37:58  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcefa52c8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef8acb0b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcef734b110>]}
+[2024-11-18T12:37:58.713+0000] {subprocess.py:106} INFO - [0m12:37:58  Flushing usage events
+[2024-11-18T12:38:00.323+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-11-18T12:38:00.350+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-18T12:38:00.350+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_pipeline_dag, task_id=dbt_run, run_id=manual__2024-11-18T12:33:00.228556+00:00, execution_date=20241118T123300, start_date=20241118T123752, end_date=20241118T123800
+[2024-11-18T12:38:00.402+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-18T12:38:00.435+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-18T12:38:00.436+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

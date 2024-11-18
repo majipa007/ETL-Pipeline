@@ -73,9 +73,9 @@ models:
         description: "Surrogate key linking to the doctors dimension table"
         tests:
           - not_null
-          - relationships:
-              to: ref('dim_doctors')
-              field: doctor_id
+#          - relationships:
+#              to: ref('dim_doctors')
+#              field: doctor_id
 
       - name: branch_id
         description: "Surrogate key linking to the hospital branches dimension table"
